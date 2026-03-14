@@ -20,9 +20,9 @@ python3 scripts/gcp_generate.py
 
 # Compare prices and collect alerts
 ALERTS=""
-A1=$(python3 scripts/compare_and_alert.py azure_old.json azure.json 2>/dev/null)
-A2=$(python3 scripts/compare_and_alert.py aws_old.json aws.json 2>/dev/null)
-A3=$(python3 scripts/compare_and_alert.py gcp_old.json gcp.json 2>/dev/null)
+A1=$(python3 scripts/global_compare_and_alert.py azure_old.json azure.json 2>/dev/null)
+A2=$(python3 scripts/global_compare_and_alert.py aws_old.json aws.json 2>/dev/null)
+A3=$(python3 scripts/global_compare_and_alert.py gcp_old.json gcp.json 2>/dev/null)
 
 if [ -n "$A1" ]; then ALERTS="$ALERTS\n\n$A1"; fi
 if [ -n "$A2" ]; then ALERTS="$ALERTS\n\n$A2"; fi
