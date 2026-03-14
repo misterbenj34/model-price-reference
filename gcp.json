@@ -1,0 +1,231 @@
+{
+  "provider": "GCP",
+  "last_updated": "2026-03-14",
+  "region": "us-central1 (Iowa) - Global Defaults",
+  "currency": "USD",
+  "special_logic": "GCP scales pricing based on context length (<= 128K/200K vs > 128K/200K). These are mapped using '_long_context' suffix. Flex/Batch is exactly 50% of Standard. Priority is provisioned per node-hour.",
+  "models": [
+    {
+      "name": "Gemini 3.1 Pro Preview",
+      "deployments": [
+        {
+          "type": "Standard",
+          "pricing_1m_tokens": {
+            "input": 2.0,
+            "cached_input": 0.2,
+            "output": 12.0,
+            "input_long_context": 4.0,
+            "cached_input_long_context": 0.4,
+            "output_long_context": 18.0
+          }
+        },
+        {
+          "type": "Flex/Batch",
+          "pricing_1m_tokens": {
+            "batch_input": 1.0,
+            "batch_cached_input": 0.1,
+            "batch_output": 6.0,
+            "batch_input_long_context": 2.0,
+            "batch_cached_input_long_context": 0.2,
+            "batch_output_long_context": 9.0
+          }
+        },
+        {
+          "type": "Priority",
+          "pricing_1m_tokens": {
+            "note": "Priority deployment is typically billed per Node-Hour (Provisioned Throughput) rather than per-token."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Gemini 3.1 Flash-Lite Preview",
+      "deployments": [
+        {
+          "type": "Standard",
+          "pricing_1m_tokens": {
+            "input": 0.25,
+            "audio_input": 0.5,
+            "cached_input": 0.03,
+            "cached_audio_input": 0.05,
+            "output": 1.5,
+            "input_long_context": 0.25,
+            "audio_input_long_context": 0.5,
+            "cached_input_long_context": 0.03,
+            "cached_audio_input_long_context": 0.05,
+            "output_long_context": 1.5
+          }
+        },
+        {
+          "type": "Flex/Batch",
+          "pricing_1m_tokens": {
+            "batch_input": 0.125,
+            "batch_audio_input": 0.25,
+            "batch_cached_input": 0.015,
+            "batch_cached_audio_input": 0.025,
+            "batch_output": 0.75,
+            "batch_input_long_context": 0.125,
+            "batch_audio_input_long_context": 0.25,
+            "batch_cached_input_long_context": 0.015,
+            "batch_cached_audio_input_long_context": 0.025,
+            "batch_output_long_context": 0.75
+          }
+        },
+        {
+          "type": "Priority",
+          "pricing_1m_tokens": {
+            "note": "Priority deployment is typically billed per Node-Hour (Provisioned Throughput) rather than per-token."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Gemini 3 Pro Preview",
+      "deployments": [
+        {
+          "type": "Standard",
+          "pricing_1m_tokens": {
+            "input": 2.0,
+            "cached_input": 0.2,
+            "output": 12.0,
+            "input_long_context": 4.0,
+            "cached_input_long_context": 0.4,
+            "output_long_context": 18.0
+          }
+        },
+        {
+          "type": "Flex/Batch",
+          "pricing_1m_tokens": {
+            "batch_input": 1.0,
+            "batch_cached_input": 0.1,
+            "batch_output": 6.0,
+            "batch_input_long_context": 2.0,
+            "batch_cached_input_long_context": 0.2,
+            "batch_output_long_context": 9.0
+          }
+        },
+        {
+          "type": "Priority",
+          "pricing_1m_tokens": {
+            "note": "Priority deployment is typically billed per Node-Hour (Provisioned Throughput) rather than per-token."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Gemini 3 Flash Preview",
+      "deployments": [
+        {
+          "type": "Standard",
+          "pricing_1m_tokens": {
+            "input": 0.5,
+            "audio_input": 1.0,
+            "cached_input": 0.05,
+            "cached_audio_input": 0.1,
+            "output": 3.0,
+            "input_long_context": 0.5,
+            "audio_input_long_context": 1.0,
+            "cached_input_long_context": 0.05,
+            "cached_audio_input_long_context": 0.1,
+            "output_long_context": 3.0
+          }
+        },
+        {
+          "type": "Flex/Batch",
+          "pricing_1m_tokens": {
+            "batch_input": 0.25,
+            "batch_audio_input": 0.5,
+            "batch_cached_input": 0.025,
+            "batch_cached_audio_input": 0.05,
+            "batch_output": 1.5,
+            "batch_input_long_context": 0.25,
+            "batch_audio_input_long_context": 0.5,
+            "batch_cached_input_long_context": 0.025,
+            "batch_cached_audio_input_long_context": 0.05,
+            "batch_output_long_context": 1.5
+          }
+        },
+        {
+          "type": "Priority",
+          "pricing_1m_tokens": {
+            "note": "Priority deployment is typically billed per Node-Hour (Provisioned Throughput) rather than per-token."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Gemini 2.5 Pro",
+      "deployments": [
+        {
+          "type": "Standard",
+          "pricing_1m_tokens": {
+            "input": 1.25,
+            "cached_input": 0.13,
+            "output": 10.0,
+            "input_long_context": 2.5,
+            "cached_input_long_context": 0.25,
+            "output_long_context": 15.0
+          }
+        },
+        {
+          "type": "Flex/Batch",
+          "pricing_1m_tokens": {
+            "batch_input": 0.625,
+            "batch_cached_input": 0.065,
+            "batch_output": 5.0,
+            "batch_input_long_context": 1.25,
+            "batch_cached_input_long_context": 0.125,
+            "batch_output_long_context": 7.5
+          }
+        },
+        {
+          "type": "Priority",
+          "pricing_1m_tokens": {
+            "note": "Priority deployment is typically billed per Node-Hour (Provisioned Throughput) rather than per-token."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Gemini 2.5 Flash",
+      "deployments": [
+        {
+          "type": "Standard",
+          "pricing_1m_tokens": {
+            "input": 0.3,
+            "audio_input": 1.0,
+            "cached_input": 0.03,
+            "cached_audio_input": 0.1,
+            "output": 2.5,
+            "input_long_context": 0.3,
+            "audio_input_long_context": 1.0,
+            "cached_input_long_context": 0.03,
+            "cached_audio_input_long_context": 0.1,
+            "output_long_context": 2.5
+          }
+        },
+        {
+          "type": "Flex/Batch",
+          "pricing_1m_tokens": {
+            "batch_input": 0.15,
+            "batch_audio_input": 0.5,
+            "batch_cached_input": 0.015,
+            "batch_cached_audio_input": 0.05,
+            "batch_output": 1.25,
+            "batch_input_long_context": 0.15,
+            "batch_audio_input_long_context": 0.5,
+            "batch_cached_input_long_context": 0.015,
+            "batch_cached_audio_input_long_context": 0.05,
+            "batch_output_long_context": 1.25
+          }
+        },
+        {
+          "type": "Priority",
+          "pricing_1m_tokens": {
+            "note": "Priority deployment is typically billed per Node-Hour (Provisioned Throughput) rather than per-token."
+          }
+        }
+      ]
+    }
+  ]
+}
