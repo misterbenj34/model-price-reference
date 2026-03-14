@@ -12,16 +12,50 @@
           "type": "Global",
           "pricing_1m_tokens": {
             "input": 1.61,
-            "cached_input": 0.17,
+            "cached_input": 0.1656,
             "output": 12.88
           }
         },
         {
           "type": "Data Zone",
           "pricing_1m_tokens": {
-            "input": 1.78,
-            "cached_input": 0.18,
-            "output": 14.17
+            "input": 1.7756,
+            "cached_input": 0.184,
+            "output": 14.168
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.2 Codex",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 1.61,
+            "cached_input": 0.1656,
+            "output": 12.88
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.2-chat",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 1.61,
+            "cached_input": 0.1656,
+            "output": 12.88
+          }
+        },
+        {
+          "type": "Data Zone",
+          "pricing_1m_tokens": {
+            "input": 1.7756,
+            "cached_input": 0.184,
+            "output": 14.168
           }
         }
       ]
@@ -33,16 +67,68 @@
           "type": "Global",
           "pricing_1m_tokens": {
             "input": 1.15,
-            "cached_input": 0.12,
-            "output": 9.20
+            "cached_input": 0.1196,
+            "output": 9.2
           }
         },
         {
           "type": "Data Zone",
           "pricing_1m_tokens": {
-            "input": 1.27,
-            "cached_input": 0.13,
+            "input": 1.2696,
+            "cached_input": 0.1288,
             "output": 10.12
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.1-chat",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 1.15,
+            "cached_input": 0.1196,
+            "output": 9.2
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.1-codex",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 1.15,
+            "cached_input": 0.1196,
+            "output": 9.2
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.1-codex-max",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 1.15,
+            "cached_input": 0.1196,
+            "output": 9.2
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.1-codex-mini",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 0.23,
+            "cached_input": 0.0276,
+            "output": 1.84
           }
         }
       ]
@@ -54,22 +140,115 @@
           "type": "Global",
           "pricing_1m_tokens": {
             "input": 1.15,
-            "cached_input": 0.12,
-            "output": 9.20,
-            "batch_input": 0.58,
-            "batch_cached_input": 0.06,
-            "batch_output": 4.60
+            "cached_input": 0.1196,
+            "output": 9.2,
+            "batch_input": 0.5796,
+            "batch_cached_input": 0.0644,
+            "batch_output": 4.6
           }
         },
         {
           "type": "Data Zone",
           "pricing_1m_tokens": {
-            "input": 1.27,
-            "cached_input": 0.13,
+            "input": 1.2696,
+            "cached_input": 0.1288,
             "output": 10.12,
-            "batch_input": 0.63,
-            "batch_cached_input": 0.06,
+            "batch_input": 0.6348,
+            "batch_cached_input": 0.0644,
             "batch_output": 5.06
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-5 Pro",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 13.8,
+            "output": 110.4
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-5 Codex",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 1.15,
+            "cached_input": 0.1196,
+            "output": 9.2
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-5-mini",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 0.23,
+            "cached_input": 0.0276,
+            "output": 1.84
+          }
+        },
+        {
+          "type": "Data Zone",
+          "pricing_1m_tokens": {
+            "input": 0.2576,
+            "cached_input": 0.0276,
+            "output": 2.024
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-5-nano",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 0.046,
+            "cached_input": 0.0092,
+            "output": 0.368
+          }
+        },
+        {
+          "type": "Data Zone",
+          "pricing_1m_tokens": {
+            "input": 0.0552,
+            "cached_input": 0.0092,
+            "output": 0.4048
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-5 chat",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 1.15,
+            "cached_input": 0.1196,
+            "output": 9.2
+          }
+        }
+      ]
+    },
+    {
+      "name": "o3-deep research",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 9.2,
+            "cached_input": 2.3,
+            "output": 36.8
           }
         }
       ]
@@ -90,19 +269,52 @@
         {
           "type": "Data Zone",
           "pricing_1m_tokens": {
-            "input": 2.02,
-            "cached_input": 0.51,
-            "output": 8.10,
-            "batch_input": 1.01,
-            "batch_output": 4.05
+            "input": 2.024,
+            "cached_input": 0.506,
+            "output": 8.096,
+            "batch_input": 1.012,
+            "batch_output": 4.048
           }
         },
         {
           "type": "Regional",
           "pricing_1m_tokens": {
-            "input": 2.02,
-            "cached_input": 0.51,
-            "output": 8.10
+            "input": 2.024,
+            "cached_input": 0.506,
+            "output": 8.096
+          }
+        }
+      ]
+    },
+    {
+      "name": "o4-mini 2025-04-16",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 1.012,
+            "cached_input": 0.2576,
+            "output": 4.048,
+            "batch_input": 0.506,
+            "batch_output": 2.024
+          }
+        },
+        {
+          "type": "Data Zone",
+          "pricing_1m_tokens": {
+            "input": 1.1132,
+            "cached_input": 0.2852,
+            "output": 4.4528,
+            "batch_input": 0.5612,
+            "batch_output": 2.2264
+          }
+        },
+        {
+          "type": "Regional",
+          "pricing_1m_tokens": {
+            "input": 1.1132,
+            "cached_input": 0.2852,
+            "output": 4.4528
           }
         }
       ]
@@ -117,7 +329,7 @@
             "cached_input": 0.46,
             "output": 7.36,
             "priority_input": 3.22,
-            "priority_cached_input": 0.81,
+            "priority_cached_input": 0.8096,
             "priority_output": 12.88,
             "batch_input": 0.92,
             "batch_output": 3.68
@@ -126,22 +338,301 @@
         {
           "type": "Data Zone",
           "pricing_1m_tokens": {
-            "input": 2.02,
-            "cached_input": 0.51,
-            "output": 8.10,
-            "priority_input": 3.54,
-            "priority_cached_input": 0.89,
-            "priority_output": 14.17,
-            "batch_input": 1.01,
-            "batch_output": 4.05
+            "input": 2.024,
+            "cached_input": 0.506,
+            "output": 8.096,
+            "priority_input": 3.542,
+            "priority_cached_input": 0.8924,
+            "priority_output": 14.168,
+            "batch_input": 1.012,
+            "batch_output": 4.048
           }
         },
         {
           "type": "Regional",
           "pricing_1m_tokens": {
-            "input": 2.02,
-            "cached_input": 0.51,
-            "output": 8.10
+            "input": 2.024,
+            "cached_input": 0.506,
+            "output": 8.096
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-4.1-mini-2025-04-14",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 0.368,
+            "cached_input": 0.092,
+            "output": 1.472,
+            "batch_input": 0.184,
+            "batch_output": 0.736
+          }
+        },
+        {
+          "type": "Data Zone",
+          "pricing_1m_tokens": {
+            "input": 0.4048,
+            "cached_input": 0.1012,
+            "output": 1.6192,
+            "batch_input": 0.2024,
+            "batch_output": 0.8096
+          }
+        },
+        {
+          "type": "Regional",
+          "pricing_1m_tokens": {
+            "input": 0.4048,
+            "cached_input": 0.1012,
+            "output": 1.6192
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-4.1-nano-2025-04-14",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 0.092,
+            "cached_input": 0.0276,
+            "output": 0.368,
+            "batch_input": 0.046,
+            "batch_output": 0.184
+          }
+        },
+        {
+          "type": "Data Zone",
+          "pricing_1m_tokens": {
+            "input": 0.1012,
+            "cached_input": 0.0276,
+            "output": 0.4048,
+            "batch_input": 0.0552,
+            "batch_output": 0.2024
+          }
+        },
+        {
+          "type": "Regional",
+          "pricing_1m_tokens": {
+            "input": 0.1012,
+            "cached_input": 0.0276,
+            "output": 0.4048
+          }
+        }
+      ]
+    },
+    {
+      "name": "o1 2024-12-17",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 13.8,
+            "cached_input": 6.9,
+            "output": 55.2
+          }
+        },
+        {
+          "type": "Data Zone",
+          "pricing_1m_tokens": {
+            "input": 15.18,
+            "cached_input": 7.59,
+            "output": 60.72
+          }
+        },
+        {
+          "type": "Regional",
+          "pricing_1m_tokens": {
+            "input": 15.18,
+            "cached_input": 7.59,
+            "output": 60.72
+          }
+        }
+      ]
+    },
+    {
+      "name": "o3 mini 2025-01-31",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 1.012,
+            "cached_input": 0.506,
+            "output": 4.048,
+            "batch_input": 0.506,
+            "batch_output": 2.024
+          }
+        },
+        {
+          "type": "Data Zone",
+          "pricing_1m_tokens": {
+            "input": 1.1132,
+            "cached_input": 0.5566,
+            "output": 4.4528,
+            "batch_input": 0.5566,
+            "batch_output": 2.2264
+          }
+        },
+        {
+          "type": "Regional",
+          "pricing_1m_tokens": {
+            "input": 1.1132,
+            "cached_input": 0.5566,
+            "output": 4.4528
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-4o-2024-1120",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 2.3,
+            "cached_input": 1.15,
+            "output": 9.2,
+            "batch_input": 1.15,
+            "batch_output": 4.6
+          }
+        },
+        {
+          "type": "Data Zone",
+          "pricing_1m_tokens": {
+            "input": 2.53,
+            "cached_input": 1.265,
+            "output": 10.12
+          }
+        },
+        {
+          "type": "Regional",
+          "pricing_1m_tokens": {
+            "input": 2.53,
+            "cached_input": 1.265,
+            "output": 10.12
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-4o-2024-08-06",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 2.3,
+            "cached_input": 1.15,
+            "output": 9.2,
+            "batch_input": 1.15,
+            "batch_output": 4.6
+          }
+        },
+        {
+          "type": "Data Zone",
+          "pricing_1m_tokens": {
+            "input": 2.53,
+            "cached_input": 1.265,
+            "output": 10.12,
+            "batch_input": 1.265,
+            "batch_output": 5.06
+          }
+        },
+        {
+          "type": "Regional",
+          "pricing_1m_tokens": {
+            "input": 2.53,
+            "cached_input": 1.265,
+            "output": 10.12
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-4o-mini-0718",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 0.138,
+            "cached_input": 0.069,
+            "output": 0.552,
+            "batch_input": 0.069,
+            "batch_output": 0.276
+          }
+        },
+        {
+          "type": "Data Zone",
+          "pricing_1m_tokens": {
+            "input": 0.1518,
+            "cached_input": 0.0764,
+            "output": 0.6072
+          }
+        },
+        {
+          "type": "Regional",
+          "pricing_1m_tokens": {
+            "input": 0.1518,
+            "cached_input": 0.0764,
+            "output": 0.6072
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-realtime",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "text_input": 3.68,
+            "text_cached_input": 0.368,
+            "text_output": 14.72,
+            "audio_input": 29.44,
+            "audio_cached_input": 0.368,
+            "audio_output": 58.88
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-Image-1.5",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "text_input": 4.6,
+            "text_cached_input": 1.15,
+            "image_input": 7.36,
+            "image_cached_input": 1.84,
+            "text_output": 9.2,
+            "image_output": 29.44
+          }
+        }
+      ]
+    },
+    {
+      "name": "gpt-oss-120b",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 0.138,
+            "output": 0.552
+          }
+        }
+      ]
+    },
+    {
+      "name": "computer-use-preview",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 2.76,
+            "output": 11.04
           }
         }
       ]
