@@ -25,5 +25,26 @@ To capture accurate localized pricing:
    - Map the extracted strings to floats (removing `$` or `€` symbols).
    - Structure the output into the standardized JSON schema defined in the `README.md`.
 
+## Amazon Web Services (AWS) - Bedrock
+
+**Target URL:** `https://aws.amazon.com/bedrock/pricing/`  
+**Target Region:** Europe (Ireland) / `eu-west-1`  
+**Target Currency:** US Dollar (USD)
+
+### Challenges & Approach
+Unlike Azure, AWS Bedrock's pricing page doesn't simply toggle DOM elements. The HTML source is heavily encoded (`&lt;td&gt;`), and pricing values are dynamically injected via separate internal API calls to AWS pricing services (e.g., `https://b0.p.awsstatic.com/pricing/2.0/meteredUnitMaps/...`). The frontend uses a complex JSON payload (`data-config`) to resolve localized strings.
+
+To capture accurate AWS pricing without brittle reverse-engineering of their internal APIs:
+1. **Model Discovery:**
+   - Extract the HTML source and decode entities (replace `&lt;td&gt;` with `<td>`).
+   - Use regex (`(?:<td>|^)([^<]+)</td><td>\{priceOf`) to locate all unique model names listed in the tables. This handles the frequent release of new models (e.g., the rapid iteration of Anthropic Claude from 3.0 to 4.6).
+2. **Data Transformation & Standardization:**
+   - AWS lists prices per **1,000 tokens**. To match the cross-provider schema, these values must be multiplied by 1,000 to represent prices per **1,000,000 (1M) tokens**.
+3. **Deployment Modes Parsing:**
+   - AWS defines specific routing mechanisms: `On-Demand`, `Global Cross-region`, and `Geo and In-region Cross-region`.
+   - Batch inference pricing is typically available for cross-region deployments at exactly **50% of the On-Demand price**.
+4. **Scripted Generation:**
+   - The extraction logic (see `scripts/generate_aws.py`) maps the targeted providers (Anthropic, Mistral, Cohere, Qwen) to their corresponding pricing. 
+
 ### Automation Strategy
-This extraction logic is intended to be encapsulated in a script (see `scripts/extract_azure.py`) and executed via a daily GitHub Actions cron job. The job will detect changes to the `azure.json` file and commit them to the repository if a price update has occurred.
+This extraction logic is intended to be encapsulated in Python scripts (`extract_azure.py`, `generate_aws.py`) and executed via a daily GitHub Actions cron job. The job will detect changes to the `.json` files and commit them to the repository if a price update has occurred. Additionally, the `compare_and_alert.py` script validates if any single price metric has fluctuated by more than 5%, triggering a Telegram notification.
