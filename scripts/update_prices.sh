@@ -12,11 +12,11 @@ cp aws.json aws_old.json 2>/dev/null || true
 cp gcp.json gcp_old.json 2>/dev/null || true
 
 # Execute extraction scripts
-# Note: extract_azure.py requires Playwright implementation as noted in METHODOLOGY.md
+# Note: azure_extract.py requires Playwright implementation as noted in METHODOLOGY.md
 # Uncomment when ready.
-# python3 scripts/extract_azure.py
-python3 scripts/generate_aws.py
-python3 scripts/generate_gcp.py
+# python3 scripts/azure_extract.py
+python3 scripts/aws_generate.py
+python3 scripts/gcp_generate.py
 
 # Compare prices and collect alerts
 ALERTS=""
