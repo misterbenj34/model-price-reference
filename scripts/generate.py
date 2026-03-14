@@ -1,6 +1,6 @@
 import json
 
-RATE = 0.92
+RATE = 0.847428
 
 def c(val):
     if val is None: return None
