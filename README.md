@@ -39,6 +39,8 @@ Each file (`azure.json`, `aws.json`, `gcp.json`) follows this structure, detaili
 }
 ```
 
-## Updates
+## Updates and Alerting
 
-Data is refreshed daily. This automation ensures that pricing data remains current for downstream applications.
+Data is refreshed daily. This automation ensures that pricing data remains current for downstream applications. 
+
+**Alerting Threshold**: The extraction scripts are configured to trigger an alert if the price of any model varies by more than **5%** compared to the previous day's data.
