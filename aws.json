@@ -1,0 +1,154 @@
+{
+  "provider": "AWS",
+  "last_updated": "2026-03-14",
+  "region": "Europe (Ireland)",
+  "currency": "USD",
+  "models": [
+    {
+      "name": "Anthropic Claude 3.5 Sonnet",
+      "deployments": [
+        {
+          "type": "On-Demand",
+          "pricing_1m_tokens": {
+            "input": 3.0,
+            "output": 15.0
+          }
+        },
+        {
+          "type": "Batch",
+          "pricing_1m_tokens": {
+            "input": 1.5,
+            "output": 7.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Anthropic Claude 3.5 Haiku",
+      "deployments": [
+        {
+          "type": "On-Demand",
+          "pricing_1m_tokens": {
+            "input": 0.8,
+            "output": 4.0
+          }
+        },
+        {
+          "type": "Batch",
+          "pricing_1m_tokens": {
+            "input": 0.4,
+            "output": 2.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Anthropic Claude 3 Opus",
+      "deployments": [
+        {
+          "type": "On-Demand",
+          "pricing_1m_tokens": {
+            "input": 15.0,
+            "output": 75.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Mistral Large 2 (24.07)",
+      "deployments": [
+        {
+          "type": "On-Demand",
+          "pricing_1m_tokens": {
+            "input": 2.0,
+            "output": 6.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Mistral Small (24.02)",
+      "deployments": [
+        {
+          "type": "On-Demand",
+          "pricing_1m_tokens": {
+            "input": 0.15,
+            "output": 0.45
+          }
+        }
+      ]
+    },
+    {
+      "name": "Mistral 8x7B Instruct",
+      "deployments": [
+        {
+          "type": "On-Demand",
+          "pricing_1m_tokens": {
+            "input": 0.15,
+            "output": 0.45
+          }
+        }
+      ]
+    },
+    {
+      "name": "Mistral 7B Instruct",
+      "deployments": [
+        {
+          "type": "On-Demand",
+          "pricing_1m_tokens": {
+            "input": 0.15,
+            "output": 0.2
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cohere Command R+",
+      "deployments": [
+        {
+          "type": "On-Demand",
+          "pricing_1m_tokens": {
+            "input": 3.0,
+            "output": 15.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cohere Command R",
+      "deployments": [
+        {
+          "type": "On-Demand",
+          "pricing_1m_tokens": {
+            "input": 0.5,
+            "output": 1.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Qwen 2.5 72B",
+      "deployments": [
+        {
+          "type": "On-Demand",
+          "pricing_1m_tokens": {
+            "input": 0.35,
+            "output": 0.4
+          }
+        }
+      ]
+    },
+    {
+      "name": "Qwen 2.5 32B",
+      "deployments": [
+        {
+          "type": "On-Demand",
+          "pricing_1m_tokens": {
+            "input": 0.15,
+            "output": 0.2
+          }
+        }
+      ]
+    }
+  ]
+}
