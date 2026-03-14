@@ -46,5 +46,28 @@ To capture accurate AWS pricing without brittle reverse-engineering of their int
 4. **Scripted Generation:**
    - The extraction logic (see `scripts/generate_aws.py`) maps the targeted providers (Anthropic, Mistral, Cohere, Qwen) to their corresponding pricing. 
 
+## Google Cloud Platform (GCP) - Vertex AI
+
+**Target URL:** `https://cloud.google.com/vertex-ai/generative-ai/pricing?hl=en`  
+**Target Region:** us-central1 (Iowa) - Global Defaults  
+**Target Currency:** US Dollar (USD)
+
+### Challenges & Approach
+Google Cloud's Vertex AI pricing introduces several unique billing vectors that differ significantly from Azure and AWS, particularly for their multimodal Gemini models (Gemini 3.1, Gemini 3, Gemini 2.5).
+
+To capture accurate GCP pricing and map it to a standard `1M tokens` schema:
+1. **Context Length Tiering (Special Logic):**
+   - GCP charges different rates per token depending on the total length of the input prompt context. For example, prompts `<= 128K` or `<= 200K` tokens are billed at a standard rate, while prompts exceeding that threshold are billed at a higher rate.
+   - **Approach:** We map this to our schema by appending a `_long_context` suffix to the pricing keys (e.g., `input_long_context`, `cached_input_long_context`, `output_long_context`) when the threshold is crossed.
+2. **Multimodal Discrepancies:**
+   - Text, Image, and Video inputs are grouped into a single base rate, but Audio input is frequently billed at a higher rate.
+   - **Approach:** We extract and distinguish these by adding `audio_input` and `cached_audio_input` keys.
+3. **Deployment Modes:**
+   - **Standard:** Pay-as-you-go per 1M tokens.
+   - **Flex/Batch:** Batch inference API, which is explicitly priced at exactly **50%** of the Standard rate.
+   - **Priority:** Represents Provisioned Throughput (guaranteed capacity). This is generally billed per Node-Hour rather than per token. Our schema handles this by leaving token prices empty and appending a `note` clarifying the Node-Hour billing model.
+4. **Scripted Generation:**
+   - The extraction logic (see `scripts/generate_gcp.py`) programmatically applies the context length tiering and batch discount logic to output the standardized JSON format.
+
 ### Automation Strategy
-This extraction logic is intended to be encapsulated in Python scripts (`extract_azure.py`, `generate_aws.py`) and executed via a daily GitHub Actions cron job. The job will detect changes to the `.json` files and commit them to the repository if a price update has occurred. Additionally, the `compare_and_alert.py` script validates if any single price metric has fluctuated by more than 5%, triggering a Telegram notification.
+This extraction logic is intended to be encapsulated in Python scripts (`extract_azure.py`, `generate_aws.py`, `generate_gcp.py`) and executed via a daily GitHub Actions cron job. The job will detect changes to the `.json` files and commit them to the repository if a price update has occurred. Additionally, the `compare_and_alert.py` script validates if any single price metric has fluctuated by more than 5%, triggering a Telegram notification.
