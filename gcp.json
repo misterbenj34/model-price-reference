@@ -3,7 +3,7 @@
   "last_updated": "2026-03-14",
   "region": "us-central1 (Iowa) - Global Defaults",
   "currency": "USD",
-  "special_logic": "GCP scales pricing based on context length (<= 128K/200K vs > 128K/200K). These are mapped using '_long_context' suffix. Flex/Batch is exactly 50% of Standard. Priority is provisioned per node-hour.",
+  "special_logic": "GCP scales pricing based on context length (<= 128K/200K vs > 128K/200K). These are mapped using '_long_context' suffix. Flex/Batch is exactly 50% of Standard.",
   "models": [
     {
       "name": "Gemini 3.1 Pro Preview",
@@ -28,12 +28,6 @@
             "batch_input_long_context": 2.0,
             "batch_cached_input_long_context": 0.2,
             "batch_output_long_context": 9.0
-          }
-        },
-        {
-          "type": "Priority",
-          "pricing_1m_tokens": {
-            "note": "Priority deployment is typically billed per Node-Hour (Provisioned Throughput) rather than per-token."
           }
         }
       ]
@@ -70,12 +64,6 @@
             "batch_cached_audio_input_long_context": 0.025,
             "batch_output_long_context": 0.75
           }
-        },
-        {
-          "type": "Priority",
-          "pricing_1m_tokens": {
-            "note": "Priority deployment is typically billed per Node-Hour (Provisioned Throughput) rather than per-token."
-          }
         }
       ]
     },
@@ -102,12 +90,6 @@
             "batch_input_long_context": 2.0,
             "batch_cached_input_long_context": 0.2,
             "batch_output_long_context": 9.0
-          }
-        },
-        {
-          "type": "Priority",
-          "pricing_1m_tokens": {
-            "note": "Priority deployment is typically billed per Node-Hour (Provisioned Throughput) rather than per-token."
           }
         }
       ]
@@ -144,12 +126,6 @@
             "batch_cached_audio_input_long_context": 0.05,
             "batch_output_long_context": 1.5
           }
-        },
-        {
-          "type": "Priority",
-          "pricing_1m_tokens": {
-            "note": "Priority deployment is typically billed per Node-Hour (Provisioned Throughput) rather than per-token."
-          }
         }
       ]
     },
@@ -176,12 +152,6 @@
             "batch_input_long_context": 1.25,
             "batch_cached_input_long_context": 0.125,
             "batch_output_long_context": 7.5
-          }
-        },
-        {
-          "type": "Priority",
-          "pricing_1m_tokens": {
-            "note": "Priority deployment is typically billed per Node-Hour (Provisioned Throughput) rather than per-token."
           }
         }
       ]
@@ -217,12 +187,6 @@
             "batch_cached_input_long_context": 0.015,
             "batch_cached_audio_input_long_context": 0.05,
             "batch_output_long_context": 1.25
-          }
-        },
-        {
-          "type": "Priority",
-          "pricing_1m_tokens": {
-            "note": "Priority deployment is typically billed per Node-Hour (Provisioned Throughput) rather than per-token."
           }
         }
       ]

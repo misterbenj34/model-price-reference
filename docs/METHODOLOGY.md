@@ -65,7 +65,6 @@ To capture accurate GCP pricing and map it to a standard `1M tokens` schema:
 3. **Deployment Modes:**
    - **Standard:** Pay-as-you-go per 1M tokens.
    - **Flex/Batch:** Batch inference API, which is explicitly priced at exactly **50%** of the Standard rate.
-   - **Priority:** Represents Provisioned Throughput (guaranteed capacity). This is generally billed per Node-Hour rather than per token. Our schema handles this by leaving token prices empty and appending a `note` clarifying the Node-Hour billing model.
 4. **Scripted Generation:**
    - The extraction logic (see `scripts/generate_gcp.py`) programmatically applies the context length tiering and batch discount logic to output the standardized JSON format.
 

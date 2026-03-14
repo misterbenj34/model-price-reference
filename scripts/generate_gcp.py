@@ -46,12 +46,6 @@ def create_gcp_model(name, prices_under, prices_over, priority_multiplier=1.0):
         {
             "type": "Flex/Batch",
             "pricing_1m_tokens": pricing_batch
-        },
-        {
-            "type": "Priority",
-            "pricing_1m_tokens": {
-                "note": "Priority deployment is typically billed per Node-Hour (Provisioned Throughput) rather than per-token."
-            }
         }
     ]
     
@@ -106,7 +100,7 @@ gcp_data = {
   "last_updated": datetime.now().strftime("%Y-%m-%d"),
   "region": "us-central1 (Iowa) - Global Defaults",
   "currency": "USD",
-  "special_logic": "GCP scales pricing based on context length (<= 128K/200K vs > 128K/200K). These are mapped using '_long_context' suffix. Flex/Batch is exactly 50% of Standard. Priority is provisioned per node-hour.",
+  "special_logic": "GCP scales pricing based on context length (<= 128K/200K vs > 128K/200K). These are mapped using '_long_context' suffix. Flex/Batch is exactly 50% of Standard.",
   "models": models
 }
 
