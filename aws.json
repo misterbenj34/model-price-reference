@@ -5,6 +5,426 @@
   "currency": "USD",
   "models": [
     {
+      "name": "Anthropic Claude Opus 4.6",
+      "deployments": [
+        {
+          "type": "On-Demand",
+          "pricing_1m_tokens": {
+            "input": 15.0,
+            "output": 75.0
+          }
+        },
+        {
+          "type": "Global Cross-region",
+          "pricing_1m_tokens": {
+            "input": 15.0,
+            "output": 75.0,
+            "batch_input": 7.5,
+            "batch_output": 37.5
+          }
+        },
+        {
+          "type": "Geo and In-region Cross-region",
+          "pricing_1m_tokens": {
+            "input": 15.0,
+            "output": 75.0,
+            "batch_input": 7.5,
+            "batch_output": 37.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Anthropic Claude Opus 4.6 - Long Context",
+      "deployments": [
+        {
+          "type": "On-Demand",
+          "pricing_1m_tokens": {
+            "input": 15.0,
+            "output": 75.0
+          }
+        },
+        {
+          "type": "Global Cross-region",
+          "pricing_1m_tokens": {
+            "input": 15.0,
+            "output": 75.0,
+            "batch_input": 7.5,
+            "batch_output": 37.5
+          }
+        },
+        {
+          "type": "Geo and In-region Cross-region",
+          "pricing_1m_tokens": {
+            "input": 15.0,
+            "output": 75.0,
+            "batch_input": 7.5,
+            "batch_output": 37.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Anthropic Claude Sonnet 4.6",
+      "deployments": [
+        {
+          "type": "On-Demand",
+          "pricing_1m_tokens": {
+            "input": 3.0,
+            "output": 15.0
+          }
+        },
+        {
+          "type": "Global Cross-region",
+          "pricing_1m_tokens": {
+            "input": 3.0,
+            "output": 15.0,
+            "batch_input": 1.5,
+            "batch_output": 7.5
+          }
+        },
+        {
+          "type": "Geo and In-region Cross-region",
+          "pricing_1m_tokens": {
+            "input": 3.0,
+            "output": 15.0,
+            "batch_input": 1.5,
+            "batch_output": 7.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Anthropic Claude Sonnet 4.6 - Long Context",
+      "deployments": [
+        {
+          "type": "On-Demand",
+          "pricing_1m_tokens": {
+            "input": 3.0,
+            "output": 15.0
+          }
+        },
+        {
+          "type": "Global Cross-region",
+          "pricing_1m_tokens": {
+            "input": 3.0,
+            "output": 15.0,
+            "batch_input": 1.5,
+            "batch_output": 7.5
+          }
+        },
+        {
+          "type": "Geo and In-region Cross-region",
+          "pricing_1m_tokens": {
+            "input": 3.0,
+            "output": 15.0,
+            "batch_input": 1.5,
+            "batch_output": 7.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Anthropic Claude Opus 4.5",
+      "deployments": [
+        {
+          "type": "On-Demand",
+          "pricing_1m_tokens": {
+            "input": 15.0,
+            "output": 75.0
+          }
+        },
+        {
+          "type": "Global Cross-region",
+          "pricing_1m_tokens": {
+            "input": 15.0,
+            "output": 75.0,
+            "batch_input": 7.5,
+            "batch_output": 37.5
+          }
+        },
+        {
+          "type": "Geo and In-region Cross-region",
+          "pricing_1m_tokens": {
+            "input": 15.0,
+            "output": 75.0,
+            "batch_input": 7.5,
+            "batch_output": 37.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Anthropic Claude Sonnet 4.5",
+      "deployments": [
+        {
+          "type": "On-Demand",
+          "pricing_1m_tokens": {
+            "input": 3.0,
+            "output": 15.0
+          }
+        },
+        {
+          "type": "Global Cross-region",
+          "pricing_1m_tokens": {
+            "input": 3.0,
+            "output": 15.0,
+            "batch_input": 1.5,
+            "batch_output": 7.5
+          }
+        },
+        {
+          "type": "Geo and In-region Cross-region",
+          "pricing_1m_tokens": {
+            "input": 3.0,
+            "output": 15.0,
+            "batch_input": 1.5,
+            "batch_output": 7.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Anthropic Claude Sonnet 4.5 - Long Context",
+      "deployments": [
+        {
+          "type": "On-Demand",
+          "pricing_1m_tokens": {
+            "input": 3.0,
+            "output": 15.0
+          }
+        },
+        {
+          "type": "Global Cross-region",
+          "pricing_1m_tokens": {
+            "input": 3.0,
+            "output": 15.0,
+            "batch_input": 1.5,
+            "batch_output": 7.5
+          }
+        },
+        {
+          "type": "Geo and In-region Cross-region",
+          "pricing_1m_tokens": {
+            "input": 3.0,
+            "output": 15.0,
+            "batch_input": 1.5,
+            "batch_output": 7.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Anthropic Claude Haiku 4.5",
+      "deployments": [
+        {
+          "type": "On-Demand",
+          "pricing_1m_tokens": {
+            "input": 0.8,
+            "output": 4.0
+          }
+        },
+        {
+          "type": "Global Cross-region",
+          "pricing_1m_tokens": {
+            "input": 0.8,
+            "output": 4.0,
+            "batch_input": 0.4,
+            "batch_output": 2.0
+          }
+        },
+        {
+          "type": "Geo and In-region Cross-region",
+          "pricing_1m_tokens": {
+            "input": 0.8,
+            "output": 4.0,
+            "batch_input": 0.4,
+            "batch_output": 2.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Anthropic Claude Opus 4.1",
+      "deployments": [
+        {
+          "type": "On-Demand",
+          "pricing_1m_tokens": {
+            "input": 15.0,
+            "output": 75.0
+          }
+        },
+        {
+          "type": "Global Cross-region",
+          "pricing_1m_tokens": {
+            "input": 15.0,
+            "output": 75.0,
+            "batch_input": 7.5,
+            "batch_output": 37.5
+          }
+        },
+        {
+          "type": "Geo and In-region Cross-region",
+          "pricing_1m_tokens": {
+            "input": 15.0,
+            "output": 75.0,
+            "batch_input": 7.5,
+            "batch_output": 37.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Anthropic Claude Opus 4",
+      "deployments": [
+        {
+          "type": "On-Demand",
+          "pricing_1m_tokens": {
+            "input": 15.0,
+            "output": 75.0
+          }
+        },
+        {
+          "type": "Global Cross-region",
+          "pricing_1m_tokens": {
+            "input": 15.0,
+            "output": 75.0,
+            "batch_input": 7.5,
+            "batch_output": 37.5
+          }
+        },
+        {
+          "type": "Geo and In-region Cross-region",
+          "pricing_1m_tokens": {
+            "input": 15.0,
+            "output": 75.0,
+            "batch_input": 7.5,
+            "batch_output": 37.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Anthropic Claude Sonnet 4",
+      "deployments": [
+        {
+          "type": "On-Demand",
+          "pricing_1m_tokens": {
+            "input": 3.0,
+            "output": 15.0
+          }
+        },
+        {
+          "type": "Global Cross-region",
+          "pricing_1m_tokens": {
+            "input": 3.0,
+            "output": 15.0,
+            "batch_input": 1.5,
+            "batch_output": 7.5
+          }
+        },
+        {
+          "type": "Geo and In-region Cross-region",
+          "pricing_1m_tokens": {
+            "input": 3.0,
+            "output": 15.0,
+            "batch_input": 1.5,
+            "batch_output": 7.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Anthropic Claude Sonnet 4 - Long Context",
+      "deployments": [
+        {
+          "type": "On-Demand",
+          "pricing_1m_tokens": {
+            "input": 3.0,
+            "output": 15.0
+          }
+        },
+        {
+          "type": "Global Cross-region",
+          "pricing_1m_tokens": {
+            "input": 3.0,
+            "output": 15.0,
+            "batch_input": 1.5,
+            "batch_output": 7.5
+          }
+        },
+        {
+          "type": "Geo and In-region Cross-region",
+          "pricing_1m_tokens": {
+            "input": 3.0,
+            "output": 15.0,
+            "batch_input": 1.5,
+            "batch_output": 7.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Anthropic Claude 3.7 Sonnet",
+      "deployments": [
+        {
+          "type": "On-Demand",
+          "pricing_1m_tokens": {
+            "input": 3.0,
+            "output": 15.0
+          }
+        },
+        {
+          "type": "Global Cross-region",
+          "pricing_1m_tokens": {
+            "input": 3.0,
+            "output": 15.0,
+            "batch_input": 1.5,
+            "batch_output": 7.5
+          }
+        },
+        {
+          "type": "Geo and In-region Cross-region",
+          "pricing_1m_tokens": {
+            "input": 3.0,
+            "output": 15.0,
+            "batch_input": 1.5,
+            "batch_output": 7.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Anthropic Claude 3.5 Sonnet v2",
+      "deployments": [
+        {
+          "type": "On-Demand",
+          "pricing_1m_tokens": {
+            "input": 3.0,
+            "output": 15.0
+          }
+        },
+        {
+          "type": "Global Cross-region",
+          "pricing_1m_tokens": {
+            "input": 3.0,
+            "output": 15.0,
+            "batch_input": 1.5,
+            "batch_output": 7.5
+          }
+        },
+        {
+          "type": "Geo and In-region Cross-region",
+          "pricing_1m_tokens": {
+            "input": 3.0,
+            "output": 15.0,
+            "batch_input": 1.5,
+            "batch_output": 7.5
+          }
+        }
+      ]
+    },
+    {
       "name": "Anthropic Claude 3.5 Sonnet",
       "deployments": [
         {
@@ -163,6 +583,24 @@
             "input": 8.0,
             "output": 24.0
           }
+        },
+        {
+          "type": "Global Cross-region",
+          "pricing_1m_tokens": {
+            "input": 8.0,
+            "output": 24.0,
+            "batch_input": 4.0,
+            "batch_output": 12.0
+          }
+        },
+        {
+          "type": "Geo and In-region Cross-region",
+          "pricing_1m_tokens": {
+            "input": 8.0,
+            "output": 24.0,
+            "batch_input": 4.0,
+            "batch_output": 12.0
+          }
         }
       ]
     },
@@ -175,6 +613,24 @@
             "input": 8.0,
             "output": 24.0
           }
+        },
+        {
+          "type": "Global Cross-region",
+          "pricing_1m_tokens": {
+            "input": 8.0,
+            "output": 24.0,
+            "batch_input": 4.0,
+            "batch_output": 12.0
+          }
+        },
+        {
+          "type": "Geo and In-region Cross-region",
+          "pricing_1m_tokens": {
+            "input": 8.0,
+            "output": 24.0,
+            "batch_input": 4.0,
+            "batch_output": 12.0
+          }
         }
       ]
     },
@@ -186,6 +642,24 @@
           "pricing_1m_tokens": {
             "input": 0.8,
             "output": 2.4
+          }
+        },
+        {
+          "type": "Global Cross-region",
+          "pricing_1m_tokens": {
+            "input": 0.8,
+            "output": 2.4,
+            "batch_input": 0.4,
+            "batch_output": 1.2
+          }
+        },
+        {
+          "type": "Geo and In-region Cross-region",
+          "pricing_1m_tokens": {
+            "input": 0.8,
+            "output": 2.4,
+            "batch_input": 0.4,
+            "batch_output": 1.2
           }
         }
       ]
@@ -228,6 +702,24 @@
           "pricing_1m_tokens": {
             "input": 4.0,
             "output": 12.0
+          }
+        },
+        {
+          "type": "Global Cross-region",
+          "pricing_1m_tokens": {
+            "input": 4.0,
+            "output": 12.0,
+            "batch_input": 2.0,
+            "batch_output": 6.0
+          }
+        },
+        {
+          "type": "Geo and In-region Cross-region",
+          "pricing_1m_tokens": {
+            "input": 4.0,
+            "output": 12.0,
+            "batch_input": 2.0,
+            "batch_output": 6.0
           }
         }
       ]
@@ -331,6 +823,24 @@
             "input": 3.0,
             "output": 15.0
           }
+        },
+        {
+          "type": "Global Cross-region",
+          "pricing_1m_tokens": {
+            "input": 3.0,
+            "output": 15.0,
+            "batch_input": 1.5,
+            "batch_output": 7.5
+          }
+        },
+        {
+          "type": "Geo and In-region Cross-region",
+          "pricing_1m_tokens": {
+            "input": 3.0,
+            "output": 15.0,
+            "batch_input": 1.5,
+            "batch_output": 7.5
+          }
         }
       ]
     },
@@ -342,6 +852,24 @@
           "pricing_1m_tokens": {
             "input": 0.5,
             "output": 1.5
+          }
+        },
+        {
+          "type": "Global Cross-region",
+          "pricing_1m_tokens": {
+            "input": 0.5,
+            "output": 1.5,
+            "batch_input": 0.25,
+            "batch_output": 0.75
+          }
+        },
+        {
+          "type": "Geo and In-region Cross-region",
+          "pricing_1m_tokens": {
+            "input": 0.5,
+            "output": 1.5,
+            "batch_input": 0.25,
+            "batch_output": 0.75
           }
         }
       ]
@@ -355,6 +883,24 @@
             "input": 1.5,
             "output": 2.0
           }
+        },
+        {
+          "type": "Global Cross-region",
+          "pricing_1m_tokens": {
+            "input": 1.5,
+            "output": 2.0,
+            "batch_input": 0.75,
+            "batch_output": 1.0
+          }
+        },
+        {
+          "type": "Geo and In-region Cross-region",
+          "pricing_1m_tokens": {
+            "input": 1.5,
+            "output": 2.0,
+            "batch_input": 0.75,
+            "batch_output": 1.0
+          }
         }
       ]
     },
@@ -367,6 +913,24 @@
             "input": 0.3,
             "output": 0.6
           }
+        },
+        {
+          "type": "Global Cross-region",
+          "pricing_1m_tokens": {
+            "input": 0.3,
+            "output": 0.6,
+            "batch_input": 0.15,
+            "batch_output": 0.3
+          }
+        },
+        {
+          "type": "Geo and In-region Cross-region",
+          "pricing_1m_tokens": {
+            "input": 0.3,
+            "output": 0.6,
+            "batch_input": 0.15,
+            "batch_output": 0.3
+          }
         }
       ]
     },
@@ -378,6 +942,20 @@
           "pricing_1m_tokens": {
             "input": 0.1
           }
+        },
+        {
+          "type": "Global Cross-region",
+          "pricing_1m_tokens": {
+            "input": 0.1,
+            "batch_input": 0.05
+          }
+        },
+        {
+          "type": "Geo and In-region Cross-region",
+          "pricing_1m_tokens": {
+            "input": 0.1,
+            "batch_input": 0.05
+          }
         }
       ]
     },
@@ -388,6 +966,20 @@
           "type": "On-Demand",
           "pricing_1m_tokens": {
             "input": 0.1
+          }
+        },
+        {
+          "type": "Global Cross-region",
+          "pricing_1m_tokens": {
+            "input": 0.1,
+            "batch_input": 0.05
+          }
+        },
+        {
+          "type": "Geo and In-region Cross-region",
+          "pricing_1m_tokens": {
+            "input": 0.1,
+            "batch_input": 0.05
           }
         }
       ]
@@ -490,6 +1082,24 @@
           "pricing_1m_tokens": {
             "input": 0.35,
             "output": 0.4
+          }
+        },
+        {
+          "type": "Global Cross-region",
+          "pricing_1m_tokens": {
+            "input": 0.35,
+            "output": 0.4,
+            "batch_input": 0.175,
+            "batch_output": 0.2
+          }
+        },
+        {
+          "type": "Geo and In-region Cross-region",
+          "pricing_1m_tokens": {
+            "input": 0.35,
+            "output": 0.4,
+            "batch_input": 0.175,
+            "batch_output": 0.2
           }
         }
       ]
