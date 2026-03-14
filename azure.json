@@ -3,54 +3,148 @@
   "last_updated": "2026-03-14",
   "region": "Sweden Central",
   "currency": "EUR",
+  "exchange_rate_note": "Converted from USD base (~0.92 EUR/USD) based on Azure's standard display for non-US regions before final dynamic calculation.",
   "models": [
     {
       "name": "GPT-5.2",
-      "price_per_1m_input_tokens": 1.75,
-      "price_per_1m_output_tokens": 14.00,
-      "currency": "EUR"
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 1.61,
+            "cached_input": 0.17,
+            "output": 12.88
+          }
+        },
+        {
+          "type": "Data Zone",
+          "pricing_1m_tokens": {
+            "input": 1.78,
+            "cached_input": 0.18,
+            "output": 14.17
+          }
+        }
+      ]
     },
     {
       "name": "GPT-5.1",
-      "price_per_1m_input_tokens": 1.25,
-      "price_per_1m_output_tokens": 10.00,
-      "currency": "EUR"
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 1.15,
+            "cached_input": 0.12,
+            "output": 9.20
+          }
+        },
+        {
+          "type": "Data Zone",
+          "pricing_1m_tokens": {
+            "input": 1.27,
+            "cached_input": 0.13,
+            "output": 10.12
+          }
+        }
+      ]
     },
     {
-      "name": "GPT-5",
-      "price_per_1m_input_tokens": 1.25,
-      "price_per_1m_output_tokens": 10.00,
-      "currency": "EUR"
+      "name": "GPT-5 2025-08-07",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 1.15,
+            "cached_input": 0.12,
+            "output": 9.20,
+            "batch_input": 0.58,
+            "batch_cached_input": 0.06,
+            "batch_output": 4.60
+          }
+        },
+        {
+          "type": "Data Zone",
+          "pricing_1m_tokens": {
+            "input": 1.27,
+            "cached_input": 0.13,
+            "output": 10.12,
+            "batch_input": 0.63,
+            "batch_cached_input": 0.06,
+            "batch_output": 5.06
+          }
+        }
+      ]
     },
     {
-      "name": "o3",
-      "price_per_1m_input_tokens": 2.00,
-      "price_per_1m_output_tokens": 8.00,
-      "currency": "EUR"
+      "name": "o3 2025-04-16",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 1.84,
+            "cached_input": 0.46,
+            "output": 7.36,
+            "batch_input": 0.92,
+            "batch_output": 3.68
+          }
+        },
+        {
+          "type": "Data Zone",
+          "pricing_1m_tokens": {
+            "input": 2.02,
+            "cached_input": 0.51,
+            "output": 8.10,
+            "batch_input": 1.01,
+            "batch_output": 4.05
+          }
+        },
+        {
+          "type": "Regional",
+          "pricing_1m_tokens": {
+            "input": 2.02,
+            "cached_input": 0.51,
+            "output": 8.10
+          }
+        }
+      ]
     },
     {
-      "name": "o4-mini",
-      "price_per_1m_input_tokens": 1.10,
-      "price_per_1m_output_tokens": 4.40,
-      "currency": "EUR"
-    },
-    {
-      "name": "GPT-4.1",
-      "price_per_1m_input_tokens": 2.00,
-      "price_per_1m_output_tokens": 8.00,
-      "currency": "EUR"
-    },
-    {
-      "name": "GPT-4o",
-      "price_per_1m_input_tokens": 2.50,
-      "price_per_1m_output_tokens": 10.00,
-      "currency": "EUR"
-    },
-    {
-      "name": "GPT-4o-mini",
-      "price_per_1m_input_tokens": 0.15,
-      "price_per_1m_output_tokens": 0.60,
-      "currency": "EUR"
+      "name": "GPT-4.1-2025-04-14",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 1.84,
+            "cached_input": 0.46,
+            "output": 7.36,
+            "priority_input": 3.22,
+            "priority_cached_input": 0.81,
+            "priority_output": 12.88,
+            "batch_input": 0.92,
+            "batch_output": 3.68
+          }
+        },
+        {
+          "type": "Data Zone",
+          "pricing_1m_tokens": {
+            "input": 2.02,
+            "cached_input": 0.51,
+            "output": 8.10,
+            "priority_input": 3.54,
+            "priority_cached_input": 0.89,
+            "priority_output": 14.17,
+            "batch_input": 1.01,
+            "batch_output": 4.05
+          }
+        },
+        {
+          "type": "Regional",
+          "pricing_1m_tokens": {
+            "input": 2.02,
+            "cached_input": 0.51,
+            "output": 8.10
+          }
+        }
+      ]
     }
   ]
 }
