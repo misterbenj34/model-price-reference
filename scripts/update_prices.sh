@@ -18,6 +18,9 @@ cp gcp.json gcp_old.json 2>/dev/null || true
 python3 scripts/aws_generate.py
 python3 scripts/gcp_generate.py
 
+# Validate generated JSON files
+python3 scripts/validate_json.py || { echo "JSON validation failed!"; exit 1; }
+
 # Compare prices and collect alerts
 ALERTS=""
 A1=$(python3 scripts/global_compare_and_alert.py azure_old.json azure.json 2>/dev/null)
@@ -31,10 +34,13 @@ if [ -n "$A3" ]; then ALERTS="$ALERTS\n\n$A3"; fi
 # Clean up backups
 rm -f *_old.json
 
+# Update status file for GitHub confirmation
+echo "{\"last_run\": \"$(date -u +'%Y-%m-%dT%H:%M:%SZ')\", \"status\": \"success\"}" > status.json
+
 # Commit and push if there are JSON changes
 if [[ -n $(git status -s | grep "\.json") ]]; then
     git add .
-    git commit -m "Automated daily price update" -q
+    git commit -m "Automated daily price update and status check" -q
     git push origin main -q
 fi
 
