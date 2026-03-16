@@ -40,7 +40,7 @@ echo "{\"last_run\": \"$(date -u +'%Y-%m-%dT%H:%M:%SZ')\", \"status\": \"success
 # Commit and push if there are JSON changes
 if [[ -n $(git status -s | grep "\.json") ]]; then
     git add .
-    git commit -m "Automated daily price update and status check" -q
+    git commit -m "chore(prices): update daily prices and status" -q
     git push origin main -q
 fi
 

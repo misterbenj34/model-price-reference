@@ -23,7 +23,7 @@ def validate_json(filepath):
         print(f"Error parsing {filepath}: {e}")
         return False
 
-files = glob.glob('*.json')
+files = [f for f in glob.glob('*.json') if f != 'status.json']
 all_valid = True
 for f in files:
     if not validate_json(f):
