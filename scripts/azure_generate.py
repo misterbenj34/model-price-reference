@@ -1,174 +1,133 @@
 import json
-
-RATE = 0.847428
-
-def c(val):
-    if val is None: return None
-    return round(val * RATE, 4)
-
-models = []
-
-def add_model(name, deployments):
-    formatted_deps = []
-    for dep in deployments:
-        prices = {}
-        for k, v in dep["prices"].items():
-            if v is not None:
-                prices[k] = c(v)
-        formatted_deps.append({
-            "type": dep["type"],
-            "pricing_1m_tokens": prices
-        })
-    models.append({"name": name, "deployments": formatted_deps})
-
-# GPT-5.2
-add_model("GPT-5.2", [
-    {"type": "Global", "prices": {"input": 1.75, "cached_input": 0.18, "output": 14}},
-    {"type": "Data Zone", "prices": {"input": 1.93, "cached_input": 0.20, "output": 15.40}}
-])
-add_model("GPT-5.2 Codex", [
-    {"type": "Global", "prices": {"input": 1.75, "cached_input": 0.18, "output": 14}}
-])
-add_model("GPT-5.2-chat", [
-    {"type": "Global", "prices": {"input": 1.75, "cached_input": 0.18, "output": 14}},
-    {"type": "Data Zone", "prices": {"input": 1.93, "cached_input": 0.20, "output": 15.40}}
-])
-
-# GPT-5.1
-add_model("GPT-5.1", [
-    {"type": "Global", "prices": {"input": 1.25, "cached_input": 0.13, "output": 10}},
-    {"type": "Data Zone", "prices": {"input": 1.38, "cached_input": 0.14, "output": 11}}
-])
-add_model("GPT-5.1-chat", [{"type": "Global", "prices": {"input": 1.25, "cached_input": 0.13, "output": 10}}])
-add_model("GPT-5.1-codex", [{"type": "Global", "prices": {"input": 1.25, "cached_input": 0.13, "output": 10}}])
-add_model("GPT-5.1-codex-max", [{"type": "Global", "prices": {"input": 1.25, "cached_input": 0.13, "output": 10}}])
-add_model("GPT-5.1-codex-mini", [{"type": "Global", "prices": {"input": 0.25, "cached_input": 0.03, "output": 2}}])
-
-# GPT-5 Series
-add_model("GPT-5 2025-08-07", [
-    {"type": "Global", "prices": {"input": 1.25, "cached_input": 0.13, "output": 10, "batch_input": 0.63, "batch_cached_input": 0.07, "batch_output": 5}},
-    {"type": "Data Zone", "prices": {"input": 1.38, "cached_input": 0.14, "output": 11, "batch_input": 0.69, "batch_cached_input": 0.07, "batch_output": 5.50}}
-])
-add_model("GPT-5 Pro", [{"type": "Global", "prices": {"input": 15, "output": 120}}])
-add_model("GPT-5 Codex", [{"type": "Global", "prices": {"input": 1.25, "cached_input": 0.13, "output": 10}}])
-add_model("GPT-5-mini", [
-    {"type": "Global", "prices": {"input": 0.25, "cached_input": 0.03, "output": 2}},
-    {"type": "Data Zone", "prices": {"input": 0.28, "cached_input": 0.03, "output": 2.20}}
-])
-add_model("GPT-5-nano", [
-    {"type": "Global", "prices": {"input": 0.05, "cached_input": 0.01, "output": 0.40}},
-    {"type": "Data Zone", "prices": {"input": 0.06, "cached_input": 0.01, "output": 0.44}}
-])
-add_model("GPT-5 chat", [{"type": "Global", "prices": {"input": 1.25, "cached_input": 0.13, "output": 10}}])
-
-# Deep Research
-add_model("o3-deep research", [{"type": "Global", "prices": {"input": 10, "cached_input": 2.50, "output": 40}}])
-
-# o3
-add_model("o3 2025-04-16", [
-    {"type": "Global", "prices": {"input": 2, "cached_input": 0.50, "output": 8, "batch_input": 1, "batch_output": 4}},
-    {"type": "Data Zone", "prices": {"input": 2.20, "cached_input": 0.55, "output": 8.80, "batch_input": 1.10, "batch_output": 4.40}},
-    {"type": "Regional", "prices": {"input": 2.20, "cached_input": 0.55, "output": 8.80}}
-])
-
-# o4-mini
-add_model("o4-mini 2025-04-16", [
-    {"type": "Global", "prices": {"input": 1.10, "cached_input": 0.28, "output": 4.40, "batch_input": 0.55, "batch_output": 2.20}},
-    {"type": "Data Zone", "prices": {"input": 1.21, "cached_input": 0.31, "output": 4.84, "batch_input": 0.61, "batch_output": 2.42}},
-    {"type": "Regional", "prices": {"input": 1.21, "cached_input": 0.31, "output": 4.84}}
-])
-
-# GPT-4.1
-add_model("GPT-4.1-2025-04-14", [
-    {"type": "Global", "prices": {"input": 2, "cached_input": 0.50, "output": 8, "priority_input": 3.50, "priority_cached_input": 0.88, "priority_output": 14, "batch_input": 1, "batch_output": 4}},
-    {"type": "Data Zone", "prices": {"input": 2.20, "cached_input": 0.55, "output": 8.80, "priority_input": 3.85, "priority_cached_input": 0.97, "priority_output": 15.40, "batch_input": 1.10, "batch_output": 4.40}},
-    {"type": "Regional", "prices": {"input": 2.20, "cached_input": 0.55, "output": 8.80}}
-])
-add_model("GPT-4.1-mini-2025-04-14", [
-    {"type": "Global", "prices": {"input": 0.40, "cached_input": 0.10, "output": 1.60, "batch_input": 0.20, "batch_output": 0.80}},
-    {"type": "Data Zone", "prices": {"input": 0.44, "cached_input": 0.11, "output": 1.76, "batch_input": 0.22, "batch_output": 0.88}},
-    {"type": "Regional", "prices": {"input": 0.44, "cached_input": 0.11, "output": 1.76}}
-])
-add_model("GPT-4.1-nano-2025-04-14", [
-    {"type": "Global", "prices": {"input": 0.10, "cached_input": 0.03, "output": 0.40, "batch_input": 0.05, "batch_output": 0.20}},
-    {"type": "Data Zone", "prices": {"input": 0.11, "cached_input": 0.03, "output": 0.44, "batch_input": 0.06, "batch_output": 0.22}},
-    {"type": "Regional", "prices": {"input": 0.11, "cached_input": 0.03, "output": 0.44}}
-])
-
-# o1
-add_model("o1 2024-12-17", [
-    {"type": "Global", "prices": {"input": 15, "cached_input": 7.50, "output": 60}},
-    {"type": "Data Zone", "prices": {"input": 16.50, "cached_input": 8.25, "output": 66}},
-    {"type": "Regional", "prices": {"input": 16.50, "cached_input": 8.25, "output": 66}}
-])
-
-# o3-mini
-add_model("o3 mini 2025-01-31", [
-    {"type": "Global", "prices": {"input": 1.10, "cached_input": 0.55, "output": 4.40, "batch_input": 0.55, "batch_output": 2.20}},
-    {"type": "Data Zone", "prices": {"input": 1.21, "cached_input": 0.605, "output": 4.84, "batch_input": 0.605, "batch_output": 2.42}},
-    {"type": "Regional", "prices": {"input": 1.21, "cached_input": 0.605, "output": 4.84}}
-])
-
-# GPT-4o
-add_model("GPT-4o-2024-1120", [
-    {"type": "Global", "prices": {"input": 2.50, "cached_input": 1.25, "output": 10, "batch_input": 1.25, "batch_output": 5}},
-    {"type": "Data Zone", "prices": {"input": 2.75, "cached_input": 1.375, "output": 11}},
-    {"type": "Regional", "prices": {"input": 2.75, "cached_input": 1.375, "output": 11}}
-])
-add_model("GPT-4o-2024-08-06", [
-    {"type": "Global", "prices": {"input": 2.50, "cached_input": 1.25, "output": 10, "batch_input": 1.25, "batch_output": 5}},
-    {"type": "Data Zone", "prices": {"input": 2.75, "cached_input": 1.375, "output": 11, "batch_input": 1.375, "batch_output": 5.50}},
-    {"type": "Regional", "prices": {"input": 2.75, "cached_input": 1.375, "output": 11}}
-])
-
-# GPT-4o-mini
-add_model("GPT-4o-mini-0718", [
-    {"type": "Global", "prices": {"input": 0.15, "cached_input": 0.075, "output": 0.60, "batch_input": 0.075, "batch_output": 0.30}},
-    {"type": "Data Zone", "prices": {"input": 0.165, "cached_input": 0.083, "output": 0.66}},
-    {"type": "Regional", "prices": {"input": 0.165, "cached_input": 0.083, "output": 0.66}}
-])
-
-# Audio / Realtime / Image...
-add_model("GPT-realtime", [
-    {"type": "Global", "prices": {"text_input": 4, "text_cached_input": 0.40, "text_output": 16, "audio_input": 32, "audio_cached_input": 0.40, "audio_output": 64}}
-])
-add_model("GPT-Image-1.5", [
-    {"type": "Global", "prices": {"text_input": 5, "text_cached_input": 1.25, "image_input": 8, "image_cached_input": 2, "text_output": 10, "image_output": 32}}
-])
-add_model("gpt-oss-120b", [
-    {"type": "Global", "prices": {"input": 0.15, "output": 0.60}}
-])
-add_model("computer-use-preview", [
-    {"type": "Global", "prices": {"input": 3, "output": 12}}
-])
-
-# Generate JSON
-data = {
-  "provider": "Azure",
-  "last_updated": "2026-03-14",
-  "region": "Sweden Central",
-  "currency": "EUR",
-  "exchange_rate_note": "Converted from USD base (~0.92 EUR/USD) based on Azure's standard display for non-US regions before final dynamic calculation.",
-  "models": models
-}
-
-with open('/home/openclaw/.openclaw/workspace/model-price-reference/azure.json', 'w') as f:
-    json.dump(data, f, indent=2)
-
-# --- Experimental Parsing Utility (Merged from parse_eur.py) ---
-
 import re
-import json
+import os
+from playwright.sync_api import sync_playwright
+from datetime import datetime
 
-with open("azure_eur.txt") as f:
-    text = f.read()
+def parse_pricing_string(pricing_str):
+    result = {}
+    matches = re.finditer(r'([A-Za-z \-]+):\s*€([\d,\.]+)', pricing_str)
+    for m in matches:
+        key = m.group(1).strip().lower().replace(' ', '_').replace('-', '_')
+        val = float(m.group(2).replace(',', ''))
+        
+        if key == 'input_text': key = 'input'
+        if key == 'output_text': key = 'output'
+        if key == 'cached_input_text': key = 'cached_input'
+        if key == 'input_image': key = 'image_input'
+        
+        result[key] = val
+    return result
 
-# very rough parser to find the pricing blocks for "Global" and "Data Zone"
-# We will use the exact EUR values from the site.
-# For now, to give the user the correct file quickly and accurately, I will rewrite `generate.py` to parse `azure_eur.txt`!
+def run_extraction():
+    models = {}
+    
+    print("Starting Playwright extraction for Azure...")
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        page = browser.new_page()
+        page.goto("https://azure.microsoft.com/en-us/pricing/details/azure-openai/", wait_until="networkidle")
+        
+        print("Selecting region and currency...")
+        page.select_option("#region-selector", "sweden-central")
+        page.select_option("#currency-selector", "eur")
+        page.wait_for_timeout(4000) # Give time for JS to render
+        
+        print("Parsing tables...")
+        tables = page.query_selector_all("table")
+        for table in tables:
+            # Check if this table has a "Model" header
+            first_row = table.query_selector("tr")
+            if not first_row:
+                continue
+                
+            headers = [th.inner_text().replace('\n', ' ').strip() for th in first_row.query_selector_all("th, td")]
+            if not headers or ("Model" not in headers[0] and "Models" not in headers[0]):
+                continue
+                
+            for row in table.query_selector_all("tr")[1:]:
+                cells = [td.inner_text().replace('\n', ' ').strip() for td in row.query_selector_all("td")]
+                if not cells or len(cells) < 2:
+                    continue
+                    
+                model_full_name = cells[0]
+                if not model_full_name:
+                    continue
+                
+                # Identify deployment type from name
+                dep_type = "Standard"
+                base_name = model_full_name
+                
+                if base_name.endswith(" Global"):
+                    dep_type = "Global"
+                    base_name = base_name[:-7]
+                elif base_name.endswith(" Data Zone"):
+                    dep_type = "Data Zone"
+                    base_name = base_name[:-10]
+                elif base_name.endswith(" Regional"):
+                    dep_type = "Regional"
+                    base_name = base_name[:-9]
+                
+                prices = parse_pricing_string(cells[1])
+                
+                batch_prices = {}
+                priority_prices = {}
+                
+                for i, header in enumerate(headers):
+                    if i < len(cells) and i > 0:
+                        if "Batch API" in header:
+                            b_prices = parse_pricing_string(cells[i])
+                            for k, v in b_prices.items():
+                                batch_prices[f"batch_{k}"] = v
+                        elif "Priority" in header:
+                            p_prices = parse_pricing_string(cells[i])
+                            for k, v in p_prices.items():
+                                priority_prices[f"priority_{k}"] = v
+                        elif "Pricing" in header and i > 1: # Some tables have a third column for another pricing
+                            # Already handled in basic pricing if it's the second column. If not, maybe it's something else.
+                            pass
+                                
+                if base_name not in models:
+                    models[base_name] = []
+                    
+                combined_prices = {**prices, **batch_prices, **priority_prices}
+                
+                # If no prices were extracted via regex, maybe it's a raw price like "€0.000103"
+                if not combined_prices:
+                    m = re.search(r'€([\d,\.]+)', cells[1])
+                    if m:
+                        val = float(m.group(1).replace(',', ''))
+                        combined_prices['price'] = val
 
-def extract_exact_prices():
-    # Because writing a bullet-proof parser for the whole page in 5 mins is hard, 
-    # I'll rely on the existing generate.py structure but update the RATE to Azure's exact spot rate.
-    # Microsoft uses London closing spot rates captured 2 biz days prior to month end.
-    pass
+                if combined_prices:
+                    models[base_name].append({
+                        "type": dep_type,
+                        "pricing_1m_tokens": combined_prices
+                    })
+                    
+        browser.close()
+        
+    formatted_models = []
+    for name, deployments in models.items():
+        formatted_models.append({
+            "name": name,
+            "deployments": deployments
+        })
+        
+    output = {
+      "provider": "Azure",
+      "last_updated": datetime.now().strftime("%Y-%m-%d"),
+      "region": "Sweden Central",
+      "currency": "EUR",
+      "models": formatted_models
+    }
+    
+    output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), '../azure.json')
+    with open(output_path, 'w') as f:
+        json.dump(output, f, indent=2)
+        
+    print(f"Successfully generated azure.json with {len(formatted_models)} models.")
+
+if __name__ == "__main__":
+    run_extraction()
+

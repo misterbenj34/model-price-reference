@@ -12,9 +12,14 @@ cp aws.json aws_old.json 2>/dev/null || true
 cp gcp.json gcp_old.json 2>/dev/null || true
 
 # Execute extraction scripts
-# Note: azure_extract.py requires Playwright implementation as noted in METHODOLOGY.md
-# Uncomment when ready.
-# python3 scripts/azure_extract.py
+# Use the virtual environment for Azure since Playwright is installed there
+if [ -d ".venv" ]; then
+    .venv/bin/python scripts/azure_generate.py
+else
+    # Fallback to system python if venv not found (might fail if playwright missing)
+    python3 scripts/azure_generate.py
+fi
+
 python3 scripts/aws_generate.py
 python3 scripts/gcp_generate.py
 
