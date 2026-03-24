@@ -38,9 +38,9 @@ rm -f *_old.json
 echo "{\"last_run\": \"$(date -u +'%Y-%m-%dT%H:%M:%SZ')\", \"status\": \"success\"}" > status.json
 
 # Commit and push if there are JSON changes
-if [[ -n $(git status -s | grep "\.json") ]]; then
+if [[ -n $(git status -s | grep -E "\.json|CHANGELOG\.md") ]]; then
     git add .
-    git commit -m "chore(prices): update daily prices and status" -q
+    git commit -m "chore(prices): update daily prices and changelog" -q
     git push origin main -q
 fi
 
