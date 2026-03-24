@@ -1,11 +1,68 @@
 import json
+import urllib.request
+import re
+import html
+import ssl
 from datetime import datetime
+import gzip
+import os
 
-# Comprehensive AWS Bedrock pricing (Europe Ireland, USD)
-# Filtering exclusively for Anthropic, Mistral, Cohere, Qwen.
+def fetch_json(url):
+    ctx = ssl.create_default_context()
+    ctx.check_hostname = False
+    ctx.verify_mode = ssl.CERT_NONE
+    
+    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+    try:
+        resp = urllib.request.urlopen(req, context=ctx)
+        if resp.info().get('Content-Encoding') == 'gzip':
+            return json.loads(gzip.decompress(resp.read()).decode('utf-8'))
+        return json.loads(resp.read().decode('utf-8'))
+    except Exception as e:
+        print(f"Error fetching {url}: {e}")
+        return {}
+
+def fetch_html(url):
+    ctx = ssl.create_default_context()
+    ctx.check_hostname = False
+    ctx.verify_mode = ssl.CERT_NONE
+    
+    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+    resp = urllib.request.urlopen(req, context=ctx)
+    if resp.info().get('Content-Encoding') == 'gzip':
+        return html.unescape(gzip.decompress(resp.read()).decode('utf-8'))
+    return html.unescape(resp.read().decode('utf-8'))
+
+def parse_price(tag, price_maps, region_name):
+    # e.g. bedrockfoundationmodels/bedrockfoundationmodels!RATEKEY!*!1000!opt
+    parts = tag.split('!')
+    service_id = parts[0].split('/')[0]
+    rate_key = parts[1]
+    
+    if service_id not in price_maps:
+        url = f"https://b0.p.awsstatic.com/pricing/2.0/meteredUnitMaps/{service_id}/USD/current/{service_id}.json"
+        price_maps[service_id] = fetch_json(url)
+    
+    price_data = price_maps[service_id].get('regions', {}).get(region_name, {})
+    if rate_key not in price_data:
+        # Fallback to US West (Oregon) if region not found
+        price_data = price_maps[service_id].get('regions', {}).get("US West (Oregon)", {})
+        
+    if rate_key not in price_data:
+        return 0.0
+        
+    price = float(price_data[rate_key]['price'])
+    
+    # Check for multipliers like *!1000
+    for i in range(2, len(parts)):
+        if parts[i] == '*':
+            # The next part should be the multiplier
+            if i + 1 < len(parts) and parts[i+1].isdigit():
+                price *= int(parts[i+1])
+    
+    return round(price, 3)
 
 def create_model(name, input_price, output_price, batch_multiplier=0.5):
-    # AWS batch pricing is exactly 50% of on-demand
     batch_in = round(input_price * batch_multiplier, 3)
     batch_out = round(output_price * batch_multiplier, 3)
     
@@ -40,88 +97,63 @@ def create_model(name, input_price, output_price, batch_multiplier=0.5):
       ]
     }
 
-models = []
+def generate_aws_pricing():
+    print("Fetching HTML...")
+    html_content = fetch_html("https://aws.amazon.com/bedrock/pricing/")
+    
+    price_maps = {}
+    region_name = "EU (Ireland)" # Target Region
+    
+    # We want: Anthropic, Mistral, Cohere, Qwen
+    target_brands = ['Claude', 'Mistral', 'Cohere', 'Command', 'Qwen']
+    
+    models = []
+    seen_models = set()
+    
+    # Regex to find table rows with prices
+    matches = re.findall(r'<tr>\s*<td>([^<]+)</td>\s*<td>\{priceOf!([^}]+)\}.*?\{priceOf!([^}]+)\}', html_content, re.IGNORECASE)
+    
+    for m in matches:
+        name = m[0].strip()
+        name = name.replace('Anthropic ', '') # Clean up
+        if not any(b in name for b in target_brands):
+            continue
+            
+        # Standardize names to match what we had
+        if name.startswith('Claude'):
+            name = 'Anthropic ' + name
+        elif name.startswith('Command'):
+            name = 'Cohere ' + name
+        elif name.startswith('Qwen'):
+            name = 'Qwen ' + name.replace('Qwen3', 'Qwen') # Normalizing Qwen names if needed
+            
+        if name in seen_models:
+            continue
+        
+        seen_models.add(name)
+        
+        input_tag = m[1]
+        output_tag = m[2]
+        
+        input_price = parse_price(input_tag, price_maps, region_name)
+        output_price = parse_price(output_tag, price_maps, region_name)
+        
+        if input_price > 0 or output_price > 0:
+            models.append(create_model(name, input_price, output_price))
 
-# --- Anthropic ---
-# Generation 4.6
-models.append(create_model("Anthropic Claude Opus 4.6", 15.00, 75.00))
-models.append(create_model("Anthropic Claude Opus 4.6 - Long Context", 15.00, 75.00))
-models.append(create_model("Anthropic Claude Sonnet 4.6", 3.00, 15.00))
-models.append(create_model("Anthropic Claude Sonnet 4.6 - Long Context", 3.00, 15.00))
+    bedrock_data = {
+      "provider": "AWS",
+      "last_updated": datetime.now().strftime("%Y-%m-%d"),
+      "region": "Europe (Ireland)",
+      "currency": "USD",
+      "models": models
+    }
+    
+    output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), '../aws.json')
+    with open(output_path, 'w') as f:
+        json.dump(bedrock_data, f, indent=2)
+    
+    print(f"Successfully generated aws.json with {len(models)} models.")
 
-# Generation 4.5
-models.append(create_model("Anthropic Claude Opus 4.5", 15.00, 75.00))
-models.append(create_model("Anthropic Claude Sonnet 4.5", 3.00, 15.00))
-models.append(create_model("Anthropic Claude Sonnet 4.5 - Long Context", 3.00, 15.00))
-models.append(create_model("Anthropic Claude Haiku 4.5", 0.80, 4.00))
-
-# Generation 4
-models.append(create_model("Anthropic Claude Opus 4.1", 15.00, 75.00))
-models.append(create_model("Anthropic Claude Opus 4", 15.00, 75.00))
-models.append(create_model("Anthropic Claude Sonnet 4", 3.00, 15.00))
-models.append(create_model("Anthropic Claude Sonnet 4 - Long Context", 3.00, 15.00))
-
-# Generation 3.x
-models.append(create_model("Anthropic Claude 3.7 Sonnet", 3.00, 15.00))
-models.append(create_model("Anthropic Claude 3.5 Sonnet v2", 3.00, 15.00))
-models.append(create_model("Anthropic Claude 3.5 Sonnet", 3.00, 15.00))
-models.append(create_model("Anthropic Claude 3.5 Haiku", 0.80, 4.00))
-models.append(create_model("Anthropic Claude 3 Opus", 15.00, 75.00))
-models.append(create_model("Anthropic Claude 3 Sonnet", 3.00, 15.00))
-models.append(create_model("Anthropic Claude 3 Haiku", 0.25, 1.25))
-
-# Legacy
-models.append(create_model("Anthropic Claude 2.1", 8.00, 24.00))
-models.append(create_model("Anthropic Claude 2.0", 8.00, 24.00))
-models.append(create_model("Anthropic Claude Instant", 0.80, 2.40))
-
-
-# --- Mistral AI ---
-models.append(create_model("Mistral Large 2 (24.07)", 2.00, 6.00))
-models.append(create_model("Mistral Large (24.02)", 4.00, 12.00))
-models.append(create_model("Mistral Small (24.02)", 0.15, 0.45))
-models.append(create_model("Mistral 8x7B Instruct", 0.15, 0.45))
-models.append(create_model("Mistral 7B Instruct", 0.15, 0.20))
-
-
-# --- Cohere ---
-models.append(create_model("Cohere Command R+", 3.00, 15.00))
-models.append(create_model("Cohere Command R", 0.50, 1.50))
-models.append(create_model("Cohere Command", 1.50, 2.00))
-models.append(create_model("Cohere Command Light", 0.30, 0.60))
-
-# Embeddings (Input only)
-cohere_embed_en = create_model("Cohere Embed (English)", 0.10, 0.0)
-del cohere_embed_en["deployments"][0]["pricing_1m_tokens"]["output"]
-del cohere_embed_en["deployments"][1]["pricing_1m_tokens"]["output"]
-del cohere_embed_en["deployments"][1]["pricing_1m_tokens"]["batch_output"]
-del cohere_embed_en["deployments"][2]["pricing_1m_tokens"]["output"]
-del cohere_embed_en["deployments"][2]["pricing_1m_tokens"]["batch_output"]
-models.append(cohere_embed_en)
-
-cohere_embed_multi = create_model("Cohere Embed (Multilingual)", 0.10, 0.0)
-del cohere_embed_multi["deployments"][0]["pricing_1m_tokens"]["output"]
-del cohere_embed_multi["deployments"][1]["pricing_1m_tokens"]["output"]
-del cohere_embed_multi["deployments"][1]["pricing_1m_tokens"]["batch_output"]
-del cohere_embed_multi["deployments"][2]["pricing_1m_tokens"]["output"]
-del cohere_embed_multi["deployments"][2]["pricing_1m_tokens"]["batch_output"]
-models.append(cohere_embed_multi)
-
-
-# --- Qwen ---
-models.append(create_model("Qwen 2.5 72B", 0.35, 0.40))
-models.append(create_model("Qwen 2.5 32B", 0.15, 0.20))
-models.append(create_model("Qwen 2.5 14B", 0.15, 0.20))
-models.append(create_model("Qwen 2 72B Instruct", 0.35, 0.40))
-
-
-bedrock_data = {
-  "provider": "AWS",
-  "last_updated": datetime.now().strftime("%Y-%m-%d"),
-  "region": "Europe (Ireland)",
-  "currency": "USD",
-  "models": models
-}
-
-with open('../aws.json', 'w') as f:
-    json.dump(bedrock_data, f, indent=2)
+if __name__ == "__main__":
+    generate_aws_pricing()
