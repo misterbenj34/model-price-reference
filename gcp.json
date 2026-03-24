@@ -1,6 +1,6 @@
 {
   "provider": "GCP",
-  "last_updated": "2026-03-14",
+  "last_updated": "2026-03-24",
   "region": "us-central1 (Iowa) - Global Defaults",
   "currency": "USD",
   "special_logic": "GCP scales pricing based on context length (<= 128K/200K vs > 128K/200K). These are mapped using '_long_context' suffix. Flex/Batch is exactly 50% of Standard.",
@@ -33,19 +33,38 @@
       ]
     },
     {
+      "name": "Gemini 3.1 Flash Image Preview",
+      "deployments": [
+        {
+          "type": "Standard",
+          "pricing_1m_tokens": {
+            "input": 0.5,
+            "output": 3.0
+          }
+        },
+        {
+          "type": "Flex/Batch",
+          "pricing_1m_tokens": {
+            "batch_input": 0.25,
+            "batch_output": 1.5
+          }
+        }
+      ]
+    },
+    {
       "name": "Gemini 3.1 Flash-Lite Preview",
       "deployments": [
         {
           "type": "Standard",
           "pricing_1m_tokens": {
             "input": 0.25,
-            "audio_input": 0.5,
             "cached_input": 0.03,
+            "audio_input": 0.5,
             "cached_audio_input": 0.05,
             "output": 1.5,
             "input_long_context": 0.25,
-            "audio_input_long_context": 0.5,
             "cached_input_long_context": 0.03,
+            "audio_input_long_context": 0.5,
             "cached_audio_input_long_context": 0.05,
             "output_long_context": 1.5
           }
@@ -54,13 +73,13 @@
           "type": "Flex/Batch",
           "pricing_1m_tokens": {
             "batch_input": 0.125,
-            "batch_audio_input": 0.25,
             "batch_cached_input": 0.015,
+            "batch_audio_input": 0.25,
             "batch_cached_audio_input": 0.025,
             "batch_output": 0.75,
             "batch_input_long_context": 0.125,
-            "batch_audio_input_long_context": 0.25,
             "batch_cached_input_long_context": 0.015,
+            "batch_audio_input_long_context": 0.25,
             "batch_cached_audio_input_long_context": 0.025,
             "batch_output_long_context": 0.75
           }
@@ -95,19 +114,38 @@
       ]
     },
     {
+      "name": "Gemini 3 Pro Image Preview",
+      "deployments": [
+        {
+          "type": "Standard",
+          "pricing_1m_tokens": {
+            "input": 2.0,
+            "output": 12.0
+          }
+        },
+        {
+          "type": "Flex/Batch",
+          "pricing_1m_tokens": {
+            "batch_input": 1.0,
+            "batch_output": 6.0
+          }
+        }
+      ]
+    },
+    {
       "name": "Gemini 3 Flash Preview",
       "deployments": [
         {
           "type": "Standard",
           "pricing_1m_tokens": {
             "input": 0.5,
-            "audio_input": 1.0,
             "cached_input": 0.05,
+            "audio_input": 1.0,
             "cached_audio_input": 0.1,
             "output": 3.0,
             "input_long_context": 0.5,
-            "audio_input_long_context": 1.0,
             "cached_input_long_context": 0.05,
+            "audio_input_long_context": 1.0,
             "cached_audio_input_long_context": 0.1,
             "output_long_context": 3.0
           }
@@ -116,13 +154,13 @@
           "type": "Flex/Batch",
           "pricing_1m_tokens": {
             "batch_input": 0.25,
-            "batch_audio_input": 0.5,
             "batch_cached_input": 0.025,
+            "batch_audio_input": 0.5,
             "batch_cached_audio_input": 0.05,
             "batch_output": 1.5,
             "batch_input_long_context": 0.25,
-            "batch_audio_input_long_context": 0.5,
             "batch_cached_input_long_context": 0.025,
+            "batch_audio_input_long_context": 0.5,
             "batch_cached_audio_input_long_context": 0.05,
             "batch_output_long_context": 1.5
           }
@@ -157,19 +195,42 @@
       ]
     },
     {
+      "name": "Gemini 2.5 Pro Computer Use Preview",
+      "deployments": [
+        {
+          "type": "Standard",
+          "pricing_1m_tokens": {
+            "input": 1.25,
+            "output": 10.0,
+            "input_long_context": 2.5,
+            "output_long_context": 15.0
+          }
+        },
+        {
+          "type": "Flex/Batch",
+          "pricing_1m_tokens": {
+            "batch_input": 0.625,
+            "batch_output": 5.0,
+            "batch_input_long_context": 1.25,
+            "batch_output_long_context": 7.5
+          }
+        }
+      ]
+    },
+    {
       "name": "Gemini 2.5 Flash",
       "deployments": [
         {
           "type": "Standard",
           "pricing_1m_tokens": {
             "input": 0.3,
-            "audio_input": 1.0,
             "cached_input": 0.03,
+            "audio_input": 1.0,
             "cached_audio_input": 0.1,
             "output": 2.5,
             "input_long_context": 0.3,
-            "audio_input_long_context": 1.0,
             "cached_input_long_context": 0.03,
+            "audio_input_long_context": 1.0,
             "cached_audio_input_long_context": 0.1,
             "output_long_context": 2.5
           }
@@ -178,15 +239,69 @@
           "type": "Flex/Batch",
           "pricing_1m_tokens": {
             "batch_input": 0.15,
-            "batch_audio_input": 0.5,
             "batch_cached_input": 0.015,
+            "batch_audio_input": 0.5,
             "batch_cached_audio_input": 0.05,
             "batch_output": 1.25,
             "batch_input_long_context": 0.15,
-            "batch_audio_input_long_context": 0.5,
             "batch_cached_input_long_context": 0.015,
+            "batch_audio_input_long_context": 0.5,
             "batch_cached_audio_input_long_context": 0.05,
             "batch_output_long_context": 1.25
+          }
+        }
+      ]
+    },
+    {
+      "name": "Gemini 2.5 Flash Image",
+      "deployments": [
+        {
+          "type": "Standard",
+          "pricing_1m_tokens": {
+            "input": 0.3,
+            "output": 2.5
+          }
+        },
+        {
+          "type": "Flex/Batch",
+          "pricing_1m_tokens": {
+            "batch_input": 0.15,
+            "batch_output": 1.25
+          }
+        }
+      ]
+    },
+    {
+      "name": "Gemini 2.5 Flash Lite",
+      "deployments": [
+        {
+          "type": "Standard",
+          "pricing_1m_tokens": {
+            "input": 0.1,
+            "cached_input": 0.01,
+            "audio_input": 0.3,
+            "cached_audio_input": 0.03,
+            "output": 0.4,
+            "input_long_context": 0.1,
+            "cached_input_long_context": 0.01,
+            "audio_input_long_context": 0.3,
+            "cached_audio_input_long_context": 0.03,
+            "output_long_context": 0.4
+          }
+        },
+        {
+          "type": "Flex/Batch",
+          "pricing_1m_tokens": {
+            "batch_input": 0.05,
+            "batch_cached_input": 0.005,
+            "batch_audio_input": 0.15,
+            "batch_cached_audio_input": 0.015,
+            "batch_output": 0.2,
+            "batch_input_long_context": 0.05,
+            "batch_cached_input_long_context": 0.005,
+            "batch_audio_input_long_context": 0.15,
+            "batch_cached_audio_input_long_context": 0.015,
+            "batch_output_long_context": 0.2
           }
         }
       ]
