@@ -1,0 +1,5648 @@
+{
+  "provider": "Azure",
+  "last_updated": "2026-03-22",
+  "currency": "USD",
+  "regions_included": [
+    "northeurope",
+    "westeurope",
+    "swedencentral",
+    "switzerlandnorth",
+    "switzerlandwest",
+    "francecentral",
+    "francesouth",
+    "germanywestcentral",
+    "germanynorth",
+    "norwayeast",
+    "norwaywest",
+    "uksouth",
+    "ukwest",
+    "italynorth",
+    "polandcentral",
+    "spaincentral"
+  ],
+  "exchange_rate_note": "Prices are in USD (page currency).",
+  "models": [
+    {
+      "name": "GPT-5.2 Codex",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 1.75,
+                "cached_input": 0.175,
+                "output": 14.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 1.75,
+                "cached_input": 0.175,
+                "output": 14.0
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 1.75,
+                "cached_input": 0.175,
+                "output": 14.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 1.75,
+                "cached_input": 0.175,
+                "output": 14.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 1.75,
+                "cached_input": 0.175,
+                "output": 14.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 1.75,
+                "cached_input": 0.175,
+                "output": 14.0
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 1.75,
+                "cached_input": 0.175,
+                "output": 14.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.2",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 1.75,
+                "cached_input": 0.175,
+                "output": 14.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 1.75,
+                "cached_input": 0.175,
+                "output": 14.0
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 1.75,
+                "cached_input": 0.175,
+                "output": 14.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 1.75,
+                "cached_input": 0.175,
+                "output": 14.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 1.75,
+                "cached_input": 0.175,
+                "output": 14.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 1.75,
+                "cached_input": 0.175,
+                "output": 14.0
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 1.75,
+                "cached_input": 0.175,
+                "output": 14.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "Data Zone",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 1.925,
+                "cached_input": 0.1925,
+                "output": 15.4
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 1.925,
+                "cached_input": 0.1925,
+                "output": 15.4
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 1.925,
+                "cached_input": 0.1925,
+                "output": 15.4
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 1.925,
+                "cached_input": 0.1925,
+                "output": 15.4
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 1.925,
+                "cached_input": 0.1925,
+                "output": 15.4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.2-chat latest",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 1.75,
+                "cached_input": 0.175,
+                "output": 14.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 1.75,
+                "cached_input": 0.175,
+                "output": 14.0
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 1.75,
+                "cached_input": 0.175,
+                "output": 14.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 1.75,
+                "cached_input": 0.175,
+                "output": 14.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 1.75,
+                "cached_input": 0.175,
+                "output": 14.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 1.75,
+                "cached_input": 0.175,
+                "output": 14.0
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 1.75,
+                "cached_input": 0.175,
+                "output": 14.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.2-chat",
+      "deployments": [
+        {
+          "type": "Data Zone",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 1.925,
+                "cached_input": 0.1925,
+                "output": 15.4
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 1.925,
+                "cached_input": 0.1925,
+                "output": 15.4
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 1.925,
+                "cached_input": 0.1925,
+                "output": 15.4
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 1.925,
+                "cached_input": 0.1925,
+                "output": 15.4
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 1.925,
+                "cached_input": 0.1925,
+                "output": 15.4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.1",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "Data Zone",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 1.375,
+                "cached_input": 0.1375,
+                "output": 11.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 1.375,
+                "cached_input": 0.1375,
+                "output": 11.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 1.375,
+                "cached_input": 0.1375,
+                "output": 11.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 1.375,
+                "cached_input": 0.1375,
+                "output": 11.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 1.375,
+                "cached_input": 0.1375,
+                "output": 11.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.1-chat",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.1-codex",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.1-codex-max",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.1-codex-mini",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 0.25,
+                "cached_input": 0.025,
+                "output": 2.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 0.25,
+                "cached_input": 0.025,
+                "output": 2.0
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 0.25,
+                "cached_input": 0.025,
+                "output": 2.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 0.25,
+                "cached_input": 0.025,
+                "output": 2.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 0.25,
+                "cached_input": 0.025,
+                "output": 2.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 0.25,
+                "cached_input": 0.025,
+                "output": 2.0
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 0.25,
+                "cached_input": 0.025,
+                "output": 2.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-5 2025-08-07",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-5",
+      "deployments": [
+        {
+          "type": "Data Zone",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 1.375,
+                "cached_input": 0.1375,
+                "output": 11.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 1.375,
+                "cached_input": 0.1375,
+                "output": 11.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 1.375,
+                "cached_input": 0.1375,
+                "output": 11.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 1.375,
+                "cached_input": 0.1375,
+                "output": 11.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 1.375,
+                "cached_input": 0.1375,
+                "output": 11.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-5 Pro",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 15.0,
+                "cached_input": null,
+                "output": 120.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 15.0,
+                "cached_input": null,
+                "output": 120.0
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 15.0,
+                "cached_input": null,
+                "output": 120.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 15.0,
+                "cached_input": null,
+                "output": 120.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 15.0,
+                "cached_input": null,
+                "output": 120.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 15.0,
+                "cached_input": null,
+                "output": 120.0
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 15.0,
+                "cached_input": null,
+                "output": 120.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-5 Codex",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-5-mini",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 0.25,
+                "cached_input": 0.025,
+                "output": 2.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 0.25,
+                "cached_input": 0.025,
+                "output": 2.0
+              }
+            },
+            {
+              "region": "italynorth",
+              "pricing_1m_tokens": {
+                "input": 0.25,
+                "cached_input": 0.025,
+                "output": 2.0
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 0.25,
+                "cached_input": 0.025,
+                "output": 2.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 0.25,
+                "cached_input": 0.025,
+                "output": 2.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 0.25,
+                "cached_input": 0.025,
+                "output": 2.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 0.25,
+                "cached_input": 0.025,
+                "output": 2.0
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 0.25,
+                "cached_input": 0.025,
+                "output": 2.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "Data Zone",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 0.275,
+                "cached_input": 0.0275,
+                "output": 2.2
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 0.275,
+                "cached_input": 0.0275,
+                "output": 2.2
+              }
+            },
+            {
+              "region": "italynorth",
+              "pricing_1m_tokens": {
+                "input": 0.275,
+                "cached_input": 0.0275,
+                "output": 2.2
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 0.275,
+                "cached_input": 0.0275,
+                "output": 2.2
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 0.275,
+                "cached_input": 0.0275,
+                "output": 2.2
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 0.275,
+                "cached_input": 0.0275,
+                "output": 2.2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-5-nano",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 0.05,
+                "cached_input": 0.005,
+                "output": 0.4
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 0.05,
+                "cached_input": 0.005,
+                "output": 0.4
+              }
+            },
+            {
+              "region": "italynorth",
+              "pricing_1m_tokens": {
+                "input": 0.05,
+                "cached_input": 0.005,
+                "output": 0.4
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 0.05,
+                "cached_input": 0.005,
+                "output": 0.4
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 0.05,
+                "cached_input": 0.005,
+                "output": 0.4
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 0.05,
+                "cached_input": 0.005,
+                "output": 0.4
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 0.05,
+                "cached_input": 0.005,
+                "output": 0.4
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 0.05,
+                "cached_input": 0.005,
+                "output": 0.4
+              }
+            }
+          ]
+        },
+        {
+          "type": "Data Zone",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 0.055,
+                "cached_input": 0.0055,
+                "output": 0.44
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 0.055,
+                "cached_input": 0.0055,
+                "output": 0.44
+              }
+            },
+            {
+              "region": "italynorth",
+              "pricing_1m_tokens": {
+                "input": 0.055,
+                "cached_input": 0.0055,
+                "output": 0.44
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 0.055,
+                "cached_input": 0.0055,
+                "output": 0.44
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 0.055,
+                "cached_input": 0.0055,
+                "output": 0.44
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 0.055,
+                "cached_input": 0.0055,
+                "output": 0.44
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-5 chat",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 1.25,
+                "cached_input": 0.125,
+                "output": 10.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "o3-deep research",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 10.0,
+                "cached_input": 2.5,
+                "output": 40.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 10.0,
+                "cached_input": 2.5,
+                "output": 40.0
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 10.0,
+                "cached_input": 2.5,
+                "output": 40.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 10.0,
+                "cached_input": 2.5,
+                "output": 40.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 10.0,
+                "cached_input": 2.5,
+                "output": 40.0
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 10.0,
+                "cached_input": 2.5,
+                "output": 40.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": null,
+                "cached_input": 2.5,
+                "output": 40.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "o3 2025-04-16",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 2.0,
+                "cached_input": 0.5,
+                "output": 8.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 2.0,
+                "cached_input": 0.5,
+                "output": 8.0
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 2.0,
+                "cached_input": 0.5,
+                "output": 8.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 2.0,
+                "cached_input": 0.5,
+                "output": 8.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 2.0,
+                "cached_input": 0.5,
+                "output": 8.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 2.0,
+                "cached_input": 0.5,
+                "output": 8.0
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 2.0,
+                "cached_input": 0.5,
+                "output": 8.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "Data Zone",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 2.2,
+                "cached_input": 0.55,
+                "output": 8.8
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 2.2,
+                "cached_input": 0.55,
+                "output": 8.8
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 2.2,
+                "cached_input": 0.55,
+                "output": 8.8
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 2.2,
+                "cached_input": 0.55,
+                "output": 8.8
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 2.2,
+                "cached_input": 0.55,
+                "output": 8.8
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "o3 2025-04-16 Regional",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 2.42,
+                "cached_input": 0.605,
+                "output": 9.68
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "o4-mini 2025-04-16",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 1.1,
+                "cached_input": 0.275,
+                "output": 4.4
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 1.1,
+                "cached_input": 0.275,
+                "output": 4.4
+              }
+            },
+            {
+              "region": "italynorth",
+              "pricing_1m_tokens": {
+                "input": 1.1,
+                "cached_input": 0.275,
+                "output": 4.4
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 1.1,
+                "cached_input": 0.275,
+                "output": 4.4
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 1.1,
+                "cached_input": 0.275,
+                "output": 4.4
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 1.1,
+                "cached_input": 0.275,
+                "output": 4.4
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 1.1,
+                "cached_input": 0.275,
+                "output": 4.4
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 1.1,
+                "cached_input": 0.275,
+                "output": 4.4
+              }
+            }
+          ]
+        },
+        {
+          "type": "Data Zone",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 1.21,
+                "cached_input": 0.303,
+                "output": 4.84
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 1.21,
+                "cached_input": 0.303,
+                "output": 4.84
+              }
+            },
+            {
+              "region": "italynorth",
+              "pricing_1m_tokens": {
+                "input": 1.21,
+                "cached_input": 0.303,
+                "output": 4.84
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 1.21,
+                "cached_input": 0.303,
+                "output": 4.84
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 1.21,
+                "cached_input": 0.303,
+                "output": 4.84
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 1.21,
+                "cached_input": 0.303,
+                "output": 4.84
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "o4-mini 2025-04-16 Regional",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 1.331,
+                "cached_input": 0.333,
+                "output": 5.324
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-4.1-2025-04-14",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 2.0,
+                "cached_input": 0.5,
+                "output": 8.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 2.0,
+                "cached_input": 0.5,
+                "output": 8.0
+              }
+            },
+            {
+              "region": "italynorth",
+              "pricing_1m_tokens": {
+                "input": 2.0,
+                "cached_input": 0.5,
+                "output": 8.0
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 2.0,
+                "cached_input": 0.5,
+                "output": 8.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 2.0,
+                "cached_input": 0.5,
+                "output": 8.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 2.0,
+                "cached_input": 0.5,
+                "output": 8.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 2.0,
+                "cached_input": 0.5,
+                "output": 8.0
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 2.0,
+                "cached_input": 0.5,
+                "output": 8.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "Data Zone",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 2.2,
+                "cached_input": 0.55,
+                "output": 8.8
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 2.2,
+                "cached_input": 0.55,
+                "output": 8.8
+              }
+            },
+            {
+              "region": "italynorth",
+              "pricing_1m_tokens": {
+                "input": 2.2,
+                "cached_input": 0.55,
+                "output": 8.8
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 2.2,
+                "cached_input": 0.55,
+                "output": 8.8
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 2.2,
+                "cached_input": 0.55,
+                "output": 8.8
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 2.2,
+                "cached_input": 0.55,
+                "output": 8.8
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-4.1-2025-04-14 Regional",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 2.42,
+                "cached_input": 0.605,
+                "output": 9.68
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 2.42,
+                "cached_input": 0.605,
+                "output": 9.68
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-4.1-mini-2025-04-14",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 0.4,
+                "cached_input": 0.1,
+                "output": 1.6
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 0.4,
+                "cached_input": 0.1,
+                "output": 1.6
+              }
+            },
+            {
+              "region": "italynorth",
+              "pricing_1m_tokens": {
+                "input": 0.4,
+                "cached_input": 0.1,
+                "output": 1.6
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 0.4,
+                "cached_input": 0.1,
+                "output": 1.6
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 0.4,
+                "cached_input": 0.1,
+                "output": 1.6
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 0.4,
+                "cached_input": 0.1,
+                "output": 1.6
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 0.4,
+                "cached_input": 0.1,
+                "output": 1.6
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 0.4,
+                "cached_input": 0.1,
+                "output": 1.6
+              }
+            }
+          ]
+        },
+        {
+          "type": "Data Zone",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 0.44,
+                "cached_input": 0.11,
+                "output": 1.76
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 0.44,
+                "cached_input": 0.11,
+                "output": 1.76
+              }
+            },
+            {
+              "region": "italynorth",
+              "pricing_1m_tokens": {
+                "input": 0.44,
+                "cached_input": 0.11,
+                "output": 1.76
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 0.44,
+                "cached_input": 0.11,
+                "output": 1.76
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 0.44,
+                "cached_input": 0.11,
+                "output": 1.76
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 0.44,
+                "cached_input": 0.11,
+                "output": 1.76
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-4.1-mini-2025-04-14 Regional",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 0.484,
+                "cached_input": 0.121,
+                "output": 1.936
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 0.484,
+                "cached_input": 0.121,
+                "output": 1.936
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 0.484,
+                "cached_input": 0.121,
+                "output": 1.936
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-4.1-nano-2025-04-14",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 0.1,
+                "cached_input": 0.025,
+                "output": 0.4
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 0.1,
+                "cached_input": 0.025,
+                "output": 0.4
+              }
+            },
+            {
+              "region": "italynorth",
+              "pricing_1m_tokens": {
+                "input": 0.1,
+                "cached_input": 0.025,
+                "output": 0.4
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 0.1,
+                "cached_input": 0.025,
+                "output": 0.4
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 0.1,
+                "cached_input": 0.025,
+                "output": 0.4
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 0.1,
+                "cached_input": 0.025,
+                "output": 0.4
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 0.1,
+                "cached_input": 0.025,
+                "output": 0.4
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 0.1,
+                "cached_input": 0.025,
+                "output": 0.4
+              }
+            }
+          ]
+        },
+        {
+          "type": "Data Zone",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 0.11,
+                "cached_input": 0.028,
+                "output": 0.44
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 0.11,
+                "cached_input": 0.028,
+                "output": 0.44
+              }
+            },
+            {
+              "region": "italynorth",
+              "pricing_1m_tokens": {
+                "input": 0.11,
+                "cached_input": 0.028,
+                "output": 0.44
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 0.11,
+                "cached_input": 0.028,
+                "output": 0.44
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 0.11,
+                "cached_input": 0.028,
+                "output": 0.44
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 0.11,
+                "cached_input": 0.028,
+                "output": 0.44
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-4.1-nano-2025-04-14 Regional",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 0.121,
+                "cached_input": 0.031,
+                "output": 0.484
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "480 Square",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 0.15,
+                "cached_input": null,
+                "output": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "480p",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 0.2,
+                "cached_input": null,
+                "output": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "720 Square",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 0.3,
+                "cached_input": null,
+                "output": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "720p",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 0.45,
+                "cached_input": null,
+                "output": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1080 Square",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 0.6,
+                "cached_input": null,
+                "output": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1080p",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 1.3,
+                "cached_input": null,
+                "output": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-Image-1.5",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 8.0,
+                "cached_input": 2.0,
+                "output": 32.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 8.0,
+                "cached_input": 2.0,
+                "output": 32.0
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 8.0,
+                "cached_input": 2.0,
+                "output": 32.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 8.0,
+                "cached_input": 2.0,
+                "output": 32.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 8.0,
+                "cached_input": 2.0,
+                "output": 32.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 8.0,
+                "cached_input": 2.0,
+                "output": 32.0
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 8.0,
+                "cached_input": 2.0,
+                "output": 32.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-Image-1-mini",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 2.5,
+                "cached_input": 0.25,
+                "output": 8.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 2.5,
+                "cached_input": 0.25,
+                "output": 8.0
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 2.5,
+                "cached_input": 0.25,
+                "output": 8.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 2.5,
+                "cached_input": 0.25,
+                "output": 8.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 2.5,
+                "cached_input": 0.25,
+                "output": 8.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 2.5,
+                "cached_input": 0.25,
+                "output": 8.0
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 2.5,
+                "cached_input": 0.25,
+                "output": 8.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-Image-1",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 10.0,
+                "cached_input": 2.5,
+                "output": 40.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 10.0,
+                "cached_input": 2.5,
+                "output": 40.0
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 10.0,
+                "cached_input": 2.5,
+                "output": 40.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 10.0,
+                "cached_input": 2.5,
+                "output": 40.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 10.0,
+                "cached_input": 2.5,
+                "output": 40.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 10.0,
+                "cached_input": 2.5,
+                "output": 40.0
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 10.0,
+                "cached_input": 2.5,
+                "output": 40.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "Data Zone",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 11.0,
+                "cached_input": null,
+                "output": 44.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 11.0,
+                "cached_input": null,
+                "output": 44.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 11.0,
+                "cached_input": null,
+                "output": 44.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 11.0,
+                "cached_input": null,
+                "output": 44.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 11.0,
+                "cached_input": null,
+                "output": 44.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-Image-1 Regional",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 12.1,
+                "cached_input": 2.5,
+                "output": 48.4
+              }
+            },
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": null,
+                "cached_input": 2.5,
+                "output": null
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": null,
+                "cached_input": 2.5,
+                "output": null
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": null,
+                "cached_input": 2.5,
+                "output": null
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": null,
+                "cached_input": 2.5,
+                "output": null
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": null,
+                "cached_input": 2.5,
+                "output": null
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": null,
+                "cached_input": 2.5,
+                "output": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-4.5-Preview-2025-02-27",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 75.0,
+                "cached_input": 37.5,
+                "output": 150.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "o1 2024-12-17",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 15.0,
+                "cached_input": 7.5,
+                "output": 60.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 15.0,
+                "cached_input": 7.5,
+                "output": 60.0
+              }
+            },
+            {
+              "region": "italynorth",
+              "pricing_1m_tokens": {
+                "input": 15.0,
+                "cached_input": 7.5,
+                "output": 60.0
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 15.0,
+                "cached_input": 7.5,
+                "output": 60.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 15.0,
+                "cached_input": 7.5,
+                "output": 60.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 15.0,
+                "cached_input": 7.5,
+                "output": 60.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 15.0,
+                "cached_input": 7.5,
+                "output": 60.0
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 15.0,
+                "cached_input": 7.5,
+                "output": 60.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "o1 2024-12-17 US/EU – Data Zones",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 16.5,
+                "cached_input": 8.25,
+                "output": 66.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 16.5,
+                "cached_input": 8.25,
+                "output": 66.0
+              }
+            },
+            {
+              "region": "italynorth",
+              "pricing_1m_tokens": {
+                "input": 16.5,
+                "cached_input": 8.25,
+                "output": 66.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 16.5,
+                "cached_input": 8.25,
+                "output": 66.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 16.5,
+                "cached_input": 8.25,
+                "output": 66.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 16.5,
+                "cached_input": 8.25,
+                "output": 66.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "o1 2024-12-17 Regional",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 18.15,
+                "cached_input": 9.075,
+                "output": 72.6
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "o1 preview 2024-09-12",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 15.0,
+                "cached_input": 7.5,
+                "output": 60.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "o1 preview 2024-09-12 US/EU – Data Zones",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 16.5,
+                "cached_input": 8.25,
+                "output": 66.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 16.5,
+                "cached_input": 8.25,
+                "output": 66.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 16.5,
+                "cached_input": 8.25,
+                "output": 66.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 16.5,
+                "cached_input": 8.25,
+                "output": 66.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 16.5,
+                "cached_input": 8.25,
+                "output": 66.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "o1 preview 2024-09-12 Regional",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 16.5,
+                "cached_input": 9.075,
+                "output": 66.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "o3 mini 2025-01-31",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 1.1,
+                "cached_input": 0.55,
+                "output": 4.4
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 1.1,
+                "cached_input": 0.55,
+                "output": 4.4
+              }
+            },
+            {
+              "region": "italynorth",
+              "pricing_1m_tokens": {
+                "input": 1.1,
+                "cached_input": 0.55,
+                "output": 4.4
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 1.1,
+                "cached_input": 0.55,
+                "output": 4.4
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 1.1,
+                "cached_input": 0.55,
+                "output": 4.4
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 1.1,
+                "cached_input": 0.55,
+                "output": 4.4
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 1.1,
+                "cached_input": 0.55,
+                "output": 4.4
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 1.1,
+                "cached_input": 0.55,
+                "output": 4.4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "o3 mini 2025-01-31-US/EU – Data Zones",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 1.21,
+                "cached_input": 0.605,
+                "output": 4.84
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 1.21,
+                "cached_input": 0.605,
+                "output": 4.84
+              }
+            },
+            {
+              "region": "italynorth",
+              "pricing_1m_tokens": {
+                "input": 1.21,
+                "cached_input": 0.605,
+                "output": 4.84
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 1.21,
+                "cached_input": 0.605,
+                "output": 4.84
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 1.21,
+                "cached_input": 0.605,
+                "output": 4.84
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 1.21,
+                "cached_input": 0.605,
+                "output": 4.84
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "o3 mini 2025-01-31 Regional",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 1.331,
+                "cached_input": 0.666,
+                "output": 5.324
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "o1-mini 2024-09-12",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 1.1,
+                "cached_input": 0.55,
+                "output": 4.4
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 1.1,
+                "cached_input": 0.55,
+                "output": 4.4
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 1.1,
+                "cached_input": 0.55,
+                "output": 4.4
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 1.1,
+                "cached_input": 0.55,
+                "output": 4.4
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 1.1,
+                "cached_input": 0.55,
+                "output": 4.4
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 1.1,
+                "cached_input": 0.55,
+                "output": 4.4
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 1.1,
+                "cached_input": 0.55,
+                "output": 4.4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "o1-mini 2024-09-12 US/EU – Data Zones",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 1.21,
+                "cached_input": 0.605,
+                "output": 4.84
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 1.21,
+                "cached_input": 0.605,
+                "output": 4.84
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 1.21,
+                "cached_input": 0.605,
+                "output": 4.84
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 1.21,
+                "cached_input": 0.605,
+                "output": 4.84
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 1.21,
+                "cached_input": 0.605,
+                "output": 4.84
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "o1-mini 2024-09-12 Regional",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 1.331,
+                "cached_input": 0.666,
+                "output": 5.324
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "gpt-oss-120b",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 0.15,
+                "cached_input": null,
+                "output": 0.6
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 0.15,
+                "cached_input": null,
+                "output": 0.6
+              }
+            },
+            {
+              "region": "italynorth",
+              "pricing_1m_tokens": {
+                "input": 0.15,
+                "cached_input": null,
+                "output": 0.6
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 0.15,
+                "cached_input": null,
+                "output": 0.6
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 0.15,
+                "cached_input": null,
+                "output": 0.6
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 0.15,
+                "cached_input": null,
+                "output": 0.6
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 0.15,
+                "cached_input": null,
+                "output": 0.6
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 0.15,
+                "cached_input": null,
+                "output": 0.6
+              }
+            },
+            {
+              "region": "switzerlandwest",
+              "pricing_1m_tokens": {
+                "input": 0.15,
+                "cached_input": null,
+                "output": 0.6
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-realtime",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 5.0,
+                "cached_input": 0.5,
+                "output": 64.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 5.0,
+                "cached_input": 0.5,
+                "output": 64.0
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 5.0,
+                "cached_input": 0.5,
+                "output": 64.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 5.0,
+                "cached_input": 0.5,
+                "output": 64.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 5.0,
+                "cached_input": 0.5,
+                "output": 64.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 5.0,
+                "cached_input": 0.5,
+                "output": 64.0
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 5.0,
+                "cached_input": 0.5,
+                "output": 64.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-realtime-mini-2025-12-15",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 0.8,
+                "cached_input": 0.08,
+                "output": 20.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 0.8,
+                "cached_input": 0.08,
+                "output": 20.0
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 0.8,
+                "cached_input": 0.08,
+                "output": 20.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 0.8,
+                "cached_input": 0.08,
+                "output": 20.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 0.8,
+                "cached_input": 0.08,
+                "output": 20.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 0.8,
+                "cached_input": 0.08,
+                "output": 20.0
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 0.8,
+                "cached_input": 0.08,
+                "output": 20.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-audio",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 40.0,
+                "cached_input": null,
+                "output": 80.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 40.0,
+                "cached_input": null,
+                "output": 80.0
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 40.0,
+                "cached_input": null,
+                "output": 80.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 40.0,
+                "cached_input": null,
+                "output": 80.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 40.0,
+                "cached_input": null,
+                "output": 80.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 40.0,
+                "cached_input": null,
+                "output": 80.0
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 40.0,
+                "cached_input": null,
+                "output": 80.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-audio-mini-2025-12-15",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 10.0,
+                "cached_input": null,
+                "output": 20.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 10.0,
+                "cached_input": null,
+                "output": 20.0
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 10.0,
+                "cached_input": null,
+                "output": 20.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 10.0,
+                "cached_input": null,
+                "output": 20.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 10.0,
+                "cached_input": null,
+                "output": 20.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 10.0,
+                "cached_input": null,
+                "output": 20.0
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 10.0,
+                "cached_input": null,
+                "output": 20.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-4o-Transcribe",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 6.0,
+                "cached_input": null,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 6.0,
+                "cached_input": null,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 6.0,
+                "cached_input": null,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 6.0,
+                "cached_input": null,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 6.0,
+                "cached_input": null,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 6.0,
+                "cached_input": null,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 6.0,
+                "cached_input": null,
+                "output": 10.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-4o-transcribe-diarize",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 6.0,
+                "cached_input": null,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 6.0,
+                "cached_input": null,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 6.0,
+                "cached_input": null,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 6.0,
+                "cached_input": null,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 6.0,
+                "cached_input": null,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 6.0,
+                "cached_input": null,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 6.0,
+                "cached_input": null,
+                "output": 10.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-4o-mini-transcribe-2025-12-15",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 3.0,
+                "cached_input": null,
+                "output": 5.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 3.0,
+                "cached_input": null,
+                "output": 5.0
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 3.0,
+                "cached_input": null,
+                "output": 5.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 3.0,
+                "cached_input": null,
+                "output": 5.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 3.0,
+                "cached_input": null,
+                "output": 5.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 3.0,
+                "cached_input": null,
+                "output": 5.0
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 3.0,
+                "cached_input": null,
+                "output": 5.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-4o-mini-TTS-2025-12-15",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 0.6,
+                "cached_input": null,
+                "output": 12.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 0.6,
+                "cached_input": null,
+                "output": 12.0
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 0.6,
+                "cached_input": null,
+                "output": 12.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 0.6,
+                "cached_input": null,
+                "output": 12.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 0.6,
+                "cached_input": null,
+                "output": 12.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 0.6,
+                "cached_input": null,
+                "output": 12.0
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 0.6,
+                "cached_input": null,
+                "output": 12.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "computer-use-preview",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 3.0,
+                "cached_input": null,
+                "output": 12.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 3.0,
+                "cached_input": null,
+                "output": 12.0
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 3.0,
+                "cached_input": null,
+                "output": 12.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 3.0,
+                "cached_input": null,
+                "output": 12.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 3.0,
+                "cached_input": null,
+                "output": 12.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 3.0,
+                "cached_input": null,
+                "output": 12.0
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 3.0,
+                "cached_input": null,
+                "output": 12.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Computer Use (Responses API only)",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 3.0,
+                "cached_input": null,
+                "output": 12.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 3.0,
+                "cached_input": null,
+                "output": 12.0
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 3.0,
+                "cached_input": null,
+                "output": 12.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 3.0,
+                "cached_input": null,
+                "output": 12.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 3.0,
+                "cached_input": null,
+                "output": 12.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 3.0,
+                "cached_input": null,
+                "output": 12.0
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 3.0,
+                "cached_input": null,
+                "output": 12.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "File Search Tool Call (Responses API only)",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 2.5,
+                "cached_input": null,
+                "output": null
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 2.5,
+                "cached_input": null,
+                "output": null
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 2.5,
+                "cached_input": null,
+                "output": null
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 2.5,
+                "cached_input": null,
+                "output": null
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 2.5,
+                "cached_input": null,
+                "output": null
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 2.5,
+                "cached_input": null,
+                "output": null
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 2.5,
+                "cached_input": null,
+                "output": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "File Search *",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 0.121,
+                "cached_input": null,
+                "output": null
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 0.121,
+                "cached_input": null,
+                "output": null
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 0.12,
+                "cached_input": null,
+                "output": null
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 0.121,
+                "cached_input": null,
+                "output": null
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 0.121,
+                "cached_input": null,
+                "output": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Code Interpreter **",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 0.0363,
+                "cached_input": null,
+                "output": null
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 0.0363,
+                "cached_input": null,
+                "output": null
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 0.0363,
+                "cached_input": null,
+                "output": null
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 0.0363,
+                "cached_input": null,
+                "output": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-4o-Realtime-Preview-2024-12-17-",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 40.0,
+                "cached_input": 2.5,
+                "output": 80.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 40.0,
+                "cached_input": 2.5,
+                "output": 80.0
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 40.0,
+                "cached_input": 2.5,
+                "output": 80.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 40.0,
+                "cached_input": 2.5,
+                "output": 80.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 40.0,
+                "cached_input": 2.5,
+                "output": 80.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 40.0,
+                "cached_input": 2.5,
+                "output": 80.0
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 40.0,
+                "cached_input": 2.5,
+                "output": 80.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-4o-Realtime-Preview-2024-12-17-US/EU – Data Zones",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 44.0,
+                "cached_input": 2.75,
+                "output": 88.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 44.0,
+                "cached_input": 2.75,
+                "output": 88.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 44.0,
+                "cached_input": 2.75,
+                "output": 88.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 44.0,
+                "cached_input": 2.75,
+                "output": 88.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 44.0,
+                "cached_input": 2.75,
+                "output": 88.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-4o-Realtime-Preview-2024-12-17-Regional",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 48.4,
+                "cached_input": 3.025,
+                "output": 96.8
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-4o-Mini-Realtime-Preview-2024-12-17-",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 10.0,
+                "cached_input": 0.3,
+                "output": 20.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 10.0,
+                "cached_input": 0.3,
+                "output": 20.0
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 10.0,
+                "cached_input": 0.3,
+                "output": 20.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 10.0,
+                "cached_input": 0.3,
+                "output": 20.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 10.0,
+                "cached_input": 0.3,
+                "output": 20.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 10.0,
+                "cached_input": 0.3,
+                "output": 20.0
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 10.0,
+                "cached_input": 0.3,
+                "output": 20.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-4o-Mini-Realtime-Preview-2024-12-17-US/EU – Data Zones",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 11.0,
+                "cached_input": 0.33,
+                "output": 22.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 11.0,
+                "cached_input": 0.33,
+                "output": 22.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 11.0,
+                "cached_input": 0.33,
+                "output": 22.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 11.0,
+                "cached_input": 0.33,
+                "output": 22.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 11.0,
+                "cached_input": 0.33,
+                "output": 22.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-4o-Mini-Realtime-Preview-2024-12-17-Regional",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 12.1,
+                "cached_input": 0.363,
+                "output": 24.2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-4o-Realtime-Preview-2024-10-01-",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 100.0,
+                "cached_input": 20.0,
+                "output": 200.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 100.0,
+                "cached_input": 20.0,
+                "output": 200.0
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 100.0,
+                "cached_input": 20.0,
+                "output": 200.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 100.0,
+                "cached_input": 20.0,
+                "output": 200.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 100.0,
+                "cached_input": 20.0,
+                "output": 200.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 100.0,
+                "cached_input": 20.0,
+                "output": 200.0
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 100.0,
+                "cached_input": 20.0,
+                "output": 200.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-4o-Realtime-Preview-2024-10-01-US/EU – Data Zones",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 110.0,
+                "cached_input": 22.0,
+                "output": 220.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 110.0,
+                "cached_input": 22.0,
+                "output": 220.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 110.0,
+                "cached_input": 22.0,
+                "output": 220.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 110.0,
+                "cached_input": 22.0,
+                "output": 220.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 110.0,
+                "cached_input": 22.0,
+                "output": 220.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-4o-Realtime-Preview-2024-10-01-Regional",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 121.0,
+                "cached_input": 24.2,
+                "output": 242.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-4o-Audio-Preview-2024-12-17-",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 40.0,
+                "cached_input": null,
+                "output": 80.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 40.0,
+                "cached_input": null,
+                "output": 80.0
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 40.0,
+                "cached_input": null,
+                "output": 80.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 40.0,
+                "cached_input": null,
+                "output": 80.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 40.0,
+                "cached_input": null,
+                "output": 80.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 40.0,
+                "cached_input": null,
+                "output": 80.0
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 40.0,
+                "cached_input": null,
+                "output": 80.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-4o-Audio-Preview-2024-12-17-US/EU – Data Zones",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 44.0,
+                "cached_input": null,
+                "output": 88.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 44.0,
+                "cached_input": null,
+                "output": 88.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 44.0,
+                "cached_input": null,
+                "output": 88.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 44.0,
+                "cached_input": null,
+                "output": 88.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 44.0,
+                "cached_input": null,
+                "output": 88.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-4o-Audio-Preview-2024-12-17-Regional",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 48.4,
+                "cached_input": null,
+                "output": 96.8
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-4o-Mini-Audio-Preview-2024-12-17-",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 10.0,
+                "cached_input": null,
+                "output": 20.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 10.0,
+                "cached_input": null,
+                "output": 20.0
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 10.0,
+                "cached_input": null,
+                "output": 20.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 10.0,
+                "cached_input": null,
+                "output": 20.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 10.0,
+                "cached_input": null,
+                "output": 20.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 10.0,
+                "cached_input": null,
+                "output": 20.0
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 10.0,
+                "cached_input": null,
+                "output": 20.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-4o-Mini-Audio-Preview-2024-12-17-US/EU – Data Zones",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 11.0,
+                "cached_input": null,
+                "output": 22.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 11.0,
+                "cached_input": null,
+                "output": 22.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 11.0,
+                "cached_input": null,
+                "output": 22.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 11.0,
+                "cached_input": null,
+                "output": 22.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 11.0,
+                "cached_input": null,
+                "output": 22.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-4o-Mini-Audio-Preview-2024-12-17-Regional",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 12.1,
+                "cached_input": null,
+                "output": 24.2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-4o-2024-1120",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 2.5,
+                "cached_input": 1.25,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 2.5,
+                "cached_input": 1.25,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "italynorth",
+              "pricing_1m_tokens": {
+                "input": 2.5,
+                "cached_input": 1.25,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 2.5,
+                "cached_input": 1.25,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 2.5,
+                "cached_input": 1.25,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 2.5,
+                "cached_input": 1.25,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 2.5,
+                "cached_input": 1.25,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 2.5,
+                "cached_input": 1.25,
+                "output": 10.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-4o-2024-1120 US/EU – Data Zones",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 2.75,
+                "cached_input": 1.375,
+                "output": 11.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 2.75,
+                "cached_input": 1.375,
+                "output": 11.0
+              }
+            },
+            {
+              "region": "italynorth",
+              "pricing_1m_tokens": {
+                "input": 2.75,
+                "cached_input": 1.375,
+                "output": 11.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 2.75,
+                "cached_input": 1.375,
+                "output": 11.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 2.75,
+                "cached_input": 1.375,
+                "output": 11.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 2.75,
+                "cached_input": 1.375,
+                "output": 11.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-4o-2024-1120 Regional",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 3.025,
+                "cached_input": 1.513,
+                "output": 12.1
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 3.025,
+                "cached_input": 1.513,
+                "output": 12.1
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 3.025,
+                "cached_input": 1.513,
+                "output": 12.1
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 3.025,
+                "cached_input": 1.513,
+                "output": 12.1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-4o-2024-08-06",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 2.5,
+                "cached_input": 1.25,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 2.5,
+                "cached_input": 1.25,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 2.5,
+                "cached_input": 1.25,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 2.5,
+                "cached_input": 1.25,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 2.5,
+                "cached_input": 1.25,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 2.5,
+                "cached_input": 1.25,
+                "output": 10.0
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 2.5,
+                "cached_input": 1.25,
+                "output": 10.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-4o-2024-08-06 US/EU – Data Zones",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 2.75,
+                "cached_input": 1.375,
+                "output": 11.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 2.75,
+                "cached_input": 1.375,
+                "output": 11.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 2.75,
+                "cached_input": 1.375,
+                "output": 11.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 2.75,
+                "cached_input": 1.375,
+                "output": 11.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 2.75,
+                "cached_input": 1.375,
+                "output": 11.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-4o-2024-08-06 Regional",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 2.75,
+                "cached_input": 1.513,
+                "output": 11.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-4o-2024-0513",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 5.0,
+                "cached_input": null,
+                "output": 15.0
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 5.0,
+                "cached_input": null,
+                "output": 15.0
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 5.0,
+                "cached_input": null,
+                "output": 15.0
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 5.0,
+                "cached_input": null,
+                "output": 15.0
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 5.0,
+                "cached_input": null,
+                "output": 15.0
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 5.0,
+                "cached_input": null,
+                "output": 15.0
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 5.0,
+                "cached_input": null,
+                "output": 15.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-4o-2024-0513 US/EU – Data Zones",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 5.5,
+                "cached_input": null,
+                "output": 16.5
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 5.5,
+                "cached_input": null,
+                "output": 16.5
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 5.5,
+                "cached_input": null,
+                "output": 16.5
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 5.5,
+                "cached_input": null,
+                "output": 16.5
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 5.5,
+                "cached_input": null,
+                "output": 16.5
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-4o-2024-0513 Regional",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 6.05,
+                "cached_input": null,
+                "output": 18.15
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-4o-mini-0718",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 0.15,
+                "cached_input": 0.075,
+                "output": 0.6
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 0.15,
+                "cached_input": 0.075,
+                "output": 0.6
+              }
+            },
+            {
+              "region": "italynorth",
+              "pricing_1m_tokens": {
+                "input": 0.15,
+                "cached_input": 0.075,
+                "output": 0.6
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 0.15,
+                "cached_input": 0.075,
+                "output": 0.6
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 0.15,
+                "cached_input": 0.075,
+                "output": 0.6
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 0.15,
+                "cached_input": 0.075,
+                "output": 0.6
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 0.15,
+                "cached_input": 0.075,
+                "output": 0.6
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 0.15,
+                "cached_input": 0.075,
+                "output": 0.6
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-4o-mini-0718 US/EU – Data Zones",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 0.165,
+                "cached_input": 0.083,
+                "output": 0.66
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 0.165,
+                "cached_input": 0.083,
+                "output": 0.66
+              }
+            },
+            {
+              "region": "italynorth",
+              "pricing_1m_tokens": {
+                "input": 0.165,
+                "cached_input": 0.083,
+                "output": 0.66
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 0.165,
+                "cached_input": 0.083,
+                "output": 0.66
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 0.165,
+                "cached_input": 0.083,
+                "output": 0.66
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 0.165,
+                "cached_input": 0.083,
+                "output": 0.66
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPT-4o-mini-0718 Regional",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 0.165,
+                "cached_input": 0.091,
+                "output": 0.66
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 1.7,
+                "cached_input": 0.025,
+                "output": 0.4
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 1.7,
+                "cached_input": 0.025,
+                "output": 0.4
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 1.7,
+                "cached_input": 0.025,
+                "output": 0.4
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 1.7,
+                "cached_input": 0.025,
+                "output": 0.4
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 1.7,
+                "cached_input": 0.075,
+                "output": 0.6
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 1.7,
+                "cached_input": 0.025,
+                "output": 0.4
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 1.7,
+                "cached_input": 0.025,
+                "output": 0.4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Developer",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 0.75,
+                "cached_input": 0.025,
+                "output": 0.4
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 0.75,
+                "cached_input": 0.025,
+                "output": 0.4
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 0.75,
+                "cached_input": 0.025,
+                "output": 0.4
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 0.75,
+                "cached_input": 0.025,
+                "output": 0.4
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 0.75,
+                "cached_input": 0.025,
+                "output": 0.4
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 1.5,
+                "cached_input": 0.025,
+                "output": 0.4
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 0.75,
+                "cached_input": 0.025,
+                "output": 0.4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ada",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 0.000121,
+                "cached_input": null,
+                "output": null
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 0.000121,
+                "cached_input": null,
+                "output": null
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 0.000121,
+                "cached_input": null,
+                "output": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ada DataZone",
+      "deployments": [
+        {
+          "type": "Data Zone",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 0.00011,
+                "cached_input": null,
+                "output": null
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 0.00011,
+                "cached_input": null,
+                "output": null
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 0.00011,
+                "cached_input": null,
+                "output": null
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 0.00011,
+                "cached_input": null,
+                "output": null
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 0.00011,
+                "cached_input": null,
+                "output": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "text-embedding-3-large",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 0.000158,
+                "cached_input": null,
+                "output": null
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 0.000158,
+                "cached_input": null,
+                "output": null
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 0.000158,
+                "cached_input": null,
+                "output": null
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 0.000158,
+                "cached_input": null,
+                "output": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "text-embedding-3-large DataZone",
+      "deployments": [
+        {
+          "type": "Data Zone",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 0.000143,
+                "cached_input": null,
+                "output": null
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 0.000143,
+                "cached_input": null,
+                "output": null
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 0.000143,
+                "cached_input": null,
+                "output": null
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 0.000143,
+                "cached_input": null,
+                "output": null
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 0.000143,
+                "cached_input": null,
+                "output": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "text-embedding-3-small",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 2.5e-05,
+                "cached_input": null,
+                "output": null
+              }
+            },
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 2.5e-05,
+                "cached_input": null,
+                "output": null
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 2.5e-05,
+                "cached_input": null,
+                "output": null
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 2.5e-05,
+                "cached_input": null,
+                "output": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "text-embedding-3-small DataZone",
+      "deployments": [
+        {
+          "type": "Data Zone",
+          "regions": [
+            {
+              "region": "francecentral",
+              "pricing_1m_tokens": {
+                "input": 2.2e-05,
+                "cached_input": null,
+                "output": null
+              }
+            },
+            {
+              "region": "germanywestcentral",
+              "pricing_1m_tokens": {
+                "input": 2.2e-05,
+                "cached_input": null,
+                "output": null
+              }
+            },
+            {
+              "region": "polandcentral",
+              "pricing_1m_tokens": {
+                "input": 2.2e-05,
+                "cached_input": null,
+                "output": null
+              }
+            },
+            {
+              "region": "spaincentral",
+              "pricing_1m_tokens": {
+                "input": 2.2e-05,
+                "cached_input": null,
+                "output": null
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 2.2e-05,
+                "cached_input": null,
+                "output": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Whisper",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "norwayeast",
+              "pricing_1m_tokens": {
+                "input": 0.4356,
+                "cached_input": null,
+                "output": null
+              }
+            },
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 0.4356,
+                "cached_input": null,
+                "output": null
+              }
+            },
+            {
+              "region": "switzerlandnorth",
+              "pricing_1m_tokens": {
+                "input": 0.4356,
+                "cached_input": null,
+                "output": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TTS (Text to Speech)",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 15.0,
+                "cached_input": null,
+                "output": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TTS HD",
+      "deployments": [
+        {
+          "type": "Global",
+          "regions": [
+            {
+              "region": "swedencentral",
+              "pricing_1m_tokens": {
+                "input": 36.3,
+                "cached_input": null,
+                "output": null
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
