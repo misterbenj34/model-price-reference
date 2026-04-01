@@ -1,6 +1,6 @@
 {
   "provider": "Azure",
-  "last_updated": "2026-03-31",
+  "last_updated": "2026-04-01",
   "region": "Sweden Central",
   "currency": "EUR",
   "models": [
@@ -10,9 +10,9 @@
         {
           "type": "Global",
           "pricing_1m_tokens": {
-            "input": 1.49,
-            "cached_input": 0.15,
-            "output": 11.87
+            "input": 1.52,
+            "cached_input": 0.16,
+            "output": 12.16
           }
         }
       ]
@@ -23,17 +23,17 @@
         {
           "type": "Global",
           "pricing_1m_tokens": {
-            "input": 1.49,
-            "cached_input": 0.15,
-            "output": 11.87
+            "input": 1.52,
+            "cached_input": 0.16,
+            "output": 12.16
           }
         },
         {
           "type": "Data Zone",
           "pricing_1m_tokens": {
-            "input": 1.64,
+            "input": 1.68,
             "cached_input": 0.17,
-            "output": 13.05
+            "output": 13.37
           }
         }
       ]
@@ -44,9 +44,9 @@
         {
           "type": "Global",
           "pricing_1m_tokens": {
-            "input": 1.49,
-            "cached_input": 0.15,
-            "output": 11.87
+            "input": 1.52,
+            "cached_input": 0.16,
+            "output": 12.16
           }
         }
       ]
@@ -57,9 +57,9 @@
         {
           "type": "Data Zone",
           "pricing_1m_tokens": {
-            "input": 1.64,
+            "input": 1.68,
             "cached_input": 0.17,
-            "output": 13.05
+            "output": 13.37
           }
         }
       ]
@@ -70,17 +70,17 @@
         {
           "type": "Global",
           "pricing_1m_tokens": {
-            "input": 1.06,
+            "input": 1.09,
             "cached_input": 0.11,
-            "output": 8.48
+            "output": 8.69
           }
         },
         {
           "type": "Data Zone",
           "pricing_1m_tokens": {
-            "input": 1.17,
+            "input": 1.2,
             "cached_input": 0.12,
-            "output": 9.33
+            "output": 9.55
           }
         }
       ]
@@ -91,9 +91,9 @@
         {
           "type": "Global",
           "pricing_1m_tokens": {
-            "input": 1.06,
+            "input": 1.09,
             "cached_input": 0.11,
-            "output": 8.48
+            "output": 8.69
           }
         }
       ]
@@ -104,9 +104,9 @@
         {
           "type": "Global",
           "pricing_1m_tokens": {
-            "input": 1.06,
+            "input": 1.09,
             "cached_input": 0.11,
-            "output": 8.48
+            "output": 8.69
           }
         }
       ]
@@ -117,9 +117,9 @@
         {
           "type": "Global",
           "pricing_1m_tokens": {
-            "input": 1.06,
+            "input": 1.09,
             "cached_input": 0.11,
-            "output": 8.48
+            "output": 8.69
           }
         }
       ]
@@ -132,7 +132,7 @@
           "pricing_1m_tokens": {
             "input": 0.22,
             "cached_input": 0.03,
-            "output": 1.7
+            "output": 1.74
           }
         }
       ]
@@ -143,12 +143,12 @@
         {
           "type": "Global",
           "pricing_1m_tokens": {
-            "input": 1.06,
+            "input": 1.09,
             "cached_input": 0.11,
-            "output": 8.48,
-            "batch_input": 0.53,
+            "output": 8.69,
+            "batch_input": 0.55,
             "batch_cached_input": 0.06,
-            "batch_output": 4.24
+            "batch_output": 4.35
           }
         }
       ]
@@ -159,12 +159,12 @@
         {
           "type": "Data Zone",
           "pricing_1m_tokens": {
-            "input": 1.17,
+            "input": 1.2,
             "cached_input": 0.12,
-            "output": 9.33,
-            "batch_input": 0.59,
+            "output": 9.55,
+            "batch_input": 0.6,
             "batch_cached_input": 0.06,
-            "batch_output": 4.67
+            "batch_output": 4.78
           }
         }
       ]
@@ -175,8 +175,8 @@
         {
           "type": "Global",
           "pricing_1m_tokens": {
-            "input": 12.72,
-            "output": 101.69
+            "input": 13.03,
+            "output": 104.17
           }
         }
       ]
@@ -187,9 +187,9 @@
         {
           "type": "Global",
           "pricing_1m_tokens": {
-            "input": 1.06,
+            "input": 1.09,
             "cached_input": 0.11,
-            "output": 8.48
+            "output": 8.69
           }
         }
       ]
@@ -202,7 +202,7 @@
           "pricing_1m_tokens": {
             "input": 0.22,
             "cached_input": 0.03,
-            "output": 1.7
+            "output": 1.74
           }
         },
         {
@@ -210,7 +210,7 @@
           "pricing_1m_tokens": {
             "input": 0.24,
             "cached_input": 0.03,
-            "output": 1.87
+            "output": 1.91
           }
         }
       ]
@@ -223,7 +223,7 @@
           "pricing_1m_tokens": {
             "input": 0.05,
             "cached_input": 0.01,
-            "output": 0.34
+            "output": 0.35
           }
         },
         {
@@ -231,7 +231,7 @@
           "pricing_1m_tokens": {
             "input": 0.05,
             "cached_input": 0.01,
-            "output": 0.38
+            "output": 0.39
           }
         }
       ]
@@ -242,9 +242,9 @@
         {
           "type": "Global",
           "pricing_1m_tokens": {
-            "input": 1.06,
+            "input": 1.09,
             "cached_input": 0.11,
-            "output": 8.48
+            "output": 8.69
           }
         }
       ]
@@ -255,8 +255,8 @@
         {
           "type": "Global",
           "pricing_1m_tokens": {
-            "a_cached_input": 2.12,
-            "output": 33.9
+            "a_cached_input": 2.18,
+            "output": 34.73
           }
         }
       ]
@@ -267,29 +267,29 @@
         {
           "type": "Global",
           "pricing_1m_tokens": {
-            "input": 1.7,
-            "cached_input": 0.43,
-            "output": 6.78,
-            "batch_input": 0.85,
-            "batch_output": 3.39
+            "input": 1.74,
+            "cached_input": 0.44,
+            "output": 6.95,
+            "batch_input": 0.87,
+            "batch_output": 3.48
           }
         },
         {
           "type": "Data Zone",
           "pricing_1m_tokens": {
-            "input": 1.87,
-            "cached_input": 0.47,
-            "output": 7.46,
-            "batch_input": 0.94,
-            "batch_output": 3.73
+            "input": 1.91,
+            "cached_input": 0.48,
+            "output": 7.64,
+            "batch_input": 0.96,
+            "batch_output": 3.82
           }
         },
         {
           "type": "Regional",
           "pricing_1m_tokens": {
-            "input": 2.06,
-            "cached_input": 0.52,
-            "output": 8.21
+            "input": 2.11,
+            "cached_input": 0.53,
+            "output": 8.41
           }
         }
       ]
@@ -300,29 +300,29 @@
         {
           "type": "Global",
           "pricing_1m_tokens": {
-            "input": 0.94,
+            "input": 0.96,
             "cached_input": 0.24,
-            "output": 3.73,
-            "batch_input": 0.47,
-            "batch_output": 1.87
+            "output": 3.82,
+            "batch_input": 0.48,
+            "batch_output": 1.91
           }
         },
         {
           "type": "Data Zone",
           "pricing_1m_tokens": {
-            "input": 1.03,
-            "cached_input": 0.26,
-            "output": 4.11,
-            "batch_input": 0.52,
-            "batch_output": 2.06
+            "input": 1.06,
+            "cached_input": 0.27,
+            "output": 4.21,
+            "batch_input": 0.53,
+            "batch_output": 2.11
           }
         },
         {
           "type": "Regional",
           "pricing_1m_tokens": {
-            "input": 1.13,
+            "input": 1.16,
             "cached_input": 0.29,
-            "output": 4.52
+            "output": 4.63
           }
         }
       ]
@@ -333,35 +333,35 @@
         {
           "type": "Global",
           "pricing_1m_tokens": {
-            "input": 1.7,
-            "cached_input": 0.43,
-            "output": 6.78,
-            "batch_input": 0.85,
-            "batch_output": 3.39,
-            "priority_input": 2.97,
-            "priority_cached_input": 0.75,
-            "priority_output": 11.87
+            "input": 1.74,
+            "cached_input": 0.44,
+            "output": 6.95,
+            "batch_input": 0.87,
+            "batch_output": 3.48,
+            "priority_input": 3.04,
+            "priority_cached_input": 0.76,
+            "priority_output": 12.16
           }
         },
         {
           "type": "Data Zone",
           "pricing_1m_tokens": {
-            "input": 1.87,
-            "cached_input": 0.47,
-            "output": 7.46,
-            "batch_input": 0.94,
-            "batch_output": 3.73,
-            "priority_input": 3.27,
-            "priority_cached_input": 0.82,
-            "priority_output": 13.05
+            "input": 1.91,
+            "cached_input": 0.48,
+            "output": 7.64,
+            "batch_input": 0.96,
+            "batch_output": 3.82,
+            "priority_input": 3.35,
+            "priority_cached_input": 0.84,
+            "priority_output": 13.37
           }
         },
         {
           "type": "Regional",
           "pricing_1m_tokens": {
-            "input": 2.06,
-            "cached_input": 0.52,
-            "output": 8.21
+            "input": 2.11,
+            "cached_input": 0.53,
+            "output": 8.41
           }
         }
       ]
@@ -372,29 +372,29 @@
         {
           "type": "Global",
           "pricing_1m_tokens": {
-            "input": 0.34,
+            "input": 0.35,
             "cached_input": 0.09,
-            "output": 1.36,
-            "batch_input": 0.17,
-            "batch_output": 0.68
+            "output": 1.39,
+            "batch_input": 0.18,
+            "batch_output": 0.7
           }
         },
         {
           "type": "Data Zone",
           "pricing_1m_tokens": {
-            "input": 0.38,
+            "input": 0.39,
             "cached_input": 0.1,
-            "output": 1.5,
-            "batch_input": 0.19,
-            "batch_output": 0.75
+            "output": 1.53,
+            "batch_input": 0.2,
+            "batch_output": 0.77
           }
         },
         {
           "type": "Regional",
           "pricing_1m_tokens": {
-            "input": 0.42,
+            "input": 0.43,
             "cached_input": 0.11,
-            "output": 1.65
+            "output": 1.69
           }
         }
       ]
@@ -407,9 +407,9 @@
           "pricing_1m_tokens": {
             "input": 0.09,
             "cached_input": 0.03,
-            "output": 0.34,
+            "output": 0.35,
             "batch_input": 0.05,
-            "batch_output": 0.17
+            "batch_output": 0.18
           }
         },
         {
@@ -417,9 +417,9 @@
           "pricing_1m_tokens": {
             "input": 0.1,
             "cached_input": 0.03,
-            "output": 0.38,
+            "output": 0.39,
             "batch_input": 0.05,
-            "batch_output": 0.19
+            "batch_output": 0.2
           }
         },
         {
@@ -427,7 +427,7 @@
           "pricing_1m_tokens": {
             "input": 0.11,
             "cached_input": 0.03,
-            "output": 0.42
+            "output": 0.43
           }
         }
       ]
@@ -442,12 +442,12 @@
         {
           "type": "Global",
           "pricing_1m_tokens": {
-            "input": 4.24,
-            "cached_input": 1.06,
-            "image_input": 6.78,
-            "cached_input_image": 1.7,
-            "output": 8.48,
-            "output_image": 27.12
+            "input": 4.35,
+            "cached_input": 1.09,
+            "image_input": 6.95,
+            "cached_input_image": 1.74,
+            "output": 8.69,
+            "output_image": 27.78
           }
         }
       ]
@@ -458,11 +458,11 @@
         {
           "type": "Global",
           "pricing_1m_tokens": {
-            "input": 1.7,
-            "cached_input": 0.17,
-            "image_input": 2.12,
+            "input": 1.74,
+            "cached_input": 0.18,
+            "image_input": 2.18,
             "cached_input_image": 0.22,
-            "output_image": 6.78
+            "output_image": 6.95
           }
         }
       ]
@@ -473,29 +473,29 @@
         {
           "type": "Global",
           "pricing_1m_tokens": {
-            "input": 4.24,
-            "cached_input": 1.06,
-            "image_input": 8.48,
-            "cached_input_image": 2.12,
-            "output_image": 33.9
+            "input": 4.35,
+            "cached_input": 1.09,
+            "image_input": 8.69,
+            "cached_input_image": 2.18,
+            "output_image": 34.73
           }
         },
         {
           "type": "Regional",
           "pricing_1m_tokens": {
-            "input": 5.13,
-            "cached_input": 1.06,
-            "image_input": 10.26,
-            "cached_input_image": 2.12,
-            "output_image": 41.02
+            "input": 5.26,
+            "cached_input": 1.09,
+            "image_input": 10.51,
+            "cached_input_image": 2.18,
+            "output_image": 42.02
           }
         },
         {
           "type": "Data Zone",
           "pricing_1m_tokens": {
-            "input": 4.67,
-            "image_input": 9.33,
-            "output_image": 37.29
+            "input": 4.78,
+            "image_input": 9.55,
+            "output_image": 38.2
           }
         }
       ]
@@ -506,9 +506,9 @@
         {
           "type": "Global",
           "pricing_1m_tokens": {
-            "input": 63.56,
-            "cached_input": 31.78,
-            "output": 127.11
+            "input": 65.11,
+            "cached_input": 32.56,
+            "output": 130.21
           }
         }
       ]
@@ -519,17 +519,17 @@
         {
           "type": "Global",
           "pricing_1m_tokens": {
-            "input": 12.7103,
-            "cached_input": 6.3552,
-            "output": 50.840995
+            "input": 13.0203,
+            "cached_input": 6.5102,
+            "output": 52.081073
           }
         },
         {
           "type": "Regional",
           "pricing_1m_tokens": {
-            "input": 15.3795,
-            "cached_input": 7.6898,
-            "output": 61.517604
+            "input": 15.7546,
+            "cached_input": 7.8773,
+            "output": 63.018099
           }
         }
       ]
@@ -540,9 +540,9 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "input": 13.9813,
-            "cached_input": 6.9907,
-            "output": 55.925095
+            "input": 14.3223,
+            "cached_input": 7.1612,
+            "output": 57.289181
           }
         }
       ]
@@ -553,17 +553,17 @@
         {
           "type": "Global",
           "pricing_1m_tokens": {
-            "input": 12.7103,
-            "cached_input": 6.3552,
-            "output": 50.840995
+            "input": 13.0203,
+            "cached_input": 6.5102,
+            "output": 52.081073
           }
         },
         {
           "type": "Regional",
           "pricing_1m_tokens": {
-            "input": 13.9813,
-            "cached_input": 7.6898,
-            "output": 55.925095
+            "input": 14.3223,
+            "cached_input": 7.8773,
+            "output": 57.289181
           }
         }
       ]
@@ -574,9 +574,9 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "input": 13.9813,
-            "cached_input": 6.9907,
-            "output": 55.925095
+            "input": 14.3223,
+            "cached_input": 7.1612,
+            "output": 57.289181
           }
         }
       ]
@@ -587,19 +587,19 @@
         {
           "type": "Global",
           "pricing_1m_tokens": {
-            "input": 0.9321,
-            "cached_input": 0.4661,
-            "output": 3.72834,
-            "batch_input": 0.46605,
-            "batch_output": 1.8642
+            "input": 0.9549,
+            "cached_input": 0.4775,
+            "output": 3.819279,
+            "batch_input": 0.47741,
+            "batch_output": 1.9097
           }
         },
         {
           "type": "Regional",
           "pricing_1m_tokens": {
-            "input": 1.1279,
-            "cached_input": 0.5644,
-            "output": 4.511291
+            "input": 1.1554,
+            "cached_input": 0.5781,
+            "output": 4.621328
           }
         }
       ]
@@ -610,11 +610,11 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "input": 1.0253,
-            "cached_input": 0.5127,
-            "output": 4.101174,
-            "batch_input": 0.51265,
-            "batch_output": 2.05059
+            "input": 1.0504,
+            "cached_input": 0.5252,
+            "output": 4.201207,
+            "batch_input": 0.52516,
+            "batch_output": 2.10061
           }
         }
       ]
@@ -625,17 +625,17 @@
         {
           "type": "Global",
           "pricing_1m_tokens": {
-            "input": 0.9321,
-            "cached_input": 0.4661,
-            "output": 3.72834
+            "input": 0.9549,
+            "cached_input": 0.4775,
+            "output": 3.819279
           }
         },
         {
           "type": "Regional",
           "pricing_1m_tokens": {
-            "input": 1.1279,
-            "cached_input": 0.5644,
-            "output": 4.511291
+            "input": 1.1554,
+            "cached_input": 0.5781,
+            "output": 4.621328
           }
         }
       ]
@@ -646,9 +646,9 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "input": 1.0253,
-            "cached_input": 0.5127,
-            "output": 4.101174
+            "input": 1.0504,
+            "cached_input": 0.5252,
+            "output": 4.201207
           }
         }
       ]
@@ -659,8 +659,8 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "input": 0.1272,
-            "output": 0.5085
+            "input": 0.1303,
+            "output": 0.5209
           }
         }
       ]
@@ -671,11 +671,11 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "text_input": 3.39,
-            "cached_input": 0.43,
-            "output": 54.24,
-            "audio_input": 27.12,
-            "image_input": 4.24
+            "text_input": 3.48,
+            "cached_input": 0.44,
+            "output": 55.56,
+            "audio_input": 27.78,
+            "image_input": 4.35
           }
         }
       ]
@@ -686,11 +686,11 @@
         {
           "type": "Global",
           "pricing_1m_tokens": {
-            "text_input": 0.51,
+            "text_input": 0.53,
             "cached_input": 0.07,
-            "output": 16.95,
-            "audio_input": 8.48,
-            "image_input": 0.68
+            "output": 17.37,
+            "audio_input": 8.69,
+            "image_input": 0.7
           }
         }
       ]
@@ -701,9 +701,9 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "text_input": 2.12,
-            "output": 67.79,
-            "audio_input": 33.9
+            "text_input": 2.18,
+            "output": 69.45,
+            "audio_input": 34.73
           }
         }
       ]
@@ -714,9 +714,9 @@
         {
           "type": "Global",
           "pricing_1m_tokens": {
-            "text_input": 0.51,
-            "output": 16.95,
-            "audio_input": 8.48
+            "text_input": 0.53,
+            "output": 17.37,
+            "audio_input": 8.69
           }
         }
       ]
@@ -727,9 +727,9 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "text_input": 2.12,
-            "output": 8.48,
-            "audio_input": 5.09
+            "text_input": 2.18,
+            "output": 8.69,
+            "audio_input": 5.21
           }
         }
       ]
@@ -740,9 +740,9 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "text_input": 2.12,
-            "output": 8.48,
-            "audio_input": 5.09
+            "text_input": 2.18,
+            "output": 8.69,
+            "audio_input": 5.21
           }
         }
       ]
@@ -753,9 +753,9 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "text_input": 1.06,
-            "output": 4.24,
-            "audio_input": 2.55
+            "text_input": 1.09,
+            "output": 4.35,
+            "audio_input": 2.61
           }
         }
       ]
@@ -766,8 +766,8 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "text_input": 0.51,
-            "a_output": 10.17
+            "text_input": 0.53,
+            "a_output": 10.42
           }
         }
       ]
@@ -778,8 +778,8 @@
         {
           "type": "Global",
           "pricing_1m_tokens": {
-            "input": 2.5421,
-            "m_tokens_output": 10.1682
+            "input": 2.6041,
+            "m_tokens_output": 10.4163
           }
         }
       ]
@@ -790,10 +790,10 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "text_input": 4.2368,
-            "cached_input": 2.1184,
-            "output": 67.787994,
-            "audio_input": 33.894
+            "text_input": 4.3401,
+            "cached_input": 2.1701,
+            "output": 69.441431,
+            "audio_input": 34.7208
           }
         }
       ]
@@ -804,10 +804,10 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "text_input": 4.6605,
-            "cached_input": 2.3303,
-            "output": 74.566793,
-            "audio_input": 37.2834
+            "text_input": 4.7741,
+            "cached_input": 2.3871,
+            "output": 76.385574,
+            "audio_input": 38.1928
           }
         }
       ]
@@ -818,10 +818,10 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "text_input": 5.1265,
-            "cached_input": 2.5633,
-            "output": 82.023472,
-            "audio_input": 41.0118
+            "text_input": 5.2516,
+            "cached_input": 2.6258,
+            "output": 84.024131,
+            "audio_input": 42.0121
           }
         }
       ]
@@ -832,10 +832,10 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "text_input": 0.5085,
-            "cached_input": 0.2543,
-            "output": 16.946999,
-            "audio_input": 8.4735
+            "text_input": 0.5209,
+            "cached_input": 0.2605,
+            "output": 17.360358,
+            "audio_input": 8.6802
           }
         }
       ]
@@ -846,10 +846,10 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "text_input": 0.5593,
-            "cached_input": 0.2797,
-            "output": 18.641699,
-            "audio_input": 9.3209
+            "text_input": 0.5729,
+            "cached_input": 0.2865,
+            "output": 19.096394,
+            "audio_input": 9.5482
           }
         }
       ]
@@ -860,10 +860,10 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "text_input": 0.6152,
-            "cached_input": 0.3076,
-            "output": 20.505868,
-            "audio_input": 10.253
+            "text_input": 0.6302,
+            "cached_input": 0.3151,
+            "output": 21.006033,
+            "audio_input": 10.5031
           }
         }
       ]
@@ -874,10 +874,10 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "text_input": 4.2368,
-            "cached_input": 16.947,
-            "output": 169.469983,
-            "audio_input": 84.735
+            "text_input": 4.3401,
+            "cached_input": 17.3604,
+            "output": 173.603577,
+            "audio_input": 86.8018
           }
         }
       ]
@@ -888,10 +888,10 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "text_input": 4.6605,
-            "cached_input": 18.6417,
-            "output": 186.416981,
-            "audio_input": 93.2085
+            "text_input": 4.7741,
+            "cached_input": 19.0964,
+            "output": 190.963934,
+            "audio_input": 95.482
           }
         }
       ]
@@ -902,10 +902,10 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "text_input": 5.1265,
-            "cached_input": 20.5059,
-            "output": 205.058679,
-            "audio_input": 102.5294
+            "text_input": 5.2516,
+            "cached_input": 21.0061,
+            "output": 210.060328,
+            "audio_input": 105.0302
           }
         }
       ]
@@ -916,9 +916,9 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "text_input": 2.1184,
-            "output": 67.787994,
-            "audio_input": 33.894
+            "text_input": 2.1701,
+            "output": 69.441431,
+            "audio_input": 34.7208
           }
         }
       ]
@@ -929,9 +929,9 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "text_input": 2.3303,
-            "output": 74.566793,
-            "audio_input": 37.2834
+            "text_input": 2.3871,
+            "output": 76.385574,
+            "audio_input": 38.1928
           }
         }
       ]
@@ -942,9 +942,9 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "text_input": 2.5633,
-            "output": 82.023472,
-            "audio_input": 41.0118
+            "text_input": 2.6258,
+            "output": 84.024131,
+            "audio_input": 42.0121
           }
         }
       ]
@@ -955,9 +955,9 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "text_input": 0.1272,
-            "output": 16.946999,
-            "audio_input": 8.4735
+            "text_input": 0.1303,
+            "output": 17.360358,
+            "audio_input": 8.6802
           }
         }
       ]
@@ -968,9 +968,9 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "text_input": 0.1399,
-            "output": 18.641699,
-            "audio_input": 9.3209
+            "text_input": 0.1433,
+            "output": 19.096394,
+            "audio_input": 9.5482
           }
         }
       ]
@@ -981,9 +981,9 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "text_input": 0.1543,
-            "output": 20.505868,
-            "audio_input": 10.253
+            "text_input": 0.158,
+            "output": 21.006033,
+            "audio_input": 10.5031
           }
         }
       ]
@@ -994,19 +994,19 @@
         {
           "type": "Global",
           "pricing_1m_tokens": {
-            "input": 2.11838,
-            "cached_input": 1.0592,
-            "output": 8.4735,
-            "batch_input": 1.05919,
-            "batch_output": 4.2368
+            "input": 2.17005,
+            "cached_input": 1.0851,
+            "output": 8.6802,
+            "batch_input": 1.08503,
+            "batch_output": 4.3401
           }
         },
         {
           "type": "Regional",
           "pricing_1m_tokens": {
-            "input": 2.56324,
-            "cached_input": 1.2821,
-            "output": 10.253
+            "input": 2.62576,
+            "cached_input": 1.3134,
+            "output": 10.5031
           }
         }
       ]
@@ -1017,9 +1017,9 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "input": 2.33022,
-            "cached_input": 1.1652,
-            "output": 9.3209
+            "input": 2.38705,
+            "cached_input": 1.1936,
+            "output": 9.5482
           }
         }
       ]
@@ -1030,19 +1030,19 @@
         {
           "type": "Global",
           "pricing_1m_tokens": {
-            "input": 2.11838,
-            "cached_input": 1.0592,
-            "output": 8.4735,
-            "batch_input": 1.05919,
-            "batch_output": 4.2368
+            "input": 2.17005,
+            "cached_input": 1.0851,
+            "output": 8.6802,
+            "batch_input": 1.08503,
+            "batch_output": 4.3401
           }
         },
         {
           "type": "Regional",
           "pricing_1m_tokens": {
-            "input": 2.33022,
-            "cached_input": 1.2821,
-            "output": 9.3209
+            "input": 2.38705,
+            "cached_input": 1.3134,
+            "output": 9.5482
           }
         }
       ]
@@ -1053,11 +1053,11 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "input": 2.33022,
-            "cached_input": 1.1652,
-            "output": 9.3209,
-            "batch_input": 1.16511,
-            "batch_output": 4.6605
+            "input": 2.38705,
+            "cached_input": 1.1936,
+            "output": 9.5482,
+            "batch_input": 1.19353,
+            "batch_output": 4.7741
           }
         }
       ]
@@ -1068,17 +1068,17 @@
         {
           "type": "Global",
           "pricing_1m_tokens": {
-            "input": 4.23675,
-            "output": 12.7103,
-            "batch_input": 2.11838,
-            "batch_output": 6.3552
+            "input": 4.34009,
+            "output": 13.0203,
+            "batch_input": 2.17005,
+            "batch_output": 6.5102
           }
         },
         {
           "type": "Regional",
           "pricing_1m_tokens": {
-            "input": 5.12647,
-            "output": 15.3795
+            "input": 5.25151,
+            "output": 15.7546
           }
         }
       ]
@@ -1089,8 +1089,8 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "input": 4.66043,
-            "output": 13.9813
+            "input": 4.7741,
+            "output": 14.3223
           }
         }
       ]
@@ -1101,19 +1101,19 @@
         {
           "type": "Global",
           "pricing_1m_tokens": {
-            "input": 0.12711,
-            "cached_input": 0.0636,
-            "output": 0.5085,
-            "batch_input": 0.06356,
-            "batch_output": 0.2543
+            "input": 0.13021,
+            "cached_input": 0.0652,
+            "output": 0.5209,
+            "batch_input": 0.06511,
+            "batch_output": 0.2605
           }
         },
         {
           "type": "Regional",
           "pricing_1m_tokens": {
-            "input": 0.13982,
-            "cached_input": 0.0772,
-            "output": 0.5593
+            "input": 0.14323,
+            "cached_input": 0.079,
+            "output": 0.5729
           }
         }
       ]
@@ -1124,9 +1124,9 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "input": 0.13982,
-            "cached_input": 0.0704,
-            "output": 0.5593
+            "input": 0.14323,
+            "cached_input": 0.0721,
+            "output": 0.5729
           }
         }
       ]
@@ -1237,61 +1237,61 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "input": 0.933,
-            "m_tokens_output": 3.73,
-            "m_tokens_training": 84.8,
+            "input": 0.955,
+            "m_tokens_output": 3.82,
+            "m_tokens_training": 86.9,
             "hour_hosting": 1.5,
-            "o": 9.321,
-            "_mini": 4.102
+            "o": 9.549,
+            "_mini": 4.202
           }
         },
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "input": 1.695,
-            "m_tokens_cached_input": 0.424,
-            "m_tokens_output": 6.78,
-            "m_tokens_training": 21.2,
+            "input": 1.737,
+            "m_tokens_cached_input": 0.435,
+            "m_tokens_output": 6.95,
+            "m_tokens_training": 21.8,
             "m_tokens_hosting": 1.5
           }
         },
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "input": 0.339,
-            "m_tokens_cached_input": 0.085,
-            "m_tokens_output": 1.36,
-            "m_tokens_training": 4.3,
+            "input": 0.348,
+            "m_tokens_cached_input": 0.087,
+            "m_tokens_output": 1.39,
+            "m_tokens_training": 4.4,
             "m_tokens_hosting": 1.5
           }
         },
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "input": 0.085,
+            "input": 0.087,
             "m_tokens_cached_input": 0.022,
-            "m_tokens_output": 0.34,
-            "m_tokens_training": 1.3,
+            "m_tokens_output": 0.35,
+            "m_tokens_training": 1.4,
             "m_tokens_hosting": 1.5
           }
         },
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "input": 2.119,
-            "m_tokens_cached_input": 1.06,
-            "m_tokens_output": 8.48,
-            "m_tokens_training": 21.2,
+            "input": 2.171,
+            "m_tokens_cached_input": 1.086,
+            "m_tokens_output": 8.69,
+            "m_tokens_training": 21.8,
             "m_tokens_hosting": 1.5
           }
         },
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "input": 0.128,
-            "m_tokens_cached_input": 0.064,
-            "m_tokens_output": 0.51,
-            "m_tokens_training": 2.6,
+            "input": 0.131,
+            "m_tokens_cached_input": 0.066,
+            "m_tokens_output": 0.53,
+            "m_tokens_training": 2.7,
             "m_tokens_hosting": 1.5
           }
         }
@@ -1303,49 +1303,49 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "input": 0.933,
-            "m_tokens_cached_input": 0.234,
-            "m_tokens_output": 3.73,
-            "m_tokens_training": 42.368
+            "input": 0.955,
+            "m_tokens_cached_input": 0.239,
+            "m_tokens_output": 3.82,
+            "m_tokens_training": 43.401
           }
         },
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "input": 1.695,
-            "m_tokens_cached_input": 0.424,
-            "m_tokens_output": 6.78,
-            "m_tokens_training": 10.6
+            "input": 1.737,
+            "m_tokens_cached_input": 0.435,
+            "m_tokens_output": 6.95,
+            "m_tokens_training": 10.86
           }
         },
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "input": 0.339,
-            "m_tokens_cached_input": 0.085,
-            "m_tokens_output": 1.36,
-            "m_tokens_training": 2.12
+            "input": 0.348,
+            "m_tokens_cached_input": 0.087,
+            "m_tokens_output": 1.39,
+            "m_tokens_training": 2.18
           }
         },
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "input": 0.085,
+            "input": 0.087,
             "m_tokens_cached_input": 0.022,
-            "m_tokens_output": 0.34,
-            "m_tokens_training": 0.64
+            "m_tokens_output": 0.35,
+            "m_tokens_training": 0.66
           }
         },
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "training": 10.6
+            "training": 10.86
           }
         },
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "training": 1.28
+            "training": 1.31
           }
         }
       ]
@@ -1384,7 +1384,7 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "price": 0.000103
+            "price": 0.000106
           }
         }
       ]
@@ -1395,7 +1395,7 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "price": 9.4e-05
+            "price": 9.6e-05
           }
         }
       ]
@@ -1406,7 +1406,7 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "price": 0.000134
+            "price": 0.000138
           }
         }
       ]
@@ -1417,7 +1417,7 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "price": 0.000122
+            "price": 0.000125
           }
         }
       ]
@@ -1439,7 +1439,7 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "price": 1.9e-05
+            "price": 2e-05
           }
         }
       ]
@@ -1450,7 +1450,7 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "price": 0.37
+            "price": 0.38
           }
         }
       ]
@@ -1461,7 +1461,7 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "price": 12.72
+            "price": 13.03
           }
         }
       ]
@@ -1472,7 +1472,7 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "price": 30.76
+            "price": 31.51
           }
         }
       ]
