@@ -6,7 +6,7 @@ from datetime import datetime
 
 def parse_pricing_string(pricing_str):
     result = {}
-    matches = re.finditer(r'([A-Za-z \-]+):\s*€([\d,\.]+)', pricing_str)
+    matches = re.finditer(r'([A-Za-z \-]+):\s*\$([\d,\.]+)', pricing_str)
     for m in matches:
         key = m.group(1).strip().lower().replace(' ', '_').replace('-', '_')
         val = float(m.group(2).replace(',', ''))
@@ -30,7 +30,7 @@ def run_extraction():
         
         print("Selecting region and currency...")
         page.select_option("#region-selector", "sweden-central")
-        page.select_option("#currency-selector", "eur")
+        page.select_option("#currency-selector", "usd")
         page.wait_for_timeout(4000) # Give time for JS to render
         
         print("Parsing tables...")
@@ -94,7 +94,7 @@ def run_extraction():
                 
                 # If no prices were extracted via regex, maybe it's a raw price like "€0.000103"
                 if not combined_prices:
-                    m = re.search(r'€([\d,\.]+)', cells[1])
+                    m = re.search(r'\$([\d,\.]+)', cells[1])
                     if m:
                         val = float(m.group(1).replace(',', ''))
                         combined_prices['price'] = val
@@ -118,7 +118,7 @@ def run_extraction():
       "provider": "Azure",
       "last_updated": datetime.now().strftime("%Y-%m-%d"),
       "region": "Sweden Central",
-      "currency": "EUR",
+      "currency": "USD",
       "models": formatted_models
     }
     

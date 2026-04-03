@@ -1,5 +1,346 @@
 # Pricing Changelog
 
+### 2026-04-03
+- **Azure - GPT-5.2 Codex (Global)** [input]: 1.5200 -> 1.7500
+- **Azure - GPT-5.2 Codex (Global)** [cached_input]: 0.1600 -> 0.1800
+- **Azure - GPT-5.2 Codex (Global)** [output]: 12.1600 -> 14.0000
+- **Azure - GPT-5.2 (Global)** [input]: 1.5200 -> 1.7500
+- **Azure - GPT-5.2 (Global)** [cached_input]: 0.1600 -> 0.1800
+- **Azure - GPT-5.2 (Global)** [output]: 12.1600 -> 14.0000
+- **Azure - GPT-5.2 (Data Zone)** [input]: 1.6800 -> 1.9300
+- **Azure - GPT-5.2 (Data Zone)** [cached_input]: 0.1700 -> 0.2000
+- **Azure - GPT-5.2 (Data Zone)** [output]: 13.3700 -> 15.4000
+- **Azure - GPT-5.2-chat latest (Global)** [input]: 1.5200 -> 1.7500
+- **Azure - GPT-5.2-chat latest (Global)** [cached_input]: 0.1600 -> 0.1800
+- **Azure - GPT-5.2-chat latest (Global)** [output]: 12.1600 -> 14.0000
+- **Azure - GPT-5.2-chat (Data Zone)** [input]: 1.6800 -> 1.9300
+- **Azure - GPT-5.2-chat (Data Zone)** [cached_input]: 0.1700 -> 0.2000
+- **Azure - GPT-5.2-chat (Data Zone)** [output]: 13.3700 -> 15.4000
+- **Azure - GPT-5.1 (Global)** [input]: 1.0900 -> 1.2500
+- **Azure - GPT-5.1 (Global)** [cached_input]: 0.1100 -> 0.1300
+- **Azure - GPT-5.1 (Global)** [output]: 8.6900 -> 10.0000
+- **Azure - GPT-5.1 (Data Zone)** [input]: 1.2000 -> 1.3800
+- **Azure - GPT-5.1 (Data Zone)** [cached_input]: 0.1200 -> 0.1400
+- **Azure - GPT-5.1 (Data Zone)** [output]: 9.5500 -> 11.0000
+- **Azure - GPT-5.1-chat (Global)** [input]: 1.0900 -> 1.2500
+- **Azure - GPT-5.1-chat (Global)** [cached_input]: 0.1100 -> 0.1300
+- **Azure - GPT-5.1-chat (Global)** [output]: 8.6900 -> 10.0000
+- **Azure - GPT-5.1-codex (Global)** [input]: 1.0900 -> 1.2500
+- **Azure - GPT-5.1-codex (Global)** [cached_input]: 0.1100 -> 0.1300
+- **Azure - GPT-5.1-codex (Global)** [output]: 8.6900 -> 10.0000
+- **Azure - GPT-5.1-codex-max (Global)** [input]: 1.0900 -> 1.2500
+- **Azure - GPT-5.1-codex-max (Global)** [cached_input]: 0.1100 -> 0.1300
+- **Azure - GPT-5.1-codex-max (Global)** [output]: 8.6900 -> 10.0000
+- **Azure - GPT-5.1-codex-mini (Global)** [input]: 0.2200 -> 0.2500
+- **Azure - GPT-5.1-codex-mini (Global)** [output]: 1.7400 -> 2.0000
+- **Azure - GPT-5 2025-08-07 (Global)** [input]: 1.0900 -> 1.2500
+- **Azure - GPT-5 2025-08-07 (Global)** [cached_input]: 0.1100 -> 0.1300
+- **Azure - GPT-5 2025-08-07 (Global)** [output]: 8.6900 -> 10.0000
+- **Azure - GPT-5 2025-08-07 (Global)** [batch_input]: 0.5500 -> 0.6300
+- **Azure - GPT-5 2025-08-07 (Global)** [batch_cached_input]: 0.0600 -> 0.0700
+- **Azure - GPT-5 2025-08-07 (Global)** [batch_output]: 4.3500 -> 5.0000
+- **Azure - GPT-5 (Data Zone)** [input]: 1.2000 -> 1.3800
+- **Azure - GPT-5 (Data Zone)** [cached_input]: 0.1200 -> 0.1400
+- **Azure - GPT-5 (Data Zone)** [output]: 9.5500 -> 11.0000
+- **Azure - GPT-5 (Data Zone)** [batch_input]: 0.6000 -> 0.6900
+- **Azure - GPT-5 (Data Zone)** [batch_cached_input]: 0.0600 -> 0.0700
+- **Azure - GPT-5 (Data Zone)** [batch_output]: 4.7800 -> 5.5000
+- **Azure - GPT-5 Pro (Global)** [input]: 13.0300 -> 15.0000
+- **Azure - GPT-5 Pro (Global)** [output]: 104.1700 -> 120.0000
+- **Azure - GPT-5 Codex (Global)** [input]: 1.0900 -> 1.2500
+- **Azure - GPT-5 Codex (Global)** [cached_input]: 0.1100 -> 0.1300
+- **Azure - GPT-5 Codex (Global)** [output]: 8.6900 -> 10.0000
+- **Azure - GPT-5-mini (Global)** [input]: 0.2200 -> 0.2500
+- **Azure - GPT-5-mini (Global)** [output]: 1.7400 -> 2.0000
+- **Azure - GPT-5-mini (Data Zone)** [input]: 0.2400 -> 0.2800
+- **Azure - GPT-5-mini (Data Zone)** [output]: 1.9100 -> 2.2000
+- **Azure - GPT-5-nano (Global)** [output]: 0.3500 -> 0.4000
+- **Azure - GPT-5-nano (Data Zone)** [input]: 0.0500 -> 0.0600
+- **Azure - GPT-5-nano (Data Zone)** [output]: 0.3900 -> 0.4400
+- **Azure - GPT-5 chat (Global)** [input]: 1.0900 -> 1.2500
+- **Azure - GPT-5 chat (Global)** [cached_input]: 0.1100 -> 0.1300
+- **Azure - GPT-5 chat (Global)** [output]: 8.6900 -> 10.0000
+- **Azure - o3-deep research (Global)** [a_cached_input]: 2.1800 -> 2.5000
+- **Azure - o3-deep research (Global)** [output]: 34.7300 -> 40.0000
+- **Azure - o3 2025-04-16 (Global)** [input]: 1.7400 -> 2.0000
+- **Azure - o3 2025-04-16 (Global)** [cached_input]: 0.4400 -> 0.5000
+- **Azure - o3 2025-04-16 (Global)** [output]: 6.9500 -> 8.0000
+- **Azure - o3 2025-04-16 (Global)** [batch_input]: 0.8700 -> 1.0000
+- **Azure - o3 2025-04-16 (Global)** [batch_output]: 3.4800 -> 4.0000
+- **Azure - o3 2025-04-16 (Data Zone)** [input]: 1.9100 -> 2.2000
+- **Azure - o3 2025-04-16 (Data Zone)** [cached_input]: 0.4800 -> 0.5500
+- **Azure - o3 2025-04-16 (Data Zone)** [output]: 7.6400 -> 8.8000
+- **Azure - o3 2025-04-16 (Data Zone)** [batch_input]: 0.9600 -> 1.1000
+- **Azure - o3 2025-04-16 (Data Zone)** [batch_output]: 3.8200 -> 4.4000
+- **Azure - o3 2025-04-16 (Regional)** [input]: 2.1100 -> 2.4200
+- **Azure - o3 2025-04-16 (Regional)** [cached_input]: 0.5300 -> 0.6100
+- **Azure - o3 2025-04-16 (Regional)** [output]: 8.4100 -> 9.6800
+- **Azure - o4-mini 2025-04-16 (Global)** [input]: 0.9600 -> 1.1000
+- **Azure - o4-mini 2025-04-16 (Global)** [cached_input]: 0.2400 -> 0.2800
+- **Azure - o4-mini 2025-04-16 (Global)** [output]: 3.8200 -> 4.4000
+- **Azure - o4-mini 2025-04-16 (Global)** [batch_input]: 0.4800 -> 0.5500
+- **Azure - o4-mini 2025-04-16 (Global)** [batch_output]: 1.9100 -> 2.2000
+- **Azure - o4-mini 2025-04-16 (Data Zone)** [input]: 1.0600 -> 1.2100
+- **Azure - o4-mini 2025-04-16 (Data Zone)** [cached_input]: 0.2700 -> 0.3100
+- **Azure - o4-mini 2025-04-16 (Data Zone)** [output]: 4.2100 -> 4.8400
+- **Azure - o4-mini 2025-04-16 (Data Zone)** [batch_input]: 0.5300 -> 0.6100
+- **Azure - o4-mini 2025-04-16 (Data Zone)** [batch_output]: 2.1100 -> 2.4200
+- **Azure - o4-mini 2025-04-16 (Regional)** [input]: 1.1600 -> 1.3400
+- **Azure - o4-mini 2025-04-16 (Regional)** [cached_input]: 0.2900 -> 0.3400
+- **Azure - o4-mini 2025-04-16 (Regional)** [output]: 4.6300 -> 5.3300
+- **Azure - GPT-4.1-2025-04-14 (Global)** [input]: 1.7400 -> 2.0000
+- **Azure - GPT-4.1-2025-04-14 (Global)** [cached_input]: 0.4400 -> 0.5000
+- **Azure - GPT-4.1-2025-04-14 (Global)** [output]: 6.9500 -> 8.0000
+- **Azure - GPT-4.1-2025-04-14 (Global)** [batch_input]: 0.8700 -> 1.0000
+- **Azure - GPT-4.1-2025-04-14 (Global)** [batch_output]: 3.4800 -> 4.0000
+- **Azure - GPT-4.1-2025-04-14 (Global)** [priority_input]: 3.0400 -> 3.5000
+- **Azure - GPT-4.1-2025-04-14 (Global)** [priority_cached_input]: 0.7600 -> 0.8800
+- **Azure - GPT-4.1-2025-04-14 (Global)** [priority_output]: 12.1600 -> 14.0000
+- **Azure - GPT-4.1-2025-04-14 (Data Zone)** [input]: 1.9100 -> 2.2000
+- **Azure - GPT-4.1-2025-04-14 (Data Zone)** [cached_input]: 0.4800 -> 0.5500
+- **Azure - GPT-4.1-2025-04-14 (Data Zone)** [output]: 7.6400 -> 8.8000
+- **Azure - GPT-4.1-2025-04-14 (Data Zone)** [batch_input]: 0.9600 -> 1.1000
+- **Azure - GPT-4.1-2025-04-14 (Data Zone)** [batch_output]: 3.8200 -> 4.4000
+- **Azure - GPT-4.1-2025-04-14 (Data Zone)** [priority_input]: 3.3500 -> 3.8500
+- **Azure - GPT-4.1-2025-04-14 (Data Zone)** [priority_cached_input]: 0.8400 -> 0.9700
+- **Azure - GPT-4.1-2025-04-14 (Data Zone)** [priority_output]: 13.3700 -> 15.4000
+- **Azure - GPT-4.1-2025-04-14 (Regional)** [input]: 2.1100 -> 2.4200
+- **Azure - GPT-4.1-2025-04-14 (Regional)** [cached_input]: 0.5300 -> 0.6100
+- **Azure - GPT-4.1-2025-04-14 (Regional)** [output]: 8.4100 -> 9.6800
+- **Azure - GPT-4.1-mini-2025-04-14 (Global)** [input]: 0.3500 -> 0.4000
+- **Azure - GPT-4.1-mini-2025-04-14 (Global)** [cached_input]: 0.0900 -> 0.1000
+- **Azure - GPT-4.1-mini-2025-04-14 (Global)** [output]: 1.3900 -> 1.6000
+- **Azure - GPT-4.1-mini-2025-04-14 (Global)** [batch_input]: 0.1800 -> 0.2000
+- **Azure - GPT-4.1-mini-2025-04-14 (Global)** [batch_output]: 0.7000 -> 0.8000
+- **Azure - GPT-4.1-mini-2025-04-14 (Data Zone)** [input]: 0.3900 -> 0.4400
+- **Azure - GPT-4.1-mini-2025-04-14 (Data Zone)** [cached_input]: 0.1000 -> 0.1100
+- **Azure - GPT-4.1-mini-2025-04-14 (Data Zone)** [output]: 1.5300 -> 1.7600
+- **Azure - GPT-4.1-mini-2025-04-14 (Data Zone)** [batch_input]: 0.2000 -> 0.2200
+- **Azure - GPT-4.1-mini-2025-04-14 (Data Zone)** [batch_output]: 0.7700 -> 0.8800
+- **Azure - GPT-4.1-mini-2025-04-14 (Regional)** [input]: 0.4300 -> 0.4900
+- **Azure - GPT-4.1-mini-2025-04-14 (Regional)** [cached_input]: 0.1100 -> 0.1300
+- **Azure - GPT-4.1-mini-2025-04-14 (Regional)** [output]: 1.6900 -> 1.9400
+- **Azure - GPT-4.1-nano-2025-04-14 (Global)** [input]: 0.0900 -> 0.1000
+- **Azure - GPT-4.1-nano-2025-04-14 (Global)** [output]: 0.3500 -> 0.4000
+- **Azure - GPT-4.1-nano-2025-04-14 (Global)** [batch_output]: 0.1800 -> 0.2000
+- **Azure - GPT-4.1-nano-2025-04-14 (Data Zone)** [input]: 0.1000 -> 0.1100
+- **Azure - GPT-4.1-nano-2025-04-14 (Data Zone)** [output]: 0.3900 -> 0.4400
+- **Azure - GPT-4.1-nano-2025-04-14 (Data Zone)** [batch_input]: 0.0500 -> 0.0600
+- **Azure - GPT-4.1-nano-2025-04-14 (Data Zone)** [batch_output]: 0.2000 -> 0.2200
+- **Azure - GPT-4.1-nano-2025-04-14 (Regional)** [input]: 0.1100 -> 0.1300
+- **Azure - GPT-4.1-nano-2025-04-14 (Regional)** [cached_input]: 0.0300 -> 0.0400
+- **Azure - GPT-4.1-nano-2025-04-14 (Regional)** [output]: 0.4300 -> 0.4900
+- **Azure - GPT-Image-1.5 (Global)** [input]: 4.3500 -> 5.0000
+- **Azure - GPT-Image-1.5 (Global)** [cached_input]: 1.0900 -> 1.2500
+- **Azure - GPT-Image-1.5 (Global)** [image_input]: 6.9500 -> 8.0000
+- **Azure - GPT-Image-1.5 (Global)** [cached_input_image]: 1.7400 -> 2.0000
+- **Azure - GPT-Image-1.5 (Global)** [output]: 8.6900 -> 10.0000
+- **Azure - GPT-Image-1.5 (Global)** [output_image]: 27.7800 -> 32.0000
+- **Azure - GPT-Image-1-mini (Global)** [input]: 1.7400 -> 2.0000
+- **Azure - GPT-Image-1-mini (Global)** [cached_input]: 0.1800 -> 0.2000
+- **Azure - GPT-Image-1-mini (Global)** [image_input]: 2.1800 -> 2.5000
+- **Azure - GPT-Image-1-mini (Global)** [cached_input_image]: 0.2200 -> 0.2500
+- **Azure - GPT-Image-1-mini (Global)** [output_image]: 6.9500 -> 8.0000
+- **Azure - GPT-Image-1 (Global)** [input]: 4.3500 -> 5.0000
+- **Azure - GPT-Image-1 (Global)** [cached_input]: 1.0900 -> 1.2500
+- **Azure - GPT-Image-1 (Global)** [image_input]: 8.6900 -> 10.0000
+- **Azure - GPT-Image-1 (Global)** [cached_input_image]: 2.1800 -> 2.5000
+- **Azure - GPT-Image-1 (Global)** [output_image]: 34.7300 -> 40.0000
+- **Azure - GPT-Image-1 (Regional)** [input]: 5.2600 -> 6.0500
+- **Azure - GPT-Image-1 (Regional)** [cached_input]: 1.0900 -> 1.2500
+- **Azure - GPT-Image-1 (Regional)** [image_input]: 10.5100 -> 12.1000
+- **Azure - GPT-Image-1 (Regional)** [cached_input_image]: 2.1800 -> 2.5000
+- **Azure - GPT-Image-1 (Regional)** [output_image]: 42.0200 -> 48.4000
+- **Azure - GPT-Image-1 (Data Zone)** [input]: 4.7800 -> 5.5000
+- **Azure - GPT-Image-1 (Data Zone)** [image_input]: 9.5500 -> 11.0000
+- **Azure - GPT-Image-1 (Data Zone)** [output_image]: 38.2000 -> 44.0000
+- **Azure - GPT-4.5-Preview-2025-02-27 (Global)** [input]: 65.1100 -> 75.0000
+- **Azure - GPT-4.5-Preview-2025-02-27 (Global)** [cached_input]: 32.5600 -> 37.5000
+- **Azure - GPT-4.5-Preview-2025-02-27 (Global)** [output]: 130.2100 -> 150.0000
+- **Azure - o1 2024-12-17 (Global)** [input]: 13.0203 -> 15.0000
+- **Azure - o1 2024-12-17 (Global)** [cached_input]: 6.5102 -> 7.5000
+- **Azure - o1 2024-12-17 (Global)** [output]: 52.0811 -> 60.0000
+- **Azure - o1 2024-12-17 (Regional)** [input]: 15.7546 -> 18.1500
+- **Azure - o1 2024-12-17 (Regional)** [cached_input]: 7.8773 -> 9.0750
+- **Azure - o1 2024-12-17 (Regional)** [output]: 63.0181 -> 72.6000
+- **Azure - o1 2024-12-17 US/EU – Data Zones (Standard)** [input]: 14.3223 -> 16.5000
+- **Azure - o1 2024-12-17 US/EU – Data Zones (Standard)** [cached_input]: 7.1612 -> 8.2500
+- **Azure - o1 2024-12-17 US/EU – Data Zones (Standard)** [output]: 57.2892 -> 66.0000
+- **Azure - o1 preview 2024-09-12 (Global)** [input]: 13.0203 -> 15.0000
+- **Azure - o1 preview 2024-09-12 (Global)** [cached_input]: 6.5102 -> 7.5000
+- **Azure - o1 preview 2024-09-12 (Global)** [output]: 52.0811 -> 60.0000
+- **Azure - o1 preview 2024-09-12 (Regional)** [input]: 14.3223 -> 16.5000
+- **Azure - o1 preview 2024-09-12 (Regional)** [cached_input]: 7.8773 -> 9.0750
+- **Azure - o1 preview 2024-09-12 (Regional)** [output]: 57.2892 -> 66.0000
+- **Azure - o1 preview 2024-09-12 US/EU – Data Zones (Standard)** [input]: 14.3223 -> 16.5000
+- **Azure - o1 preview 2024-09-12 US/EU – Data Zones (Standard)** [cached_input]: 7.1612 -> 8.2500
+- **Azure - o1 preview 2024-09-12 US/EU – Data Zones (Standard)** [output]: 57.2892 -> 66.0000
+- **Azure - o3 mini 2025-01-31 (Global)** [input]: 0.9549 -> 1.1000
+- **Azure - o3 mini 2025-01-31 (Global)** [cached_input]: 0.4775 -> 0.5500
+- **Azure - o3 mini 2025-01-31 (Global)** [output]: 3.8193 -> 4.4000
+- **Azure - o3 mini 2025-01-31 (Global)** [batch_input]: 0.4774 -> 0.5500
+- **Azure - o3 mini 2025-01-31 (Global)** [batch_output]: 1.9097 -> 2.2000
+- **Azure - o3 mini 2025-01-31 (Regional)** [input]: 1.1554 -> 1.3310
+- **Azure - o3 mini 2025-01-31 (Regional)** [cached_input]: 0.5781 -> 0.6660
+- **Azure - o3 mini 2025-01-31 (Regional)** [output]: 4.6213 -> 5.3240
+- **Azure - o3 mini 2025-01-31-US/EU – Data Zones (Standard)** [input]: 1.0504 -> 1.2100
+- **Azure - o3 mini 2025-01-31-US/EU – Data Zones (Standard)** [cached_input]: 0.5252 -> 0.6050
+- **Azure - o3 mini 2025-01-31-US/EU – Data Zones (Standard)** [output]: 4.2012 -> 4.8400
+- **Azure - o3 mini 2025-01-31-US/EU – Data Zones (Standard)** [batch_input]: 0.5252 -> 0.6050
+- **Azure - o3 mini 2025-01-31-US/EU – Data Zones (Standard)** [batch_output]: 2.1006 -> 2.4200
+- **Azure - o1-mini 2024-09-12 (Global)** [input]: 0.9549 -> 1.1000
+- **Azure - o1-mini 2024-09-12 (Global)** [cached_input]: 0.4775 -> 0.5500
+- **Azure - o1-mini 2024-09-12 (Global)** [output]: 3.8193 -> 4.4000
+- **Azure - o1-mini 2024-09-12 (Regional)** [input]: 1.1554 -> 1.3310
+- **Azure - o1-mini 2024-09-12 (Regional)** [cached_input]: 0.5781 -> 0.6660
+- **Azure - o1-mini 2024-09-12 (Regional)** [output]: 4.6213 -> 5.3240
+- **Azure - o1-mini 2024-09-12 US/EU – Data Zones (Standard)** [input]: 1.0504 -> 1.2100
+- **Azure - o1-mini 2024-09-12 US/EU – Data Zones (Standard)** [cached_input]: 0.5252 -> 0.6050
+- **Azure - o1-mini 2024-09-12 US/EU – Data Zones (Standard)** [output]: 4.2012 -> 4.8400
+- **Azure - gpt-oss-120b (Standard)** [input]: 0.1303 -> 0.1500
+- **Azure - gpt-oss-120b (Standard)** [output]: 0.5209 -> 0.6000
+- **Azure - GPT-realtime (Standard)** [text_input]: 3.4800 -> 4.0000
+- **Azure - GPT-realtime (Standard)** [cached_input]: 0.4400 -> 0.5000
+- **Azure - GPT-realtime (Standard)** [output]: 55.5600 -> 64.0000
+- **Azure - GPT-realtime (Standard)** [audio_input]: 27.7800 -> 32.0000
+- **Azure - GPT-realtime (Standard)** [image_input]: 4.3500 -> 5.0000
+- **Azure - GPT-realtime-mini-2025-12-15 (Global)** [text_input]: 0.5300 -> 0.6000
+- **Azure - GPT-realtime-mini-2025-12-15 (Global)** [cached_input]: 0.0700 -> 0.0800
+- **Azure - GPT-realtime-mini-2025-12-15 (Global)** [output]: 17.3700 -> 20.0000
+- **Azure - GPT-realtime-mini-2025-12-15 (Global)** [audio_input]: 8.6900 -> 10.0000
+- **Azure - GPT-realtime-mini-2025-12-15 (Global)** [image_input]: 0.7000 -> 0.8000
+- **Azure - GPT-audio (Standard)** [text_input]: 2.1800 -> 2.5000
+- **Azure - GPT-audio (Standard)** [output]: 69.4500 -> 80.0000
+- **Azure - GPT-audio (Standard)** [audio_input]: 34.7300 -> 40.0000
+- **Azure - GPT-audio-mini-2025-12-15 (Global)** [text_input]: 0.5300 -> 0.6000
+- **Azure - GPT-audio-mini-2025-12-15 (Global)** [output]: 17.3700 -> 20.0000
+- **Azure - GPT-audio-mini-2025-12-15 (Global)** [audio_input]: 8.6900 -> 10.0000
+- **Azure - GPT-4o-Transcribe (Standard)** [text_input]: 2.1800 -> 2.5000
+- **Azure - GPT-4o-Transcribe (Standard)** [output]: 8.6900 -> 10.0000
+- **Azure - GPT-4o-Transcribe (Standard)** [audio_input]: 5.2100 -> 6.0000
+- **Azure - GPT-4o-transcribe-diarize (Standard)** [text_input]: 2.1800 -> 2.5000
+- **Azure - GPT-4o-transcribe-diarize (Standard)** [output]: 8.6900 -> 10.0000
+- **Azure - GPT-4o-transcribe-diarize (Standard)** [audio_input]: 5.2100 -> 6.0000
+- **Azure - GPT-4o-mini-transcribe-2025-12-15 (Standard)** [text_input]: 1.0900 -> 1.2500
+- **Azure - GPT-4o-mini-transcribe-2025-12-15 (Standard)** [output]: 4.3500 -> 5.0000
+- **Azure - GPT-4o-mini-transcribe-2025-12-15 (Standard)** [audio_input]: 2.6100 -> 3.0000
+- **Azure - GPT-4o-mini-TTS-2025-12-15 (Standard)** [text_input]: 0.5300 -> 0.6000
+- **Azure - GPT-4o-mini-TTS-2025-12-15 (Standard)** [a_output]: 10.4200 -> 12.0000
+- **Azure - computer-use-preview (Global)** [input]: 2.6041 -> 3.0000
+- **Azure - computer-use-preview (Global)** [m_tokens_output]: 10.4163 -> 12.0000
+- **Azure - GPT-4o-Realtime-Preview-2024-12-17-Global (Standard)** [text_input]: 4.3401 -> 5.0000
+- **Azure - GPT-4o-Realtime-Preview-2024-12-17-Global (Standard)** [cached_input]: 2.1701 -> 2.5000
+- **Azure - GPT-4o-Realtime-Preview-2024-12-17-Global (Standard)** [output]: 69.4414 -> 80.0000
+- **Azure - GPT-4o-Realtime-Preview-2024-12-17-Global (Standard)** [audio_input]: 34.7208 -> 40.0000
+- **Azure - GPT-4o-Realtime-Preview-2024-12-17-US/EU – Data Zones (Standard)** [text_input]: 4.7741 -> 5.5000
+- **Azure - GPT-4o-Realtime-Preview-2024-12-17-US/EU – Data Zones (Standard)** [cached_input]: 2.3871 -> 2.7500
+- **Azure - GPT-4o-Realtime-Preview-2024-12-17-US/EU – Data Zones (Standard)** [output]: 76.3856 -> 88.0000
+- **Azure - GPT-4o-Realtime-Preview-2024-12-17-US/EU – Data Zones (Standard)** [audio_input]: 38.1928 -> 44.0000
+- **Azure - GPT-4o-Realtime-Preview-2024-12-17-Regional (Standard)** [text_input]: 5.2516 -> 6.0500
+- **Azure - GPT-4o-Realtime-Preview-2024-12-17-Regional (Standard)** [cached_input]: 2.6258 -> 3.0250
+- **Azure - GPT-4o-Realtime-Preview-2024-12-17-Regional (Standard)** [output]: 84.0241 -> 96.8000
+- **Azure - GPT-4o-Realtime-Preview-2024-12-17-Regional (Standard)** [audio_input]: 42.0121 -> 48.4000
+- **Azure - GPT-4o-Mini-Realtime-Preview-2024-12-17-Global (Standard)** [text_input]: 0.5209 -> 0.6000
+- **Azure - GPT-4o-Mini-Realtime-Preview-2024-12-17-Global (Standard)** [cached_input]: 0.2605 -> 0.3000
+- **Azure - GPT-4o-Mini-Realtime-Preview-2024-12-17-Global (Standard)** [output]: 17.3604 -> 20.0000
+- **Azure - GPT-4o-Mini-Realtime-Preview-2024-12-17-Global (Standard)** [audio_input]: 8.6802 -> 10.0000
+- **Azure - GPT-4o-Mini-Realtime-Preview-2024-12-17-US/EU – Data Zones (Standard)** [text_input]: 0.5729 -> 0.6600
+- **Azure - GPT-4o-Mini-Realtime-Preview-2024-12-17-US/EU – Data Zones (Standard)** [cached_input]: 0.2865 -> 0.3300
+- **Azure - GPT-4o-Mini-Realtime-Preview-2024-12-17-US/EU – Data Zones (Standard)** [output]: 19.0964 -> 22.0000
+- **Azure - GPT-4o-Mini-Realtime-Preview-2024-12-17-US/EU – Data Zones (Standard)** [audio_input]: 9.5482 -> 11.0000
+- **Azure - GPT-4o-Mini-Realtime-Preview-2024-12-17-Regional (Standard)** [text_input]: 0.6302 -> 0.7260
+- **Azure - GPT-4o-Mini-Realtime-Preview-2024-12-17-Regional (Standard)** [cached_input]: 0.3151 -> 0.3630
+- **Azure - GPT-4o-Mini-Realtime-Preview-2024-12-17-Regional (Standard)** [output]: 21.0060 -> 24.2000
+- **Azure - GPT-4o-Mini-Realtime-Preview-2024-12-17-Regional (Standard)** [audio_input]: 10.5031 -> 12.1000
+- **Azure - GPT-4o-Realtime-Preview-2024-10-01-Global (Standard)** [text_input]: 4.3401 -> 5.0000
+- **Azure - GPT-4o-Realtime-Preview-2024-10-01-Global (Standard)** [cached_input]: 17.3604 -> 20.0000
+- **Azure - GPT-4o-Realtime-Preview-2024-10-01-Global (Standard)** [output]: 173.6036 -> 200.0000
+- **Azure - GPT-4o-Realtime-Preview-2024-10-01-Global (Standard)** [audio_input]: 86.8018 -> 100.0000
+- **Azure - GPT-4o-Realtime-Preview-2024-10-01-US/EU – Data Zones (Standard)** [text_input]: 4.7741 -> 5.5000
+- **Azure - GPT-4o-Realtime-Preview-2024-10-01-US/EU – Data Zones (Standard)** [cached_input]: 19.0964 -> 22.0000
+- **Azure - GPT-4o-Realtime-Preview-2024-10-01-US/EU – Data Zones (Standard)** [output]: 190.9639 -> 220.0000
+- **Azure - GPT-4o-Realtime-Preview-2024-10-01-US/EU – Data Zones (Standard)** [audio_input]: 95.4820 -> 110.0000
+- **Azure - GPT-4o-Realtime-Preview-2024-10-01-Regional (Standard)** [text_input]: 5.2516 -> 6.0500
+- **Azure - GPT-4o-Realtime-Preview-2024-10-01-Regional (Standard)** [cached_input]: 21.0061 -> 24.2000
+- **Azure - GPT-4o-Realtime-Preview-2024-10-01-Regional (Standard)** [output]: 210.0603 -> 242.0000
+- **Azure - GPT-4o-Realtime-Preview-2024-10-01-Regional (Standard)** [audio_input]: 105.0302 -> 121.0000
+- **Azure - GPT-4o-Audio-Preview-2024-12-17-Global (Standard)** [text_input]: 2.1701 -> 2.5000
+- **Azure - GPT-4o-Audio-Preview-2024-12-17-Global (Standard)** [output]: 69.4414 -> 80.0000
+- **Azure - GPT-4o-Audio-Preview-2024-12-17-Global (Standard)** [audio_input]: 34.7208 -> 40.0000
+- **Azure - GPT-4o-Audio-Preview-2024-12-17-US/EU – Data Zones (Standard)** [text_input]: 2.3871 -> 2.7500
+- **Azure - GPT-4o-Audio-Preview-2024-12-17-US/EU – Data Zones (Standard)** [output]: 76.3856 -> 88.0000
+- **Azure - GPT-4o-Audio-Preview-2024-12-17-US/EU – Data Zones (Standard)** [audio_input]: 38.1928 -> 44.0000
+- **Azure - GPT-4o-Audio-Preview-2024-12-17-Regional (Standard)** [text_input]: 2.6258 -> 3.0250
+- **Azure - GPT-4o-Audio-Preview-2024-12-17-Regional (Standard)** [output]: 84.0241 -> 96.8000
+- **Azure - GPT-4o-Audio-Preview-2024-12-17-Regional (Standard)** [audio_input]: 42.0121 -> 48.4000
+- **Azure - GPT-4o-Mini-Audio-Preview-2024-12-17-Global (Standard)** [text_input]: 0.1303 -> 0.1500
+- **Azure - GPT-4o-Mini-Audio-Preview-2024-12-17-Global (Standard)** [output]: 17.3604 -> 20.0000
+- **Azure - GPT-4o-Mini-Audio-Preview-2024-12-17-Global (Standard)** [audio_input]: 8.6802 -> 10.0000
+- **Azure - GPT-4o-Mini-Audio-Preview-2024-12-17-US/EU – Data Zones (Standard)** [text_input]: 0.1433 -> 0.1650
+- **Azure - GPT-4o-Mini-Audio-Preview-2024-12-17-US/EU – Data Zones (Standard)** [output]: 19.0964 -> 22.0000
+- **Azure - GPT-4o-Mini-Audio-Preview-2024-12-17-US/EU – Data Zones (Standard)** [audio_input]: 9.5482 -> 11.0000
+- **Azure - GPT-4o-Mini-Audio-Preview-2024-12-17-Regional (Standard)** [text_input]: 0.1580 -> 0.1820
+- **Azure - GPT-4o-Mini-Audio-Preview-2024-12-17-Regional (Standard)** [output]: 21.0060 -> 24.2000
+- **Azure - GPT-4o-Mini-Audio-Preview-2024-12-17-Regional (Standard)** [audio_input]: 10.5031 -> 12.1000
+- **Azure - GPT-4o-2024-1120 (Global)** [input]: 2.1700 -> 2.5000
+- **Azure - GPT-4o-2024-1120 (Global)** [cached_input]: 1.0851 -> 1.2500
+- **Azure - GPT-4o-2024-1120 (Global)** [output]: 8.6802 -> 10.0000
+- **Azure - GPT-4o-2024-1120 (Global)** [batch_input]: 1.0850 -> 1.2500
+- **Azure - GPT-4o-2024-1120 (Global)** [batch_output]: 4.3401 -> 5.0000
+- **Azure - GPT-4o-2024-1120 (Regional)** [input]: 2.6258 -> 3.0250
+- **Azure - GPT-4o-2024-1120 (Regional)** [cached_input]: 1.3134 -> 1.5130
+- **Azure - GPT-4o-2024-1120 (Regional)** [output]: 10.5031 -> 12.1000
+- **Azure - GPT-4o-2024-1120 US/EU – Data Zones (Standard)** [input]: 2.3870 -> 2.7500
+- **Azure - GPT-4o-2024-1120 US/EU – Data Zones (Standard)** [cached_input]: 1.1936 -> 1.3750
+- **Azure - GPT-4o-2024-1120 US/EU – Data Zones (Standard)** [output]: 9.5482 -> 11.0000
+- **Azure - GPT-4o-2024-08-06 (Global)** [input]: 2.1700 -> 2.5000
+- **Azure - GPT-4o-2024-08-06 (Global)** [cached_input]: 1.0851 -> 1.2500
+- **Azure - GPT-4o-2024-08-06 (Global)** [output]: 8.6802 -> 10.0000
+- **Azure - GPT-4o-2024-08-06 (Global)** [batch_input]: 1.0850 -> 1.2500
+- **Azure - GPT-4o-2024-08-06 (Global)** [batch_output]: 4.3401 -> 5.0000
+- **Azure - GPT-4o-2024-08-06 (Regional)** [input]: 2.3870 -> 2.7500
+- **Azure - GPT-4o-2024-08-06 (Regional)** [cached_input]: 1.3134 -> 1.5130
+- **Azure - GPT-4o-2024-08-06 (Regional)** [output]: 9.5482 -> 11.0000
+- **Azure - GPT-4o-2024-08-06 US/EU – Data Zones (Standard)** [input]: 2.3870 -> 2.7500
+- **Azure - GPT-4o-2024-08-06 US/EU – Data Zones (Standard)** [cached_input]: 1.1936 -> 1.3750
+- **Azure - GPT-4o-2024-08-06 US/EU – Data Zones (Standard)** [output]: 9.5482 -> 11.0000
+- **Azure - GPT-4o-2024-08-06 US/EU – Data Zones (Standard)** [batch_input]: 1.1935 -> 1.3750
+- **Azure - GPT-4o-2024-08-06 US/EU – Data Zones (Standard)** [batch_output]: 4.7741 -> 5.5000
+- **Azure - GPT-4o-2024-0513 (Global)** [input]: 4.3401 -> 5.0000
+- **Azure - GPT-4o-2024-0513 (Global)** [output]: 13.0203 -> 15.0000
+- **Azure - GPT-4o-2024-0513 (Global)** [batch_input]: 2.1700 -> 2.5000
+- **Azure - GPT-4o-2024-0513 (Global)** [batch_output]: 6.5102 -> 7.5000
+- **Azure - GPT-4o-2024-0513 (Regional)** [input]: 5.2515 -> 6.0500
+- **Azure - GPT-4o-2024-0513 (Regional)** [output]: 15.7546 -> 18.1500
+- **Azure - GPT-4o-2024-0513 US/EU – Data Zones (Standard)** [input]: 4.7741 -> 5.5000
+- **Azure - GPT-4o-2024-0513 US/EU – Data Zones (Standard)** [output]: 14.3223 -> 16.5000
+- **Azure - GPT-4o-mini-0718 (Global)** [input]: 0.1302 -> 0.1500
+- **Azure - GPT-4o-mini-0718 (Global)** [cached_input]: 0.0652 -> 0.0750
+- **Azure - GPT-4o-mini-0718 (Global)** [output]: 0.5209 -> 0.6000
+- **Azure - GPT-4o-mini-0718 (Global)** [batch_input]: 0.0651 -> 0.0750
+- **Azure - GPT-4o-mini-0718 (Global)** [batch_output]: 0.2605 -> 0.3000
+- **Azure - GPT-4o-mini-0718 (Regional)** [input]: 0.1432 -> 0.1650
+- **Azure - GPT-4o-mini-0718 (Regional)** [cached_input]: 0.0790 -> 0.0910
+- **Azure - GPT-4o-mini-0718 (Regional)** [output]: 0.5729 -> 0.6600
+- **Azure - GPT-4o-mini-0718 US/EU – Data Zones (Standard)** [input]: 0.1432 -> 0.1650
+- **Azure - GPT-4o-mini-0718 US/EU – Data Zones (Standard)** [cached_input]: 0.0721 -> 0.0830
+- **Azure - GPT-4o-mini-0718 US/EU – Data Zones (Standard)** [output]: 0.5729 -> 0.6600
+- **Azure - Global (Standard)** [input]: 0.1310 -> 0.1500
+- **Azure - Global (Standard)** [m_tokens_cached_input]: 0.0660 -> 0.0750
+- **Azure - Global (Standard)** [m_tokens_output]: 0.5300 -> 0.6000
+- **Azure - Global (Standard)** [m_tokens_training]: 2.7000 -> 3.0000
+- **Azure - Global (Standard)** [m_tokens_hosting]: 1.5000 -> 1.7000
+- **Azure - Developer (Standard)** [training]: 1.3100 -> 1.5000
+- **Azure - Ada (Standard)** [price]: 0.0001 -> 0.0001
+- **Azure - Ada DataZone (Standard)** [price]: 0.0001 -> 0.0001
+- **Azure - text-embedding-3-large (Standard)** [price]: 0.0001 -> 0.0002
+- **Azure - text-embedding-3-large DataZone (Standard)** [price]: 0.0001 -> 0.0001
+- **Azure - text-embedding-3-small (Standard)** [price]: 0.0000 -> 0.0000
+- **Azure - text-embedding-3-small DataZone (Standard)** [price]: 0.0000 -> 0.0000
+- **Azure - Whisper (Standard)** [price]: 0.3800 -> 0.4400
+- **Azure - TTS (Text to Speech) (Standard)** [price]: 13.0300 -> 15.0000
+- **Azure - TTS HD (Standard)** [price]: 31.5100 -> 36.3000
+
 ### 2026-04-01
 - **Azure - GPT-5.2 Codex (Global)** [input]: 1.4900 -> 1.5200
 - **Azure - GPT-5.2 Codex (Global)** [cached_input]: 0.1500 -> 0.1600
