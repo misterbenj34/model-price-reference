@@ -15,7 +15,7 @@ Each file (`azure.json`, `aws.json`, `gcp.json`) follows this structure, detaili
   "provider": "ProviderName",
   "last_updated": "YYYY-MM-DD",
   "region": "RegionName",
-  "currency": "EUR",
+  "currency": "USD",
   "models": [
     {
       "name": "model-name",
@@ -53,7 +53,7 @@ This document outlines the extraction methodology used to gather, parse, and str
 
 **Target URL:** `https://azure.microsoft.com/en-us/pricing/details/azure-openai/`  
 **Target Region:** Sweden Central  
-**Target Currency:** Euro (EUR)
+**Target Currency:** US Dollar (USD)
 
 ### Challenges & Approach
 The Azure pricing page dynamically calculates and renders prices via JavaScript based on user selections (Region, Currency). A static HTTP request (like `curl` or `requests` in Python) will only return the default USD pricing for the default region.
@@ -62,7 +62,7 @@ To capture accurate localized pricing:
 1. **Headless Browser Execution:** We must use a tool capable of executing JavaScript (e.g., Playwright, Puppeteer, or a CLI wrapper).
 2. **DOM Interaction:** 
    - Locate the "Region" dropdown element and select "Sweden Central".
-   - Locate the "Currency" dropdown element and select "Euro Zone – Euro (€) EUR".
+   - Locate the "Currency" dropdown element and select "US Dollar ($) USD".
    - Wait for the pricing tables to re-render.
 3. **Data Parsing:**
    - Iterate through the structured pricing tables for each model series (e.g., GPT-5.2, GPT-5.1, o3, GPT-4o).
