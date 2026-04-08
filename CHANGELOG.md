@@ -1,5 +1,8 @@
 # Pricing Changelog
 
+### 2026-04-08
+- **AWS - Anthropic Claude 4.5 Haiku**: New model added.
+
 ### 2026-04-03
 - **Azure - GPT-5.2 Codex (Global)** [input]: 1.5200 -> 1.7500
 - **Azure - GPT-5.2 Codex (Global)** [cached_input]: 0.1600 -> 0.1800
