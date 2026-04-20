@@ -1,9 +1,35 @@
 {
   "provider": "Azure",
-  "last_updated": "2026-04-11",
+  "last_updated": "2026-04-20",
   "region": "Sweden Central",
   "currency": "USD",
   "models": [
+    {
+      "name": "GPT-5.3 Codex",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 1.75,
+            "cached_input": 0.175,
+            "output": 14.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.3 Chat",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 1.75,
+            "cached_input": 0.175,
+            "output": 14.0
+          }
+        }
+      ]
+    },
     {
       "name": "GPT-5.2 Codex",
       "deployments": [
@@ -11,7 +37,7 @@
           "type": "Global",
           "pricing_1m_tokens": {
             "input": 1.75,
-            "cached_input": 0.18,
+            "cached_input": 0.175,
             "output": 14.0
           }
         }
@@ -24,16 +50,22 @@
           "type": "Global",
           "pricing_1m_tokens": {
             "input": 1.75,
-            "cached_input": 0.18,
-            "output": 14.0
+            "cached_input": 0.175,
+            "output": 14.0,
+            "priority_input": 3.5,
+            "priority_cached_input": 0.35,
+            "priority_output": 28.0
           }
         },
         {
           "type": "Data Zone",
           "pricing_1m_tokens": {
-            "input": 1.93,
-            "cached_input": 0.2,
-            "output": 15.4
+            "input": 1.925,
+            "cached_input": 0.1925,
+            "output": 15.4,
+            "priority_input": 3.85,
+            "priority_cached_input": 0.385,
+            "priority_output": 30.8
           }
         }
       ]
@@ -45,7 +77,7 @@
           "type": "Global",
           "pricing_1m_tokens": {
             "input": 1.75,
-            "cached_input": 0.18,
+            "cached_input": 0.175,
             "output": 14.0
           }
         }
@@ -57,8 +89,8 @@
         {
           "type": "Data Zone",
           "pricing_1m_tokens": {
-            "input": 1.93,
-            "cached_input": 0.2,
+            "input": 1.925,
+            "cached_input": 0.1925,
             "output": 15.4
           }
         }
@@ -71,15 +103,15 @@
           "type": "Global",
           "pricing_1m_tokens": {
             "input": 1.25,
-            "cached_input": 0.13,
+            "cached_input": 0.125,
             "output": 10.0
           }
         },
         {
           "type": "Data Zone",
           "pricing_1m_tokens": {
-            "input": 1.38,
-            "cached_input": 0.14,
+            "input": 1.375,
+            "cached_input": 0.1375,
             "output": 11.0
           }
         }
@@ -92,7 +124,7 @@
           "type": "Global",
           "pricing_1m_tokens": {
             "input": 1.25,
-            "cached_input": 0.13,
+            "cached_input": 0.125,
             "output": 10.0
           }
         }
@@ -105,7 +137,7 @@
           "type": "Global",
           "pricing_1m_tokens": {
             "input": 1.25,
-            "cached_input": 0.13,
+            "cached_input": 0.125,
             "output": 10.0
           }
         }
@@ -118,7 +150,7 @@
           "type": "Global",
           "pricing_1m_tokens": {
             "input": 1.25,
-            "cached_input": 0.13,
+            "cached_input": 0.125,
             "output": 10.0
           }
         }
@@ -131,7 +163,7 @@
           "type": "Global",
           "pricing_1m_tokens": {
             "input": 0.25,
-            "cached_input": 0.03,
+            "cached_input": 0.025,
             "output": 2.0
           }
         }
@@ -144,11 +176,14 @@
           "type": "Global",
           "pricing_1m_tokens": {
             "input": 1.25,
-            "cached_input": 0.13,
+            "cached_input": 0.125,
             "output": 10.0,
-            "batch_input": 0.63,
-            "batch_cached_input": 0.07,
-            "batch_output": 5.0
+            "batch_input": 0.625,
+            "batch_cached_input": 0.0625,
+            "batch_output": 5.0,
+            "priority_input": 2.5,
+            "priority_cached_input": 0.25,
+            "priority_output": 20.0
           }
         }
       ]
@@ -159,12 +194,15 @@
         {
           "type": "Data Zone",
           "pricing_1m_tokens": {
-            "input": 1.38,
-            "cached_input": 0.14,
+            "input": 1.375,
+            "cached_input": 0.1375,
             "output": 11.0,
-            "batch_input": 0.69,
-            "batch_cached_input": 0.07,
-            "batch_output": 5.5
+            "batch_input": 0.6875,
+            "batch_cached_input": 0.06875,
+            "batch_output": 5.5,
+            "priority_input": 1.375,
+            "priority_cached_input": 0.1375,
+            "priority_output": 11.0
           }
         }
       ]
@@ -188,7 +226,7 @@
           "type": "Global",
           "pricing_1m_tokens": {
             "input": 1.25,
-            "cached_input": 0.13,
+            "cached_input": 0.125,
             "output": 10.0
           }
         }
@@ -201,15 +239,15 @@
           "type": "Global",
           "pricing_1m_tokens": {
             "input": 0.25,
-            "cached_input": 0.03,
+            "cached_input": 0.025,
             "output": 2.0
           }
         },
         {
           "type": "Data Zone",
           "pricing_1m_tokens": {
-            "input": 0.28,
-            "cached_input": 0.03,
+            "input": 0.275,
+            "cached_input": 0.0275,
             "output": 2.2
           }
         }
@@ -222,15 +260,15 @@
           "type": "Global",
           "pricing_1m_tokens": {
             "input": 0.05,
-            "cached_input": 0.01,
+            "cached_input": 0.005,
             "output": 0.4
           }
         },
         {
           "type": "Data Zone",
           "pricing_1m_tokens": {
-            "input": 0.06,
-            "cached_input": 0.01,
+            "input": 0.055,
+            "cached_input": 0.0055,
             "output": 0.44
           }
         }
@@ -243,7 +281,7 @@
           "type": "Global",
           "pricing_1m_tokens": {
             "input": 1.25,
-            "cached_input": 0.13,
+            "cached_input": 0.125,
             "output": 10.0
           }
         }
@@ -255,7 +293,8 @@
         {
           "type": "Global",
           "pricing_1m_tokens": {
-            "a_cached_input": 2.5,
+            "input": 10.0,
+            "cached_input": 2.5,
             "output": 40.0
           }
         }
@@ -288,7 +327,7 @@
           "type": "Regional",
           "pricing_1m_tokens": {
             "input": 2.42,
-            "cached_input": 0.61,
+            "cached_input": 0.605,
             "output": 9.68
           }
         }
@@ -301,7 +340,7 @@
           "type": "Global",
           "pricing_1m_tokens": {
             "input": 1.1,
-            "cached_input": 0.28,
+            "cached_input": 0.275,
             "output": 4.4,
             "batch_input": 0.55,
             "batch_output": 2.2
@@ -311,18 +350,18 @@
           "type": "Data Zone",
           "pricing_1m_tokens": {
             "input": 1.21,
-            "cached_input": 0.31,
+            "cached_input": 0.303,
             "output": 4.84,
-            "batch_input": 0.61,
+            "batch_input": 0.605,
             "batch_output": 2.42
           }
         },
         {
           "type": "Regional",
           "pricing_1m_tokens": {
-            "input": 1.34,
-            "cached_input": 0.34,
-            "output": 5.33
+            "input": 1.331,
+            "cached_input": 0.333,
+            "output": 5.324
           }
         }
       ]
@@ -339,7 +378,7 @@
             "batch_input": 1.0,
             "batch_output": 4.0,
             "priority_input": 3.5,
-            "priority_cached_input": 0.88,
+            "priority_cached_input": 0.875,
             "priority_output": 14.0
           }
         },
@@ -352,7 +391,7 @@
             "batch_input": 1.1,
             "batch_output": 4.4,
             "priority_input": 3.85,
-            "priority_cached_input": 0.97,
+            "priority_cached_input": 0.963,
             "priority_output": 15.4
           }
         },
@@ -360,7 +399,7 @@
           "type": "Regional",
           "pricing_1m_tokens": {
             "input": 2.42,
-            "cached_input": 0.61,
+            "cached_input": 0.605,
             "output": 9.68
           }
         }
@@ -392,9 +431,9 @@
         {
           "type": "Regional",
           "pricing_1m_tokens": {
-            "input": 0.49,
-            "cached_input": 0.13,
-            "output": 1.94
+            "input": 0.484,
+            "cached_input": 0.121,
+            "output": 1.936
           }
         }
       ]
@@ -406,7 +445,7 @@
           "type": "Global",
           "pricing_1m_tokens": {
             "input": 0.1,
-            "cached_input": 0.03,
+            "cached_input": 0.025,
             "output": 0.4,
             "batch_input": 0.05,
             "batch_output": 0.2
@@ -416,18 +455,18 @@
           "type": "Data Zone",
           "pricing_1m_tokens": {
             "input": 0.11,
-            "cached_input": 0.03,
+            "cached_input": 0.028,
             "output": 0.44,
-            "batch_input": 0.06,
+            "batch_input": 0.055,
             "batch_output": 0.22
           }
         },
         {
           "type": "Regional",
           "pricing_1m_tokens": {
-            "input": 0.13,
-            "cached_input": 0.04,
-            "output": 0.49
+            "input": 0.121,
+            "cached_input": 0.031,
+            "output": 0.484
           }
         }
       ]
@@ -448,6 +487,17 @@
             "cached_input_image": 2.0,
             "output": 10.0,
             "output_image": 32.0
+          }
+        },
+        {
+          "type": "Data Zone",
+          "pricing_1m_tokens": {
+            "input": 5.5,
+            "cached_input": 1.375,
+            "image_input": 8.8,
+            "cached_input_image": 2.2,
+            "output": 11.0,
+            "output_image": 35.2
           }
         }
       ]
@@ -535,10 +585,10 @@
       ]
     },
     {
-      "name": "o1 2024-12-17 US/EU \u2013 Data Zones",
+      "name": "o1 2024-12-17 US/EU \u2013",
       "deployments": [
         {
-          "type": "Standard",
+          "type": "Data Zone",
           "pricing_1m_tokens": {
             "input": 16.5,
             "cached_input": 8.25,
@@ -569,10 +619,10 @@
       ]
     },
     {
-      "name": "o1 preview 2024-09-12 US/EU \u2013 Data Zones",
+      "name": "o1 preview 2024-09-12 US/EU \u2013",
       "deployments": [
         {
-          "type": "Standard",
+          "type": "Data Zone",
           "pricing_1m_tokens": {
             "input": 16.5,
             "cached_input": 8.25,
@@ -605,10 +655,10 @@
       ]
     },
     {
-      "name": "o3 mini 2025-01-31-US/EU \u2013 Data Zones",
+      "name": "o3 mini 2025-01-31-US/EU \u2013",
       "deployments": [
         {
-          "type": "Standard",
+          "type": "Data Zone",
           "pricing_1m_tokens": {
             "input": 1.21,
             "cached_input": 0.605,
@@ -641,10 +691,10 @@
       ]
     },
     {
-      "name": "o1-mini 2024-09-12 US/EU \u2013 Data Zones",
+      "name": "o1-mini 2024-09-12 US/EU \u2013",
       "deployments": [
         {
-          "type": "Standard",
+          "type": "Data Zone",
           "pricing_1m_tokens": {
             "input": 1.21,
             "cached_input": 0.605,
@@ -666,16 +716,26 @@
       ]
     },
     {
+      "name": "GPT-audio-1.5",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 32.0,
+            "output": 64.0
+          }
+        }
+      ]
+    },
+    {
       "name": "GPT-realtime",
       "deployments": [
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "text_input": 4.0,
+            "input": 5.0,
             "cached_input": 0.5,
-            "output": 64.0,
-            "audio_input": 32.0,
-            "image_input": 5.0
+            "output": 64.0
           }
         }
       ]
@@ -686,11 +746,9 @@
         {
           "type": "Global",
           "pricing_1m_tokens": {
-            "text_input": 0.6,
+            "input": 0.8,
             "cached_input": 0.08,
-            "output": 20.0,
-            "audio_input": 10.0,
-            "image_input": 0.8
+            "output": 20.0
           }
         }
       ]
@@ -701,9 +759,8 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "text_input": 2.5,
-            "output": 80.0,
-            "audio_input": 40.0
+            "input": 40.0,
+            "output": 80.0
           }
         }
       ]
@@ -714,9 +771,8 @@
         {
           "type": "Global",
           "pricing_1m_tokens": {
-            "text_input": 0.6,
-            "output": 20.0,
-            "audio_input": 10.0
+            "input": 10.0,
+            "output": 20.0
           }
         }
       ]
@@ -727,9 +783,8 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "text_input": 2.5,
-            "output": 10.0,
-            "audio_input": 6.0
+            "input": 6.0,
+            "output": 10.0
           }
         }
       ]
@@ -740,9 +795,8 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "text_input": 2.5,
-            "output": 10.0,
-            "audio_input": 6.0
+            "input": 6.0,
+            "output": 10.0
           }
         }
       ]
@@ -753,9 +807,8 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "text_input": 1.25,
-            "output": 5.0,
-            "audio_input": 3.0
+            "input": 3.0,
+            "output": 5.0
           }
         }
       ]
@@ -766,20 +819,8 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "text_input": 0.6,
-            "a_output": 12.0
-          }
-        }
-      ]
-    },
-    {
-      "name": "computer-use-preview",
-      "deployments": [
-        {
-          "type": "Global",
-          "pricing_1m_tokens": {
-            "input": 3.0,
-            "m_tokens_output": 12.0
+            "input": 0.6,
+            "output": 12.0
           }
         }
       ]
@@ -790,24 +831,22 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "text_input": 5.0,
+            "input": 40.0,
             "cached_input": 2.5,
-            "output": 80.0,
-            "audio_input": 40.0
+            "output": 80.0
           }
         }
       ]
     },
     {
-      "name": "GPT-4o-Realtime-Preview-2024-12-17-US/EU \u2013 Data Zones",
+      "name": "GPT-4o-Realtime-Preview-2024-12-17-US/EU \u2013",
       "deployments": [
         {
-          "type": "Standard",
+          "type": "Data Zone",
           "pricing_1m_tokens": {
-            "text_input": 5.5,
+            "input": 44.0,
             "cached_input": 2.75,
-            "output": 88.0,
-            "audio_input": 44.0
+            "output": 88.0
           }
         }
       ]
@@ -818,10 +857,9 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "text_input": 6.05,
+            "input": 48.4,
             "cached_input": 3.025,
-            "output": 96.8,
-            "audio_input": 48.4
+            "output": 96.8
           }
         }
       ]
@@ -832,24 +870,22 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "text_input": 0.6,
+            "input": 10.0,
             "cached_input": 0.3,
-            "output": 20.0,
-            "audio_input": 10.0
+            "output": 20.0
           }
         }
       ]
     },
     {
-      "name": "GPT-4o-Mini-Realtime-Preview-2024-12-17-US/EU \u2013 Data Zones",
+      "name": "GPT-4o-Mini-Realtime-Preview-2024-12-17-US/EU \u2013",
       "deployments": [
         {
-          "type": "Standard",
+          "type": "Data Zone",
           "pricing_1m_tokens": {
-            "text_input": 0.66,
+            "input": 11.0,
             "cached_input": 0.33,
-            "output": 22.0,
-            "audio_input": 11.0
+            "output": 22.0
           }
         }
       ]
@@ -860,10 +896,9 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "text_input": 0.726,
+            "input": 12.1,
             "cached_input": 0.363,
-            "output": 24.2,
-            "audio_input": 12.1
+            "output": 24.2
           }
         }
       ]
@@ -874,24 +909,22 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "text_input": 5.0,
+            "input": 100.0,
             "cached_input": 20.0,
-            "output": 200.0,
-            "audio_input": 100.0
+            "output": 200.0
           }
         }
       ]
     },
     {
-      "name": "GPT-4o-Realtime-Preview-2024-10-01-US/EU \u2013 Data Zones",
+      "name": "GPT-4o-Realtime-Preview-2024-10-01-US/EU \u2013",
       "deployments": [
         {
-          "type": "Standard",
+          "type": "Data Zone",
           "pricing_1m_tokens": {
-            "text_input": 5.5,
+            "input": 110.0,
             "cached_input": 22.0,
-            "output": 220.0,
-            "audio_input": 110.0
+            "output": 220.0
           }
         }
       ]
@@ -902,10 +935,9 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "text_input": 6.05,
+            "input": 121.0,
             "cached_input": 24.2,
-            "output": 242.0,
-            "audio_input": 121.0
+            "output": 242.0
           }
         }
       ]
@@ -916,22 +948,20 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "text_input": 2.5,
-            "output": 80.0,
-            "audio_input": 40.0
+            "input": 40.0,
+            "output": 80.0
           }
         }
       ]
     },
     {
-      "name": "GPT-4o-Audio-Preview-2024-12-17-US/EU \u2013 Data Zones",
+      "name": "GPT-4o-Audio-Preview-2024-12-17-US/EU \u2013",
       "deployments": [
         {
-          "type": "Standard",
+          "type": "Data Zone",
           "pricing_1m_tokens": {
-            "text_input": 2.75,
-            "output": 88.0,
-            "audio_input": 44.0
+            "input": 44.0,
+            "output": 88.0
           }
         }
       ]
@@ -942,9 +972,8 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "text_input": 3.025,
-            "output": 96.8,
-            "audio_input": 48.4
+            "input": 48.4,
+            "output": 96.8
           }
         }
       ]
@@ -955,22 +984,20 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "text_input": 0.15,
-            "output": 20.0,
-            "audio_input": 10.0
+            "input": 10.0,
+            "output": 20.0
           }
         }
       ]
     },
     {
-      "name": "GPT-4o-Mini-Audio-Preview-2024-12-17-US/EU \u2013 Data Zones",
+      "name": "GPT-4o-Mini-Audio-Preview-2024-12-17-US/EU \u2013",
       "deployments": [
         {
-          "type": "Standard",
+          "type": "Data Zone",
           "pricing_1m_tokens": {
-            "text_input": 0.165,
-            "output": 22.0,
-            "audio_input": 11.0
+            "input": 11.0,
+            "output": 22.0
           }
         }
       ]
@@ -981,9 +1008,8 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "text_input": 0.182,
-            "output": 24.2,
-            "audio_input": 12.1
+            "input": 12.1,
+            "output": 24.2
           }
         }
       ]
@@ -1012,10 +1038,10 @@
       ]
     },
     {
-      "name": "GPT-4o-2024-1120 US/EU \u2013 Data Zones",
+      "name": "GPT-4o-2024-1120 US/EU \u2013",
       "deployments": [
         {
-          "type": "Standard",
+          "type": "Data Zone",
           "pricing_1m_tokens": {
             "input": 2.75,
             "cached_input": 1.375,
@@ -1048,10 +1074,10 @@
       ]
     },
     {
-      "name": "GPT-4o-2024-08-06 US/EU \u2013 Data Zones",
+      "name": "GPT-4o-2024-08-06 US/EU \u2013",
       "deployments": [
         {
-          "type": "Standard",
+          "type": "Data Zone",
           "pricing_1m_tokens": {
             "input": 2.75,
             "cached_input": 1.375,
@@ -1084,10 +1110,10 @@
       ]
     },
     {
-      "name": "GPT-4o-2024-0513 US/EU \u2013 Data Zones",
+      "name": "GPT-4o-2024-0513 US/EU \u2013",
       "deployments": [
         {
-          "type": "Standard",
+          "type": "Data Zone",
           "pricing_1m_tokens": {
             "input": 5.5,
             "output": 16.5
@@ -1119,10 +1145,10 @@
       ]
     },
     {
-      "name": "GPT-4o-mini-0718 US/EU \u2013 Data Zones",
+      "name": "GPT-4o-mini-0718 US/EU \u2013",
       "deployments": [
         {
-          "type": "Standard",
+          "type": "Data Zone",
           "pricing_1m_tokens": {
             "input": 0.165,
             "cached_input": 0.083,
@@ -1132,27 +1158,7 @@
       ]
     },
     {
-      "name": "GPT-5.2 Data Zones",
-      "deployments": []
-    },
-    {
       "name": "GPT-5.1 Codex",
-      "deployments": []
-    },
-    {
-      "name": "GPT-5.1 Codex Data Zones",
-      "deployments": []
-    },
-    {
-      "name": "GPT-5.1 Data Zones",
-      "deployments": []
-    },
-    {
-      "name": "GPT-5-mini Data Zones",
-      "deployments": []
-    },
-    {
-      "name": "GPT-5 Data Zones",
       "deployments": []
     },
     {
@@ -1160,15 +1166,11 @@
       "deployments": []
     },
     {
-      "name": "GPT-4.1 Data Zones",
-      "deployments": []
-    },
-    {
       "name": "GPT-4.1-mini",
       "deployments": []
     },
     {
-      "name": "GPT-4.1-mini US/EU Data Zones",
+      "name": "GPT-4.1-mini US/EU",
       "deployments": []
     },
     {
@@ -1176,7 +1178,7 @@
       "deployments": []
     },
     {
-      "name": "GPT-4.1-nano US/EU Data Zones",
+      "name": "GPT-4.1-nano US/EU",
       "deployments": []
     },
     {
@@ -1184,7 +1186,7 @@
       "deployments": []
     },
     {
-      "name": "o3-mini US/EU Data Zones",
+      "name": "o3-mini US/EU",
       "deployments": []
     },
     {
@@ -1192,7 +1194,7 @@
       "deployments": []
     },
     {
-      "name": "o3 US/EU Data Zones",
+      "name": "o3 US/EU",
       "deployments": []
     },
     {
@@ -1200,7 +1202,7 @@
       "deployments": []
     },
     {
-      "name": "o4-mini US/EU Data Zones",
+      "name": "o4-mini US/EU",
       "deployments": []
     },
     {
@@ -1208,7 +1210,7 @@
       "deployments": []
     },
     {
-      "name": "GPT-4o US/EU Data Zones",
+      "name": "GPT-4o US/EU",
       "deployments": []
     },
     {
@@ -1220,7 +1222,7 @@
       "deployments": []
     },
     {
-      "name": "GPT-4o Mini US/EU Data Zones",
+      "name": "GPT-4o Mini US/EU",
       "deployments": []
     },
     {
@@ -1228,7 +1230,29 @@
       "deployments": []
     },
     {
-      "name": "o4-mini (Reinforcement fine-tuning)",
+      "name": "Babbage-002",
+      "deployments": [
+        {
+          "type": "Standard",
+          "pricing_1m_tokens": {
+            "price": 0.0004
+          }
+        }
+      ]
+    },
+    {
+      "name": "Davinci-002",
+      "deployments": [
+        {
+          "type": "Standard",
+          "pricing_1m_tokens": {
+            "price": 0.002
+          }
+        }
+      ]
+    },
+    {
+      "name": "o4-mini  (Reinforcement fine-tuning)",
       "deployments": []
     },
     {
@@ -1238,9 +1262,9 @@
           "type": "Standard",
           "pricing_1m_tokens": {
             "input": 1.1,
-            "m_tokens_output": 4.4,
-            "m_tokens_training": 100.0,
-            "hour_hosting": 1.7,
+            "output": 4.4,
+            "training": 100.0,
+            "hosting": 1.7,
             "o": 11.0,
             "_mini": 4.84
           }
@@ -1249,50 +1273,50 @@
           "type": "Standard",
           "pricing_1m_tokens": {
             "input": 2.0,
-            "m_tokens_cached_input": 0.5,
-            "m_tokens_output": 8.0,
-            "m_tokens_training": 25.0,
-            "m_tokens_hosting": 1.7
+            "cached_input": 0.5,
+            "output": 8.0,
+            "training": 25.0,
+            "hosting": 1.7
           }
         },
         {
           "type": "Standard",
           "pricing_1m_tokens": {
             "input": 0.4,
-            "m_tokens_cached_input": 0.1,
-            "m_tokens_output": 1.6,
-            "m_tokens_training": 5.0,
-            "m_tokens_hosting": 1.7
+            "cached_input": 0.1,
+            "output": 1.6,
+            "training": 5.0,
+            "hosting": 1.7
           }
         },
         {
           "type": "Standard",
           "pricing_1m_tokens": {
             "input": 0.1,
-            "m_tokens_cached_input": 0.025,
-            "m_tokens_output": 0.4,
-            "m_tokens_training": 1.5,
-            "m_tokens_hosting": 1.7
+            "cached_input": 0.025,
+            "output": 0.4,
+            "training": 1.5,
+            "hosting": 1.7
           }
         },
         {
           "type": "Standard",
           "pricing_1m_tokens": {
             "input": 2.5,
-            "m_tokens_cached_input": 1.25,
-            "m_tokens_output": 10.0,
-            "m_tokens_training": 25.0,
-            "m_tokens_hosting": 1.7
+            "cached_input": 1.25,
+            "output": 10.0,
+            "training": 25.0,
+            "hosting": 1.7
           }
         },
         {
           "type": "Standard",
           "pricing_1m_tokens": {
             "input": 0.15,
-            "m_tokens_cached_input": 0.075,
-            "m_tokens_output": 0.6,
-            "m_tokens_training": 3.0,
-            "m_tokens_hosting": 1.7
+            "cached_input": 0.075,
+            "output": 0.6,
+            "training": 3.0,
+            "hosting": 1.7
           }
         }
       ]
@@ -1304,36 +1328,36 @@
           "type": "Standard",
           "pricing_1m_tokens": {
             "input": 1.1,
-            "m_tokens_cached_input": 0.275,
-            "m_tokens_output": 4.4,
-            "m_tokens_training": 50.0
+            "cached_input": 0.275,
+            "output": 4.4,
+            "training": 50.0
           }
         },
         {
           "type": "Standard",
           "pricing_1m_tokens": {
             "input": 2.0,
-            "m_tokens_cached_input": 0.5,
-            "m_tokens_output": 8.0,
-            "m_tokens_training": 12.5
+            "cached_input": 0.5,
+            "output": 8.0,
+            "training": 12.5
           }
         },
         {
           "type": "Standard",
           "pricing_1m_tokens": {
             "input": 0.4,
-            "m_tokens_cached_input": 0.1,
-            "m_tokens_output": 1.6,
-            "m_tokens_training": 2.5
+            "cached_input": 0.1,
+            "output": 1.6,
+            "training": 2.5
           }
         },
         {
           "type": "Standard",
           "pricing_1m_tokens": {
             "input": 0.1,
-            "m_tokens_cached_input": 0.025,
-            "m_tokens_output": 0.4,
-            "m_tokens_training": 0.75
+            "cached_input": 0.025,
+            "output": 0.4,
+            "training": 0.75
           }
         },
         {
@@ -1450,7 +1474,7 @@
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "price": 0.44
+            "price": 0.4356
           }
         }
       ]
