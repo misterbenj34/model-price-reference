@@ -3,8 +3,8 @@
 # Navigate to the workspace directory
 cd /home/openclaw/.openclaw/workspace/model-price-reference || exit 1
 
-# Pull latest changes from remote
-git pull origin main -q
+# Make sure we are clean and sync with remote
+git pull --rebase origin main -q
 
 # Backup current files for comparison
 cp azure.json azure_old.json 2>/dev/null || true
@@ -12,14 +12,7 @@ cp aws.json aws_old.json 2>/dev/null || true
 cp gcp.json gcp_old.json 2>/dev/null || true
 
 # Execute extraction scripts
-# Use the virtual environment for Azure since Playwright is installed there
-if [ -d ".venv" ]; then
-    .venv/bin/python scripts/azure_generate.py
-else
-    # Fallback to system python if venv not found (might fail if playwright missing)
-    python3 scripts/azure_generate.py
-fi
-
+python3 scripts/azure_generate.py
 python3 scripts/aws_generate.py
 python3 scripts/gcp_generate.py
 
@@ -46,6 +39,7 @@ echo "{\"last_run\": \"$(date -u +'%Y-%m-%dT%H:%M:%SZ')\", \"status\": \"success
 if [[ -n $(git status -s | grep -E "\.json|CHANGELOG\.md") ]]; then
     git add .
     git commit -m "chore(prices): update daily prices and changelog" -q
+    git pull --rebase -X theirs origin main -q
     git push origin main -q
 fi
 

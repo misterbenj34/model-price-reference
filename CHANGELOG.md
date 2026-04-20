@@ -1,5 +1,8 @@
 # Pricing Changelog
 
+### 2026-04-20
+- **AWS - Anthropic Claude Opus 4.7**: New model added.
+
 ### 2026-04-08
 - **AWS - Anthropic Claude 4.5 Haiku**: New model added.
 
