@@ -4,6 +4,7 @@
 cd /home/openclaw/.openclaw/workspace/model-price-reference || exit 1
 
 # Make sure we are clean and sync with remote
+git reset --hard -q
 git pull --rebase origin main -q
 
 # Backup current files for comparison
