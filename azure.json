@@ -1,9 +1,88 @@
 {
   "provider": "Azure",
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-04-30",
   "region": "Sweden Central",
   "currency": "USD",
   "models": [
+    {
+      "name": "GPT-5.4 (&lt;272k context length)",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 2.5,
+            "cached_input": 0.25,
+            "output": 15.0,
+            "priority_input": 5.0,
+            "priority_cached_input": 0.5,
+            "priority_output": 30.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.4 (&gt;272k context length)",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 5.0,
+            "cached_input": 0.5,
+            "output": 22.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.4 Pro (&lt;272k context length)",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 30.0,
+            "output": 180.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.4 Pro (&gt;272k context length)",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 60.0,
+            "output": 270.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.4 mini",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 0.75,
+            "cached_input": 0.075,
+            "output": 4.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.4 nano",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 0.2,
+            "cached_input": 0.02,
+            "output": 1.25
+          }
+        }
+      ]
+    },
     {
       "name": "GPT-5.3 Codex",
       "deployments": [
@@ -104,7 +183,10 @@
           "pricing_1m_tokens": {
             "input": 1.25,
             "cached_input": 0.125,
-            "output": 10.0
+            "output": 10.0,
+            "priority_input": 2.5,
+            "priority_cached_input": 0.25,
+            "priority_output": 20.0
           }
         },
         {
@@ -112,7 +194,10 @@
           "pricing_1m_tokens": {
             "input": 1.375,
             "cached_input": 0.1375,
-            "output": 11.0
+            "output": 11.0,
+            "priority_input": 2.75,
+            "priority_cached_input": 0.275,
+            "priority_output": 22.0
           }
         }
       ]

@@ -1,5 +1,13 @@
 # Pricing Changelog
 
+### 2026-04-30
+- **Azure - GPT-5.4 (&lt;272k context length)**: New model added.
+- **Azure - GPT-5.4 (&gt;272k context length)**: New model added.
+- **Azure - GPT-5.4 Pro (&lt;272k context length)**: New model added.
+- **Azure - GPT-5.4 Pro (&gt;272k context length)**: New model added.
+- **Azure - GPT-5.4 mini**: New model added.
+- **Azure - GPT-5.4 nano**: New model added.
+
 ### 2026-04-20
 - **AWS - Anthropic Claude Opus 4.7**: New model added.
 
