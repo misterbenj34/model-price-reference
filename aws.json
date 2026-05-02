@@ -1,6 +1,6 @@
 {
   "provider": "AWS",
-  "last_updated": "2026-05-01",
+  "last_updated": "2026-05-02",
   "region": "Europe (Ireland)",
   "currency": "USD",
   "models": [
@@ -65,67 +65,7 @@
       ]
     },
     {
-      "name": "Anthropic Claude Sonnet 4.6 - Long Context",
-      "deployments": [
-        {
-          "type": "On-Demand",
-          "pricing_1m_tokens": {
-            "input": 3.0,
-            "output": 15.0
-          }
-        },
-        {
-          "type": "Global Cross-region",
-          "pricing_1m_tokens": {
-            "input": 3.0,
-            "output": 15.0,
-            "batch_input": 1.5,
-            "batch_output": 7.5
-          }
-        },
-        {
-          "type": "Geo and In-region Cross-region",
-          "pricing_1m_tokens": {
-            "input": 3.0,
-            "output": 15.0,
-            "batch_input": 1.5,
-            "batch_output": 7.5
-          }
-        }
-      ]
-    },
-    {
       "name": "Anthropic Claude Opus 4.6",
-      "deployments": [
-        {
-          "type": "On-Demand",
-          "pricing_1m_tokens": {
-            "input": 5.0,
-            "output": 25.0
-          }
-        },
-        {
-          "type": "Global Cross-region",
-          "pricing_1m_tokens": {
-            "input": 5.0,
-            "output": 25.0,
-            "batch_input": 2.5,
-            "batch_output": 12.5
-          }
-        },
-        {
-          "type": "Geo and In-region Cross-region",
-          "pricing_1m_tokens": {
-            "input": 5.0,
-            "output": 25.0,
-            "batch_input": 2.5,
-            "batch_output": 12.5
-          }
-        }
-      ]
-    },
-    {
-      "name": "Anthropic Claude Opus 4.6 - Long Context",
       "deployments": [
         {
           "type": "On-Demand",
@@ -245,36 +185,6 @@
       ]
     },
     {
-      "name": "Anthropic Claude Sonnet 4.5 - Long Context",
-      "deployments": [
-        {
-          "type": "On-Demand",
-          "pricing_1m_tokens": {
-            "input": 6.0,
-            "output": 22.5
-          }
-        },
-        {
-          "type": "Global Cross-region",
-          "pricing_1m_tokens": {
-            "input": 6.0,
-            "output": 22.5,
-            "batch_input": 3.0,
-            "batch_output": 11.25
-          }
-        },
-        {
-          "type": "Geo and In-region Cross-region",
-          "pricing_1m_tokens": {
-            "input": 6.0,
-            "output": 22.5,
-            "batch_input": 3.0,
-            "batch_output": 11.25
-          }
-        }
-      ]
-    },
-    {
       "name": "Anthropic Claude Sonnet 4",
       "deployments": [
         {
@@ -300,36 +210,6 @@
             "output": 15.0,
             "batch_input": 1.5,
             "batch_output": 7.5
-          }
-        }
-      ]
-    },
-    {
-      "name": "Anthropic Claude Sonnet 4 - Long Context",
-      "deployments": [
-        {
-          "type": "On-Demand",
-          "pricing_1m_tokens": {
-            "input": 6.0,
-            "output": 22.5
-          }
-        },
-        {
-          "type": "Global Cross-region",
-          "pricing_1m_tokens": {
-            "input": 6.0,
-            "output": 22.5,
-            "batch_input": 3.0,
-            "batch_output": 11.25
-          }
-        },
-        {
-          "type": "Geo and In-region Cross-region",
-          "pricing_1m_tokens": {
-            "input": 6.0,
-            "output": 22.5,
-            "batch_input": 3.0,
-            "batch_output": 11.25
           }
         }
       ]
