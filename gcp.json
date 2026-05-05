@@ -1,6 +1,6 @@
 {
   "provider": "GCP",
-  "last_updated": "2026-05-04",
+  "last_updated": "2026-05-05",
   "region": "us-central1 (Iowa) - Global Defaults",
   "currency": "USD",
   "special_logic": "GCP scales pricing based on context length (<= 128K/200K vs > 128K/200K). These are mapped using '_long_context' suffix. Flex/Batch is exactly 50% of Standard.",
