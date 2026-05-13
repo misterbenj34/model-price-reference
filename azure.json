@@ -1,6 +1,6 @@
 {
   "provider": "Azure",
-  "last_updated": "2026-05-12",
+  "last_updated": "2026-05-13",
   "region": "Sweden Central",
   "currency": "USD",
   "models": [
@@ -28,7 +28,10 @@
           "pricing_1m_tokens": {
             "input": 5.0,
             "cached_input": 0.5,
-            "output": 22.5
+            "output": 22.5,
+            "batch_input": 1.25,
+            "batch_cached_input": 0.13,
+            "batch_output": 7.5
           }
         }
       ]
@@ -65,7 +68,10 @@
           "pricing_1m_tokens": {
             "input": 0.75,
             "cached_input": 0.075,
-            "output": 4.5
+            "output": 4.5,
+            "priority_input": 1.5,
+            "priority_cached_input": 0.15,
+            "priority_output": 9.0
           }
         }
       ]
@@ -91,7 +97,10 @@
           "pricing_1m_tokens": {
             "input": 1.75,
             "cached_input": 0.175,
-            "output": 14.0
+            "output": 14.0,
+            "priority_input": 3.5,
+            "priority_cached_input": 0.35,
+            "priority_output": 28.0
           }
         }
       ]
@@ -325,7 +334,10 @@
           "pricing_1m_tokens": {
             "input": 0.25,
             "cached_input": 0.025,
-            "output": 2.0
+            "output": 2.0,
+            "priority_input": 0.45,
+            "priority_cached_input": 0.045,
+            "priority_output": 3.6
           }
         },
         {
@@ -333,7 +345,10 @@
           "pricing_1m_tokens": {
             "input": 0.275,
             "cached_input": 0.0275,
-            "output": 2.2
+            "output": 2.2,
+            "priority_input": 0.495,
+            "priority_cached_input": 0.0495,
+            "priority_output": 3.96
           }
         }
       ]
@@ -500,7 +515,10 @@
             "cached_input": 0.1,
             "output": 1.6,
             "batch_input": 0.2,
-            "batch_output": 0.8
+            "batch_output": 0.8,
+            "priority_input": 0.7,
+            "priority_cached_input": 0.175,
+            "priority_output": 2.8
           }
         },
         {
@@ -510,7 +528,10 @@
             "cached_input": 0.11,
             "output": 1.76,
             "batch_input": 0.22,
-            "batch_output": 0.88
+            "batch_output": 0.88,
+            "priority_input": 0.77,
+            "priority_cached_input": 0.193,
+            "priority_output": 3.08
           }
         },
         {
