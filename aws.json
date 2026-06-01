@@ -1,9 +1,39 @@
 {
   "provider": "AWS",
-  "last_updated": "2026-05-18",
+  "last_updated": "2026-06-01",
   "region": "Europe (Ireland)",
   "currency": "USD",
   "models": [
+    {
+      "name": "Anthropic Claude Opus 4.8",
+      "deployments": [
+        {
+          "type": "On-Demand",
+          "pricing_1m_tokens": {
+            "input": 5.0,
+            "output": 25.0
+          }
+        },
+        {
+          "type": "Global Cross-region",
+          "pricing_1m_tokens": {
+            "input": 5.0,
+            "output": 25.0,
+            "batch_input": 2.5,
+            "batch_output": 12.5
+          }
+        },
+        {
+          "type": "Geo and In-region Cross-region",
+          "pricing_1m_tokens": {
+            "input": 5.0,
+            "output": 25.0,
+            "batch_input": 2.5,
+            "batch_output": 12.5
+          }
+        }
+      ]
+    },
     {
       "name": "Anthropic Claude Opus 4.7",
       "deployments": [
@@ -605,6 +635,66 @@
       ]
     },
     {
+      "name": "Cohere Command",
+      "deployments": [
+        {
+          "type": "On-Demand",
+          "pricing_1m_tokens": {
+            "input": 1.0,
+            "output": 2.0
+          }
+        },
+        {
+          "type": "Global Cross-region",
+          "pricing_1m_tokens": {
+            "input": 1.0,
+            "output": 2.0,
+            "batch_input": 0.5,
+            "batch_output": 1.0
+          }
+        },
+        {
+          "type": "Geo and In-region Cross-region",
+          "pricing_1m_tokens": {
+            "input": 1.0,
+            "output": 2.0,
+            "batch_input": 0.5,
+            "batch_output": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cohere Command-Light",
+      "deployments": [
+        {
+          "type": "On-Demand",
+          "pricing_1m_tokens": {
+            "input": 0.3,
+            "output": 0.6
+          }
+        },
+        {
+          "type": "Global Cross-region",
+          "pricing_1m_tokens": {
+            "input": 0.3,
+            "output": 0.6,
+            "batch_input": 0.15,
+            "batch_output": 0.3
+          }
+        },
+        {
+          "type": "Geo and In-region Cross-region",
+          "pricing_1m_tokens": {
+            "input": 0.3,
+            "output": 0.6,
+            "batch_input": 0.15,
+            "batch_output": 0.3
+          }
+        }
+      ]
+    },
+    {
       "name": "Cohere Command R+",
       "deployments": [
         {
@@ -660,66 +750,6 @@
             "output": 1.5,
             "batch_input": 0.25,
             "batch_output": 0.75
-          }
-        }
-      ]
-    },
-    {
-      "name": "Cohere Command",
-      "deployments": [
-        {
-          "type": "On-Demand",
-          "pricing_1m_tokens": {
-            "input": 4.0,
-            "output": 1.95
-          }
-        },
-        {
-          "type": "Global Cross-region",
-          "pricing_1m_tokens": {
-            "input": 4.0,
-            "output": 1.95,
-            "batch_input": 2.0,
-            "batch_output": 0.975
-          }
-        },
-        {
-          "type": "Geo and In-region Cross-region",
-          "pricing_1m_tokens": {
-            "input": 4.0,
-            "output": 1.95,
-            "batch_input": 2.0,
-            "batch_output": 0.975
-          }
-        }
-      ]
-    },
-    {
-      "name": "Cohere Command-Light",
-      "deployments": [
-        {
-          "type": "On-Demand",
-          "pricing_1m_tokens": {
-            "input": 1.0,
-            "output": 1.95
-          }
-        },
-        {
-          "type": "Global Cross-region",
-          "pricing_1m_tokens": {
-            "input": 1.0,
-            "output": 1.95,
-            "batch_input": 0.5,
-            "batch_output": 0.975
-          }
-        },
-        {
-          "type": "Geo and In-region Cross-region",
-          "pricing_1m_tokens": {
-            "input": 1.0,
-            "output": 1.95,
-            "batch_input": 0.5,
-            "batch_output": 0.975
           }
         }
       ]

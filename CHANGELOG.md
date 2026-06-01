@@ -1,5 +1,40 @@
 # Pricing Changelog
 
+### 2026-06-01
+- **GCP - Gemini 3 Pro Image**: New model added.
+- **GCP - Gemini 3.1 Flash Image**: New model added.
+
+### 2026-06-01
+- **AWS - Anthropic Claude Opus 4.8**: New model added.
+- **AWS - Cohere Command (On-Demand)** [input]: 4.0000 -> 1.0000
+- **AWS - Cohere Command (On-Demand)** [output]: 1.9500 -> 2.0000
+- **AWS - Cohere Command (Global Cross-region)** [input]: 4.0000 -> 1.0000
+- **AWS - Cohere Command (Global Cross-region)** [output]: 1.9500 -> 2.0000
+- **AWS - Cohere Command (Global Cross-region)** [batch_input]: 2.0000 -> 0.5000
+- **AWS - Cohere Command (Global Cross-region)** [batch_output]: 0.9750 -> 1.0000
+- **AWS - Cohere Command (Geo and In-region Cross-region)** [input]: 4.0000 -> 1.0000
+- **AWS - Cohere Command (Geo and In-region Cross-region)** [output]: 1.9500 -> 2.0000
+- **AWS - Cohere Command (Geo and In-region Cross-region)** [batch_input]: 2.0000 -> 0.5000
+- **AWS - Cohere Command (Geo and In-region Cross-region)** [batch_output]: 0.9750 -> 1.0000
+- **AWS - Cohere Command-Light (On-Demand)** [input]: 1.0000 -> 0.3000
+- **AWS - Cohere Command-Light (On-Demand)** [output]: 1.9500 -> 0.6000
+- **AWS - Cohere Command-Light (Global Cross-region)** [input]: 1.0000 -> 0.3000
+- **AWS - Cohere Command-Light (Global Cross-region)** [output]: 1.9500 -> 0.6000
+- **AWS - Cohere Command-Light (Global Cross-region)** [batch_input]: 0.5000 -> 0.1500
+- **AWS - Cohere Command-Light (Global Cross-region)** [batch_output]: 0.9750 -> 0.3000
+- **AWS - Cohere Command-Light (Geo and In-region Cross-region)** [input]: 1.0000 -> 0.3000
+- **AWS - Cohere Command-Light (Geo and In-region Cross-region)** [output]: 1.9500 -> 0.6000
+- **AWS - Cohere Command-Light (Geo and In-region Cross-region)** [batch_input]: 0.5000 -> 0.1500
+- **AWS - Cohere Command-Light (Geo and In-region Cross-region)** [batch_output]: 0.9750 -> 0.3000
+
+### 2026-06-01
+- **Azure - GPT-5.5**: New model added.
+- **Azure - GPT-5.5 Pro**: New model added.
+- **Azure - GPT-5.4 (&lt;272k context length) (Data Zone)**: New deployment added.
+- **Azure - GPT-Image-2**: New model added.
+- **Azure - GPT-4.5 (&lt;272k context length)**: New model added.
+- **Azure - Data Zone**: New model added.
+
 ### 2026-04-30
 - **Azure - GPT-5.4 (&lt;272k context length)**: New model added.
 - **Azure - GPT-5.4 (&gt;272k context length)**: New model added.

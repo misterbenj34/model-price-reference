@@ -1,9 +1,57 @@
 {
   "provider": "Azure",
-  "last_updated": "2026-05-18",
+  "last_updated": "2026-06-01",
   "region": "Sweden Central",
   "currency": "USD",
   "models": [
+    {
+      "name": "GPT-5.5",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 5.0,
+            "cached_input": 0.5,
+            "output": 30.0,
+            "priority_input": 12.5,
+            "priority_cached_input": 1.25,
+            "priority_output": 75.0
+          }
+        },
+        {
+          "type": "Data Zone",
+          "pricing_1m_tokens": {
+            "input": 5.5,
+            "cached_input": 0.55,
+            "output": 33.0,
+            "priority_input": 13.75,
+            "priority_cached_input": 1.375,
+            "priority_output": 82.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.5 Pro",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 10.0,
+            "cached_input": 1.0,
+            "output": 45.0
+          }
+        },
+        {
+          "type": "Data Zone",
+          "pricing_1m_tokens": {
+            "input": 11.0,
+            "cached_input": 1.1,
+            "output": 49.5
+          }
+        }
+      ]
+    },
     {
       "name": "GPT-5.4 (&lt;272k context length)",
       "deployments": [
@@ -16,6 +64,17 @@
             "priority_input": 5.0,
             "priority_cached_input": 0.5,
             "priority_output": 30.0
+          }
+        },
+        {
+          "type": "Data Zone",
+          "pricing_1m_tokens": {
+            "input": 2.75,
+            "cached_input": 0.275,
+            "output": 16.5,
+            "priority_input": 5.5,
+            "priority_cached_input": 0.55,
+            "priority_output": 33.0
           }
         }
       ]
@@ -580,6 +639,21 @@
     {
       "name": "Sora 2",
       "deployments": []
+    },
+    {
+      "name": "GPT-Image-2",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 5.0,
+            "cached_input": 1.25,
+            "image_input": 8.0,
+            "cached_input_image": 2.0,
+            "output_image": 30.0
+          }
+        }
+      ]
     },
     {
       "name": "GPT-Image-1.5",
@@ -1264,6 +1338,10 @@
       ]
     },
     {
+      "name": "GPT-4.5 (&lt;272k context length)",
+      "deployments": []
+    },
+    {
       "name": "GPT-5.1 Codex",
       "deployments": []
     },
@@ -1491,6 +1569,20 @@
     {
       "name": "GPT OSS 20B",
       "deployments": []
+    },
+    {
+      "name": "Data Zone",
+      "deployments": [
+        {
+          "type": "Standard",
+          "pricing_1m_tokens": {
+            "input": 0.077,
+            "output": 0.33,
+            "training": 4.0,
+            "hosting": 0.33
+          }
+        }
+      ]
     },
     {
       "name": "Dall-E-3",
