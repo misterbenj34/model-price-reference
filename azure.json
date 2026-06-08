@@ -1,9 +1,22 @@
 {
   "provider": "Azure",
-  "last_updated": "2026-06-02",
+  "last_updated": "2026-06-08",
   "region": "Sweden Central",
   "currency": "USD",
   "models": [
+    {
+      "name": "GPT-Chat Latest 05052026",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 5.0,
+            "cached_input": 0.5,
+            "output": 30.0
+          }
+        }
+      ]
+    },
     {
       "name": "GPT-5.5",
       "deployments": [
@@ -61,6 +74,9 @@
             "input": 2.5,
             "cached_input": 0.25,
             "output": 15.0,
+            "batch_input": 1.25,
+            "batch_cached_input": 0.13,
+            "batch_output": 7.5,
             "priority_input": 5.0,
             "priority_cached_input": 0.5,
             "priority_output": 30.0
@@ -87,10 +103,7 @@
           "pricing_1m_tokens": {
             "input": 5.0,
             "cached_input": 0.5,
-            "output": 22.5,
-            "batch_input": 1.25,
-            "batch_cached_input": 0.13,
-            "batch_output": 7.5
+            "output": 22.5
           }
         }
       ]
@@ -896,6 +909,41 @@
       ]
     },
     {
+      "name": "GPT-Realtime-Translate",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "output": 2.04
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-Realtime-Whisper",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "output": 1.02
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-realtime-1.5",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 5.0,
+            "cached_input": 0.5,
+            "output": 64.0
+          }
+        }
+      ]
+    },
+    {
       "name": "GPT-audio-1.5",
       "deployments": [
         {
@@ -1336,10 +1384,6 @@
           }
         }
       ]
-    },
-    {
-      "name": "GPT-4.5 (&lt;272k context length)",
-      "deployments": []
     },
     {
       "name": "GPT-5.1 Codex",

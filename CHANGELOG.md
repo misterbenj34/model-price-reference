@@ -1,5 +1,11 @@
 # Pricing Changelog
 
+### 2026-06-08
+- **Azure - GPT-Chat Latest 05052026**: New model added.
+- **Azure - GPT-Realtime-Translate**: New model added.
+- **Azure - GPT-Realtime-Whisper**: New model added.
+- **Azure - GPT-realtime-1.5**: New model added.
+
 ### 2026-06-01
 - **GCP - Gemini 3 Pro Image**: New model added.
 - **GCP - Gemini 3.1 Flash Image**: New model added.
