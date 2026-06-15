@@ -1,6 +1,6 @@
 {
   "provider": "Azure",
-  "last_updated": "2026-06-08",
+  "last_updated": "2026-06-15",
   "region": "Sweden Central",
   "currency": "USD",
   "models": [
@@ -40,27 +40,6 @@
             "priority_input": 13.75,
             "priority_cached_input": 1.375,
             "priority_output": 82.5
-          }
-        }
-      ]
-    },
-    {
-      "name": "GPT-5.5 Pro",
-      "deployments": [
-        {
-          "type": "Global",
-          "pricing_1m_tokens": {
-            "input": 10.0,
-            "cached_input": 1.0,
-            "output": 45.0
-          }
-        },
-        {
-          "type": "Data Zone",
-          "pricing_1m_tokens": {
-            "input": 11.0,
-            "cached_input": 1.1,
-            "output": 49.5
           }
         }
       ]

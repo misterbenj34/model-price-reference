@@ -1,9 +1,39 @@
 {
   "provider": "AWS",
-  "last_updated": "2026-06-08",
+  "last_updated": "2026-06-15",
   "region": "Europe (Ireland)",
   "currency": "USD",
   "models": [
+    {
+      "name": "Anthropic Claude Fable 5",
+      "deployments": [
+        {
+          "type": "On-Demand",
+          "pricing_1m_tokens": {
+            "input": 10.0,
+            "output": 50.0
+          }
+        },
+        {
+          "type": "Global Cross-region",
+          "pricing_1m_tokens": {
+            "input": 10.0,
+            "output": 50.0,
+            "batch_input": 5.0,
+            "batch_output": 25.0
+          }
+        },
+        {
+          "type": "Geo and In-region Cross-region",
+          "pricing_1m_tokens": {
+            "input": 10.0,
+            "output": 50.0,
+            "batch_input": 5.0,
+            "batch_output": 25.0
+          }
+        }
+      ]
+    },
     {
       "name": "Anthropic Claude Opus 4.8",
       "deployments": [

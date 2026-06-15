@@ -1,5 +1,8 @@
 # Pricing Changelog
 
+### 2026-06-15
+- **AWS - Anthropic Claude Fable 5**: New model added.
+
 ### 2026-06-08
 - **Azure - GPT-Chat Latest 05052026**: New model added.
 - **Azure - GPT-Realtime-Translate**: New model added.
