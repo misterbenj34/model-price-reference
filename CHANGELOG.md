@@ -1,5 +1,8 @@
 # Pricing Changelog
 
+### 2026-06-22
+- **Azure - GPT-5.5 Long Context**: New model added.
+
 ### 2026-06-15
 - **AWS - Anthropic Claude Fable 5**: New model added.
 
