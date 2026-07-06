@@ -1,6 +1,6 @@
 {
   "provider": "GCP",
-  "last_updated": "2026-06-29",
+  "last_updated": "2026-07-06",
   "region": "us-central1 (Iowa) - Global Defaults",
   "currency": "USD",
   "special_logic": "GCP scales pricing based on context length (<= 128K/200K vs > 128K/200K). These are mapped using '_long_context' suffix. Flex/Batch is exactly 50% of Standard.",
@@ -68,26 +68,26 @@
       ]
     },
     {
-      "name": "Gemini 3 Pro Image",
+      "name": "Gemini 3.1 Flash-Lite Image (Nano Banana 2 Lite)",
       "deployments": [
         {
           "type": "Standard",
           "pricing_1m_tokens": {
-            "input": 2.0,
-            "output": 12.0
+            "input": 0.25,
+            "output": 1.5
           }
         },
         {
           "type": "Flex/Batch",
           "pricing_1m_tokens": {
-            "batch_input": 1.0,
-            "batch_output": 6.0
+            "batch_input": 0.125,
+            "batch_output": 0.75
           }
         }
       ]
     },
     {
-      "name": "Gemini 3.1 Flash Image",
+      "name": "Gemini 3.1 Flash Image (Nano Banana 2)",
       "deployments": [
         {
           "type": "Standard",
@@ -101,6 +101,25 @@
           "pricing_1m_tokens": {
             "batch_input": 0.25,
             "batch_output": 1.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "Gemini 3 Pro Image (Nano Banana Pro)",
+      "deployments": [
+        {
+          "type": "Standard",
+          "pricing_1m_tokens": {
+            "input": 2.0,
+            "output": 12.0
+          }
+        },
+        {
+          "type": "Flex/Batch",
+          "pricing_1m_tokens": {
+            "batch_input": 1.0,
+            "batch_output": 6.0
           }
         }
       ]

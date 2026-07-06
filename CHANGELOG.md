@@ -1,5 +1,13 @@
 # Pricing Changelog
 
+### 2026-07-06
+- **GCP - Gemini 3.1 Flash-Lite Image (Nano Banana 2 Lite)**: New model added.
+- **GCP - Gemini 3.1 Flash Image (Nano Banana 2)**: New model added.
+- **GCP - Gemini 3 Pro Image (Nano Banana Pro)**: New model added.
+
+### 2026-07-06
+- **AWS - Anthropic Claude Sonnet 5***: New model added.
+
 ### 2026-06-22
 - **Azure - GPT-5.5 Long Context**: New model added.
 
