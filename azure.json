@@ -1,6 +1,6 @@
 {
   "provider": "Azure",
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-27",
   "region": "Sweden Central",
   "currency": "USD",
   "models": [
@@ -141,9 +141,23 @@
             "input": 0.75,
             "cached_input": 0.075,
             "output": 4.5,
+            "batch_input": 0.375,
+            "batch_cached_input": 0.0375,
+            "batch_output": 2.25,
             "priority_input": 1.5,
             "priority_cached_input": 0.15,
             "priority_output": 9.0
+          }
+        },
+        {
+          "type": "Data Zone",
+          "pricing_1m_tokens": {
+            "input": 0.825,
+            "cached_input": 0.0825,
+            "output": 4.95,
+            "priority_input": 1.65,
+            "priority_cached_input": 0.165,
+            "priority_output": 9.9
           }
         }
       ]

@@ -1,5 +1,14 @@
 # Pricing Changelog
 
+### 2026-07-27
+- **GCP - Gemini 3.6 Flash**: New model added.
+
+### 2026-07-27
+- **AWS - Anthropic Claude Opus 5**: New model added.
+
+### 2026-07-27
+- **Azure - GPT-5.4 mini (Data Zone)**: New deployment added.
+
 ### 2026-07-06
 - **GCP - Gemini 3.1 Flash-Lite Image (Nano Banana 2 Lite)**: New model added.
 - **GCP - Gemini 3.1 Flash Image (Nano Banana 2)**: New model added.
