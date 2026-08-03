@@ -1,5 +1,16 @@
 # Pricing Changelog
 
+### 2026-08-03
+- **Azure - GPT-5.6-sol (short context)**: New model added.
+- **Azure - GPT-5.6-sol (long context)**: New model added.
+- **Azure - GPT-5.6-terra (short context)**: New model added.
+- **Azure - GPT-5.6-terra (long context)**: New model added.
+- **Azure - GPT-5.6-luna (short context)**: New model added.
+- **Azure - GPT-5.6-luna (long context)**: New model added.
+- **Azure - GPT-Realtime 2.1**: New model added.
+- **Azure - GPT-Realtime 2.1 mini**: New model added.
+- **Azure - GPT-Realtime-2**: New model added.
+
 ### 2026-07-27
 - **GCP - Gemini 3.6 Flash**: New model added.
 

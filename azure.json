@@ -1,6 +1,6 @@
 {
   "provider": "Azure",
-  "last_updated": "2026-07-27",
+  "last_updated": "2026-08-03",
   "region": "Sweden Central",
   "currency": "USD",
   "models": [
@@ -13,6 +13,98 @@
             "input": 5.0,
             "cached_input": 0.5,
             "output": 30.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.6-sol (short context)",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 5.0,
+            "cached_input": 0.5,
+            "cache_writes": 6.25,
+            "output": 30.0,
+            "priority_input": 10.0,
+            "priority_cached_input": 1.0,
+            "priority_cache_writes": 12.5,
+            "priority_output": 60.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.6-sol (long context)",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 10.0,
+            "cached_input": 1.0,
+            "cache_writes": 12.5,
+            "output": 45.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.6-terra (short context)",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 2.5,
+            "cached_input": 0.25,
+            "cache_writes": 3.125,
+            "output": 15.0,
+            "priority_input": 5.0,
+            "priority_cached_input": 0.5,
+            "priority_cache_writes": 6.25,
+            "priority_output": 30.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.6-terra (long context)",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 5.0,
+            "cached_input": 0.5,
+            "cache_writes": 6.25,
+            "output": 22.5
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.6-luna (short context)",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 1.0,
+            "cached_input": 0.1,
+            "cache_writes": 1.25,
+            "output": 6.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.6-luna (long context)",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 2.0,
+            "cached_input": 0.2,
+            "cache_writes": 2.5,
+            "output": 9.0
           }
         }
       ]
@@ -918,6 +1010,53 @@
           "pricing_1m_tokens": {
             "input": 0.15,
             "output": 0.6
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-Realtime 2.1",
+      "deployments": [
+        {
+          "type": "Data Zone",
+          "pricing_1m_tokens": {
+            "input": 5.5,
+            "cached_input": 0.55,
+            "output": 70.4
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-Realtime 2.1 mini",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 0.8,
+            "cached_input": 0.08,
+            "output": 20.0
+          }
+        },
+        {
+          "type": "Data Zone",
+          "pricing_1m_tokens": {
+            "input": 0.88,
+            "cached_input": 0.088,
+            "output": 22.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-Realtime-2",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 5.0,
+            "cached_input": 0.5,
+            "output": 64.0
           }
         }
       ]

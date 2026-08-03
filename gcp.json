@@ -1,6 +1,6 @@
 {
   "provider": "GCP",
-  "last_updated": "2026-07-27",
+  "last_updated": "2026-08-03",
   "region": "us-central1 (Iowa) - Global Defaults",
   "currency": "USD",
   "special_logic": "GCP scales pricing based on context length (<= 128K/200K vs > 128K/200K). These are mapped using '_long_context' suffix. Flex/Batch is exactly 50% of Standard.",
@@ -101,6 +101,7 @@
           "type": "Standard",
           "pricing_1m_tokens": {
             "input": 0.25,
+            "cached_input": 0.025,
             "output": 1.5
           }
         },
@@ -108,6 +109,7 @@
           "type": "Flex/Batch",
           "pricing_1m_tokens": {
             "batch_input": 0.125,
+            "batch_cached_input": 0.0125,
             "batch_output": 0.75
           }
         }
@@ -120,6 +122,7 @@
           "type": "Standard",
           "pricing_1m_tokens": {
             "input": 0.5,
+            "cached_input": 0.05,
             "output": 3.0
           }
         },
@@ -127,6 +130,7 @@
           "type": "Flex/Batch",
           "pricing_1m_tokens": {
             "batch_input": 0.25,
+            "batch_cached_input": 0.025,
             "batch_output": 1.5
           }
         }
@@ -139,6 +143,7 @@
           "type": "Standard",
           "pricing_1m_tokens": {
             "input": 2.0,
+            "cached_input": 0.2,
             "output": 12.0
           }
         },
@@ -146,6 +151,7 @@
           "type": "Flex/Batch",
           "pricing_1m_tokens": {
             "batch_input": 1.0,
+            "batch_cached_input": 0.1,
             "batch_output": 6.0
           }
         }
