@@ -1,5 +1,15 @@
 # Pricing Changelog
 
+### 2026-08-10
+- **Azure - GPT-5.6-sol (short context) (Data Zone)**: New deployment added.
+- **Azure - GPT-5.6-sol (long context) (Data Zone)**: New deployment added.
+- **Azure - GPT-5.6-terra (short context) (Data Zone)**: New deployment added.
+- **Azure - GPT-5.6-terra (long context) (Data Zone)**: New deployment added.
+- **Azure - GPT-5.6-luna (short context) (Data Zone)**: New deployment added.
+- **Azure - GPT-5.6-luna (long context) (Data Zone)**: New deployment added.
+- **Azure - GPT-5.6 Sol (Short Context)**: New model added.
+- **Azure - GPT-5.6 Terra (Short Context)**: New model added.
+
 ### 2026-08-03
 - **Azure - GPT-5.6-sol (short context)**: New model added.
 - **Azure - GPT-5.6-sol (long context)**: New model added.
