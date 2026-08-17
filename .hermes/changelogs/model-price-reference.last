@@ -1,11 +1,5 @@
 # Pricing Changelog
 
-### 2026-08-17
-- **AWS - Anthropic Claude Sonnet 5**: New model added.
-
-### 2026-08-17
-- **Azure - GPT-realtime-1.5 (Data Zone)**: New deployment added.
-
 ### 2026-08-10
 - **Azure - GPT-5.6-sol (short context) (Data Zone)**: New deployment added.
 - **Azure - GPT-5.6-sol (long context) (Data Zone)**: New deployment added.

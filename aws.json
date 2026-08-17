@@ -1,6 +1,6 @@
 {
   "provider": "AWS",
-  "last_updated": "2026-08-10",
+  "last_updated": "2026-08-17",
   "region": "Europe (Ireland)",
   "currency": "USD",
   "models": [
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "name": "Anthropic Claude Sonnet 5*",
+      "name": "Anthropic Claude Sonnet 5",
       "deployments": [
         {
           "type": "On-Demand",
