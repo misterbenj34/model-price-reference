@@ -1,5 +1,43 @@
 # Pricing Changelog
 
+### 2026-08-24
+- **Azure - GPT-5.6-terra (short context) (Global)** [input]: 2.5000 -> 2.0000
+- **Azure - GPT-5.6-terra (short context) (Global)** [cached_input]: 0.2500 -> 0.2000
+- **Azure - GPT-5.6-terra (short context) (Global)** [cache_writes]: 3.1250 -> 2.5000
+- **Azure - GPT-5.6-terra (short context) (Global)** [output]: 15.0000 -> 12.0000
+- **Azure - GPT-5.6-terra (short context) (Global)** [priority_input]: 5.0000 -> 4.0000
+- **Azure - GPT-5.6-terra (short context) (Global)** [priority_cached_input]: 0.5000 -> 0.4000
+- **Azure - GPT-5.6-terra (short context) (Global)** [priority_cache_writes]: 6.2500 -> 5.0000
+- **Azure - GPT-5.6-terra (short context) (Global)** [priority_output]: 30.0000 -> 24.0000
+- **Azure - GPT-5.6-terra (short context) (Data Zone)** [priority_input]: 5.5000 -> 4.4000
+- **Azure - GPT-5.6-terra (short context) (Data Zone)** [priority_cached_input]: 0.5500 -> 0.4400
+- **Azure - GPT-5.6-terra (short context) (Data Zone)** [priority_cache_writes]: 6.8750 -> 5.5000
+- **Azure - GPT-5.6-terra (short context) (Data Zone)** [priority_output]: 33.0000 -> 26.4000
+- **Azure - GPT-5.6-terra (long context) (Global)** [input]: 5.0000 -> 4.0000
+- **Azure - GPT-5.6-terra (long context) (Global)** [cached_input]: 0.5000 -> 0.4000
+- **Azure - GPT-5.6-terra (long context) (Global)** [cache_writes]: 6.2500 -> 5.0000
+- **Azure - GPT-5.6-terra (long context) (Global)** [output]: 22.5000 -> 18.0000
+- **Azure - GPT-5.6-terra (long context) (Data Zone)** [input]: 5.5000 -> 4.4000
+- **Azure - GPT-5.6-terra (long context) (Data Zone)** [cached_input]: 0.5500 -> 0.4400
+- **Azure - GPT-5.6-terra (long context) (Data Zone)** [cache_writes]: 6.8750 -> 5.5000
+- **Azure - GPT-5.6-terra (long context) (Data Zone)** [output]: 24.7500 -> 19.8000
+- **Azure - GPT-5.6-luna (short context) (Global)** [input]: 1.0000 -> 0.2000
+- **Azure - GPT-5.6-luna (short context) (Global)** [cached_input]: 0.1000 -> 0.0200
+- **Azure - GPT-5.6-luna (short context) (Global)** [cache_writes]: 1.2500 -> 0.2500
+- **Azure - GPT-5.6-luna (short context) (Global)** [output]: 6.0000 -> 1.2000
+- **Azure - GPT-5.6-luna (short context) (Data Zone)** [input]: 1.1000 -> 0.2200
+- **Azure - GPT-5.6-luna (short context) (Data Zone)** [cached_input]: 0.1100 -> 0.0220
+- **Azure - GPT-5.6-luna (short context) (Data Zone)** [cache_writes]: 1.3750 -> 0.2750
+- **Azure - GPT-5.6-luna (short context) (Data Zone)** [output]: 6.6000 -> 1.3200
+- **Azure - GPT-5.6-luna (long context) (Global)** [input]: 2.0000 -> 0.4000
+- **Azure - GPT-5.6-luna (long context) (Global)** [cached_input]: 0.2000 -> 0.0400
+- **Azure - GPT-5.6-luna (long context) (Global)** [cache_writes]: 2.5000 -> 0.5000
+- **Azure - GPT-5.6-luna (long context) (Global)** [output]: 9.0000 -> 1.8000
+- **Azure - GPT-5.6-luna (long context) (Data Zone)** [input]: 2.2000 -> 0.4400
+- **Azure - GPT-5.6-luna (long context) (Data Zone)** [cached_input]: 0.2200 -> 0.0440
+- **Azure - GPT-5.6-luna (long context) (Data Zone)** [cache_writes]: 2.7500 -> 0.5500
+- **Azure - GPT-5.6-luna (long context) (Data Zone)** [output]: 9.9000 -> 1.9800
+
 ### 2026-08-17
 - **AWS - Anthropic Claude Sonnet 5**: New model added.
 
