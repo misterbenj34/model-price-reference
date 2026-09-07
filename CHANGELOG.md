@@ -1,5 +1,15 @@
 # Pricing Changelog
 
+### 2026-09-07
+- **AWS - Anthropic Claude Fable 5.1**: New model added.
+- **AWS - Anthropic Claude Mythos 5.1****: New model added.
+
+### 2026-09-07
+- **Azure - GPT-Chat Latest 08062026**: New model added.
+- **Azure - GPT-Chat Latest 07012026**: New model added.
+- **Azure - GPT-Transcribe**: New model added.
+- **Azure - GPT-Live-Transcribe**: New model added.
+
 ### 2026-08-24
 - **Azure - GPT-5.6-terra (short context) (Global)** [input]: 2.5000 -> 2.0000
 - **Azure - GPT-5.6-terra (short context) (Global)** [cached_input]: 0.2500 -> 0.2000
