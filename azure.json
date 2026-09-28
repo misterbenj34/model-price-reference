@@ -1,6 +1,6 @@
 {
   "provider": "Azure",
-  "last_updated": "2026-09-21",
+  "last_updated": "2026-09-28",
   "region": "Sweden Central",
   "currency": "USD",
   "models": [
@@ -31,32 +31,170 @@
       ]
     },
     {
-      "name": "GPT-5.6-sol (short context)",
+      "name": "GPT-6 Astra (short context)",
       "deployments": [
         {
           "type": "Global",
           "pricing_1m_tokens": {
-            "input": 5.0,
-            "cached_input": 0.5,
-            "cache_writes": 6.25,
-            "output": 30.0,
-            "priority_input": 10.0,
-            "priority_cached_input": 1.0,
-            "priority_cache_writes": 12.5,
-            "priority_output": 60.0
+            "input": 10.0,
+            "cached_input": 1.0,
+            "cache_writes": 12.5,
+            "output": 50.0
           }
         },
         {
           "type": "Data Zone",
           "pricing_1m_tokens": {
-            "input": 5.5,
-            "cached_input": 0.55,
-            "cache_writes": 6.875,
-            "output": 33.0,
-            "priority_input": 11.0,
-            "priority_cached_input": 1.1,
-            "priority_cache_writes": 13.75,
-            "priority_output": 66.0
+            "input": 12.0,
+            "cached_input": 1.2,
+            "cache_writes": 15.0,
+            "output": 60.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-6 Astra (long context)",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 20.0,
+            "cached_input": 2.0,
+            "cache_writes": 25.0,
+            "output": 75.0
+          }
+        },
+        {
+          "type": "Data Zone",
+          "pricing_1m_tokens": {
+            "input": 24.0,
+            "cached_input": 2.4,
+            "cache_writes": 30.0,
+            "output": 90.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-6 Sol (short context)",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 2.0,
+            "cached_input": 0.2,
+            "cache_writes": 2.5,
+            "output": 10.0
+          }
+        },
+        {
+          "type": "Data Zone",
+          "pricing_1m_tokens": {
+            "input": 2.4,
+            "cached_input": 0.24,
+            "cache_writes": 3.0,
+            "output": 12.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-6 Sol (long context)",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 4.0,
+            "cached_input": 0.4,
+            "cache_writes": 5.0,
+            "output": 15.0
+          }
+        },
+        {
+          "type": "Data Zone",
+          "pricing_1m_tokens": {
+            "input": 4.8,
+            "cached_input": 0.48,
+            "cache_writes": 6.0,
+            "output": 18.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-6 Luna (short context)",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 0.1,
+            "cached_input": 0.01,
+            "cache_writes": 0.125,
+            "output": 0.5
+          }
+        },
+        {
+          "type": "Data Zone",
+          "pricing_1m_tokens": {
+            "input": 0.12,
+            "cached_input": 0.012,
+            "cache_writes": 0.15,
+            "output": 0.6
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-6 Luna (long context)",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 0.2,
+            "cached_input": 0.02,
+            "cache_writes": 0.25,
+            "output": 0.75
+          }
+        },
+        {
+          "type": "Data Zone",
+          "pricing_1m_tokens": {
+            "input": 0.24,
+            "cached_input": 0.024,
+            "cache_writes": 0.3,
+            "output": 0.9
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.6-sol (short context)",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 4.0,
+            "cached_input": 0.4,
+            "cache_writes": 5.0,
+            "output": 20.0,
+            "priority_input": 8.0,
+            "priority_cached_input": 0.8,
+            "priority_cache_writes": 10.0,
+            "priority_output": 40.0
+          }
+        },
+        {
+          "type": "Data Zone",
+          "pricing_1m_tokens": {
+            "input": 4.4,
+            "cached_input": 0.44,
+            "cache_writes": 5.5,
+            "output": 22.0,
+            "priority_input": 8.8,
+            "priority_cached_input": 0.88,
+            "priority_cache_writes": 11.0,
+            "priority_output": 44.0
           }
         }
       ]
@@ -67,19 +205,19 @@
         {
           "type": "Global",
           "pricing_1m_tokens": {
-            "input": 10.0,
-            "cached_input": 1.0,
-            "cache_writes": 12.5,
-            "output": 45.0
+            "input": 8.0,
+            "cached_input": 0.8,
+            "cache_writes": 10.0,
+            "output": 30.0
           }
         },
         {
           "type": "Data Zone",
           "pricing_1m_tokens": {
-            "input": 11.0,
-            "cached_input": 1.1,
-            "cache_writes": 13.75,
-            "output": 49.5
+            "input": 8.8,
+            "cached_input": 0.88,
+            "cache_writes": 11.0,
+            "output": 33.0
           }
         }
       ]

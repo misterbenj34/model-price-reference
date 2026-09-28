@@ -1,5 +1,110 @@
 # Pricing Changelog
 
+### 2026-09-28
+- **AWS - Anthropic Claude Opus 5.5**: New model added.
+- **AWS - Anthropic Claude Fable 5.1 (On-Demand)** [input]: 10.0000 -> 11.0000
+- **AWS - Anthropic Claude Fable 5.1 (On-Demand)** [output]: 50.0000 -> 55.0000
+- **AWS - Anthropic Claude Fable 5.1 (Global Cross-region)** [input]: 10.0000 -> 11.0000
+- **AWS - Anthropic Claude Fable 5.1 (Global Cross-region)** [output]: 50.0000 -> 55.0000
+- **AWS - Anthropic Claude Fable 5.1 (Global Cross-region)** [batch_input]: 5.0000 -> 5.5000
+- **AWS - Anthropic Claude Fable 5.1 (Global Cross-region)** [batch_output]: 25.0000 -> 27.5000
+- **AWS - Anthropic Claude Fable 5.1 (Geo and In-region Cross-region)** [input]: 10.0000 -> 11.0000
+- **AWS - Anthropic Claude Fable 5.1 (Geo and In-region Cross-region)** [output]: 50.0000 -> 55.0000
+- **AWS - Anthropic Claude Fable 5.1 (Geo and In-region Cross-region)** [batch_input]: 5.0000 -> 5.5000
+- **AWS - Anthropic Claude Fable 5.1 (Geo and In-region Cross-region)** [batch_output]: 25.0000 -> 27.5000
+- **AWS - Anthropic Claude Mythos 5.1** (On-Demand)** [input]: 10.0000 -> 11.0000
+- **AWS - Anthropic Claude Mythos 5.1** (On-Demand)** [output]: 50.0000 -> 55.0000
+- **AWS - Anthropic Claude Mythos 5.1** (Global Cross-region)** [input]: 10.0000 -> 11.0000
+- **AWS - Anthropic Claude Mythos 5.1** (Global Cross-region)** [output]: 50.0000 -> 55.0000
+- **AWS - Anthropic Claude Mythos 5.1** (Global Cross-region)** [batch_input]: 5.0000 -> 5.5000
+- **AWS - Anthropic Claude Mythos 5.1** (Global Cross-region)** [batch_output]: 25.0000 -> 27.5000
+- **AWS - Anthropic Claude Mythos 5.1** (Geo and In-region Cross-region)** [input]: 10.0000 -> 11.0000
+- **AWS - Anthropic Claude Mythos 5.1** (Geo and In-region Cross-region)** [output]: 50.0000 -> 55.0000
+- **AWS - Anthropic Claude Mythos 5.1** (Geo and In-region Cross-region)** [batch_input]: 5.0000 -> 5.5000
+- **AWS - Anthropic Claude Mythos 5.1** (Geo and In-region Cross-region)** [batch_output]: 25.0000 -> 27.5000
+- **AWS - Anthropic Claude Opus 5 (On-Demand)** [input]: 5.0000 -> 5.5000
+- **AWS - Anthropic Claude Opus 5 (On-Demand)** [output]: 25.0000 -> 27.5000
+- **AWS - Anthropic Claude Opus 5 (Global Cross-region)** [input]: 5.0000 -> 5.5000
+- **AWS - Anthropic Claude Opus 5 (Global Cross-region)** [output]: 25.0000 -> 27.5000
+- **AWS - Anthropic Claude Opus 5 (Global Cross-region)** [batch_input]: 2.5000 -> 2.7500
+- **AWS - Anthropic Claude Opus 5 (Global Cross-region)** [batch_output]: 12.5000 -> 13.7500
+- **AWS - Anthropic Claude Opus 5 (Geo and In-region Cross-region)** [input]: 5.0000 -> 5.5000
+- **AWS - Anthropic Claude Opus 5 (Geo and In-region Cross-region)** [output]: 25.0000 -> 27.5000
+- **AWS - Anthropic Claude Opus 5 (Geo and In-region Cross-region)** [batch_input]: 2.5000 -> 2.7500
+- **AWS - Anthropic Claude Opus 5 (Geo and In-region Cross-region)** [batch_output]: 12.5000 -> 13.7500
+- **AWS - Anthropic Claude Sonnet 5 (On-Demand)** [input]: 2.0000 -> 2.2000
+- **AWS - Anthropic Claude Sonnet 5 (On-Demand)** [output]: 10.0000 -> 11.0000
+- **AWS - Anthropic Claude Sonnet 5 (Global Cross-region)** [input]: 2.0000 -> 2.2000
+- **AWS - Anthropic Claude Sonnet 5 (Global Cross-region)** [output]: 10.0000 -> 11.0000
+- **AWS - Anthropic Claude Sonnet 5 (Global Cross-region)** [batch_input]: 1.0000 -> 1.1000
+- **AWS - Anthropic Claude Sonnet 5 (Global Cross-region)** [batch_output]: 5.0000 -> 5.5000
+- **AWS - Anthropic Claude Sonnet 5 (Geo and In-region Cross-region)** [input]: 2.0000 -> 2.2000
+- **AWS - Anthropic Claude Sonnet 5 (Geo and In-region Cross-region)** [output]: 10.0000 -> 11.0000
+- **AWS - Anthropic Claude Sonnet 5 (Geo and In-region Cross-region)** [batch_input]: 1.0000 -> 1.1000
+- **AWS - Anthropic Claude Sonnet 5 (Geo and In-region Cross-region)** [batch_output]: 5.0000 -> 5.5000
+- **AWS - Anthropic Claude Fable 5 (On-Demand)** [input]: 10.0000 -> 11.0000
+- **AWS - Anthropic Claude Fable 5 (On-Demand)** [output]: 50.0000 -> 55.0000
+- **AWS - Anthropic Claude Fable 5 (Global Cross-region)** [input]: 10.0000 -> 11.0000
+- **AWS - Anthropic Claude Fable 5 (Global Cross-region)** [output]: 50.0000 -> 55.0000
+- **AWS - Anthropic Claude Fable 5 (Global Cross-region)** [batch_input]: 5.0000 -> 5.5000
+- **AWS - Anthropic Claude Fable 5 (Global Cross-region)** [batch_output]: 25.0000 -> 27.5000
+- **AWS - Anthropic Claude Fable 5 (Geo and In-region Cross-region)** [input]: 10.0000 -> 11.0000
+- **AWS - Anthropic Claude Fable 5 (Geo and In-region Cross-region)** [output]: 50.0000 -> 55.0000
+- **AWS - Anthropic Claude Fable 5 (Geo and In-region Cross-region)** [batch_input]: 5.0000 -> 5.5000
+- **AWS - Anthropic Claude Fable 5 (Geo and In-region Cross-region)** [batch_output]: 25.0000 -> 27.5000
+- **AWS - Anthropic Claude Opus 4.8 (On-Demand)** [input]: 5.0000 -> 5.5000
+- **AWS - Anthropic Claude Opus 4.8 (On-Demand)** [output]: 25.0000 -> 27.5000
+- **AWS - Anthropic Claude Opus 4.8 (Global Cross-region)** [input]: 5.0000 -> 5.5000
+- **AWS - Anthropic Claude Opus 4.8 (Global Cross-region)** [output]: 25.0000 -> 27.5000
+- **AWS - Anthropic Claude Opus 4.8 (Global Cross-region)** [batch_input]: 2.5000 -> 2.7500
+- **AWS - Anthropic Claude Opus 4.8 (Global Cross-region)** [batch_output]: 12.5000 -> 13.7500
+- **AWS - Anthropic Claude Opus 4.8 (Geo and In-region Cross-region)** [input]: 5.0000 -> 5.5000
+- **AWS - Anthropic Claude Opus 4.8 (Geo and In-region Cross-region)** [output]: 25.0000 -> 27.5000
+- **AWS - Anthropic Claude Opus 4.8 (Geo and In-region Cross-region)** [batch_input]: 2.5000 -> 2.7500
+- **AWS - Anthropic Claude Opus 4.8 (Geo and In-region Cross-region)** [batch_output]: 12.5000 -> 13.7500
+- **AWS - Anthropic Claude Opus 4.7 (On-Demand)** [input]: 5.0000 -> 5.5000
+- **AWS - Anthropic Claude Opus 4.7 (On-Demand)** [output]: 25.0000 -> 27.5000
+- **AWS - Anthropic Claude Opus 4.7 (Global Cross-region)** [input]: 5.0000 -> 5.5000
+- **AWS - Anthropic Claude Opus 4.7 (Global Cross-region)** [output]: 25.0000 -> 27.5000
+- **AWS - Anthropic Claude Opus 4.7 (Global Cross-region)** [batch_input]: 2.5000 -> 2.7500
+- **AWS - Anthropic Claude Opus 4.7 (Global Cross-region)** [batch_output]: 12.5000 -> 13.7500
+- **AWS - Anthropic Claude Opus 4.7 (Geo and In-region Cross-region)** [input]: 5.0000 -> 5.5000
+- **AWS - Anthropic Claude Opus 4.7 (Geo and In-region Cross-region)** [output]: 25.0000 -> 27.5000
+- **AWS - Anthropic Claude Opus 4.7 (Geo and In-region Cross-region)** [batch_input]: 2.5000 -> 2.7500
+- **AWS - Anthropic Claude Opus 4.7 (Geo and In-region Cross-region)** [batch_output]: 12.5000 -> 13.7500
+
+### 2026-09-28
+- **Azure - GPT-6 Astra (short context)**: New model added.
+- **Azure - GPT-6 Astra (long context)**: New model added.
+- **Azure - GPT-6 Sol (short context)**: New model added.
+- **Azure - GPT-6 Sol (long context)**: New model added.
+- **Azure - GPT-6 Luna (short context)**: New model added.
+- **Azure - GPT-6 Luna (long context)**: New model added.
+- **Azure - GPT-5.6-sol (short context) (Global)** [input]: 5.0000 -> 4.0000
+- **Azure - GPT-5.6-sol (short context) (Global)** [cached_input]: 0.5000 -> 0.4000
+- **Azure - GPT-5.6-sol (short context) (Global)** [cache_writes]: 6.2500 -> 5.0000
+- **Azure - GPT-5.6-sol (short context) (Global)** [output]: 30.0000 -> 20.0000
+- **Azure - GPT-5.6-sol (short context) (Global)** [priority_input]: 10.0000 -> 8.0000
+- **Azure - GPT-5.6-sol (short context) (Global)** [priority_cached_input]: 1.0000 -> 0.8000
+- **Azure - GPT-5.6-sol (short context) (Global)** [priority_cache_writes]: 12.5000 -> 10.0000
+- **Azure - GPT-5.6-sol (short context) (Global)** [priority_output]: 60.0000 -> 40.0000
+- **Azure - GPT-5.6-sol (short context) (Data Zone)** [input]: 5.5000 -> 4.4000
+- **Azure - GPT-5.6-sol (short context) (Data Zone)** [cached_input]: 0.5500 -> 0.4400
+- **Azure - GPT-5.6-sol (short context) (Data Zone)** [cache_writes]: 6.8750 -> 5.5000
+- **Azure - GPT-5.6-sol (short context) (Data Zone)** [output]: 33.0000 -> 22.0000
+- **Azure - GPT-5.6-sol (short context) (Data Zone)** [priority_input]: 11.0000 -> 8.8000
+- **Azure - GPT-5.6-sol (short context) (Data Zone)** [priority_cached_input]: 1.1000 -> 0.8800
+- **Azure - GPT-5.6-sol (short context) (Data Zone)** [priority_cache_writes]: 13.7500 -> 11.0000
+- **Azure - GPT-5.6-sol (short context) (Data Zone)** [priority_output]: 66.0000 -> 44.0000
+- **Azure - GPT-5.6-sol (long context) (Global)** [input]: 10.0000 -> 8.0000
+- **Azure - GPT-5.6-sol (long context) (Global)** [cached_input]: 1.0000 -> 0.8000
+- **Azure - GPT-5.6-sol (long context) (Global)** [cache_writes]: 12.5000 -> 10.0000
+- **Azure - GPT-5.6-sol (long context) (Global)** [output]: 45.0000 -> 30.0000
+- **Azure - GPT-5.6-sol (long context) (Data Zone)** [input]: 11.0000 -> 8.8000
+- **Azure - GPT-5.6-sol (long context) (Data Zone)** [cached_input]: 1.1000 -> 0.8800
+- **Azure - GPT-5.6-sol (long context) (Data Zone)** [cache_writes]: 13.7500 -> 11.0000
+- **Azure - GPT-5.6-sol (long context) (Data Zone)** [output]: 49.5000 -> 33.0000
+
 ### 2026-09-07
 - **AWS - Anthropic Claude Fable 5.1**: New model added.
 - **AWS - Anthropic Claude Mythos 5.1****: New model added.
