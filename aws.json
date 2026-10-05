@@ -1,9 +1,39 @@
 {
   "provider": "AWS",
-  "last_updated": "2026-09-28",
+  "last_updated": "2026-10-05",
   "region": "Europe (Ireland)",
   "currency": "USD",
   "models": [
+    {
+      "name": "Anthropic Claude Sonnet 5.5",
+      "deployments": [
+        {
+          "type": "On-Demand",
+          "pricing_1m_tokens": {
+            "input": 2.0,
+            "output": 10.0
+          }
+        },
+        {
+          "type": "Global Cross-region",
+          "pricing_1m_tokens": {
+            "input": 2.0,
+            "output": 10.0,
+            "batch_input": 1.0,
+            "batch_output": 5.0
+          }
+        },
+        {
+          "type": "Geo and In-region Cross-region",
+          "pricing_1m_tokens": {
+            "input": 2.0,
+            "output": 10.0,
+            "batch_input": 1.0,
+            "batch_output": 5.0
+          }
+        }
+      ]
+    },
     {
       "name": "Anthropic Claude Opus 5.5",
       "deployments": [

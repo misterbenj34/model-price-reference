@@ -1,5 +1,14 @@
 # Pricing Changelog
 
+### 2026-10-05
+- **AWS - Anthropic Claude Sonnet 5.5**: New model added.
+
+### 2026-10-05
+- **Azure - GPT-6.1 Sol (short context)**: New model added.
+- **Azure - GPT-6.1 Sol (long context)**: New model added.
+- **Azure - Image-2.5-flare**: New model added.
+- **Azure - Image-2.5-sunburst**: New model added.
+
 ### 2026-09-28
 - **AWS - Anthropic Claude Opus 5.5**: New model added.
 - **AWS - Anthropic Claude Fable 5.1 (On-Demand)** [input]: 10.0000 -> 11.0000

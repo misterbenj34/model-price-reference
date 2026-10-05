@@ -1,6 +1,6 @@
 {
   "provider": "Azure",
-  "last_updated": "2026-09-28",
+  "last_updated": "2026-10-05",
   "region": "Sweden Central",
   "currency": "USD",
   "models": [
@@ -26,6 +26,52 @@
             "input": 5.5,
             "cached_input": 0.55,
             "output": 33.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-6.1 Sol (short context)",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 2.0,
+            "cached_input": 0.1,
+            "cache_writes": 2.5,
+            "output": 10.0
+          }
+        },
+        {
+          "type": "Data Zone",
+          "pricing_1m_tokens": {
+            "input": 2.4,
+            "cached_input": 0.12,
+            "cache_writes": 3.0,
+            "output": 12.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-6.1 Sol (long context)",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 4.0,
+            "cached_input": 0.2,
+            "cache_writes": 5.0,
+            "output": 15.0
+          }
+        },
+        {
+          "type": "Data Zone",
+          "pricing_1m_tokens": {
+            "input": 4.8,
+            "cached_input": 0.24,
+            "cache_writes": 6.0,
+            "output": 18.0
           }
         }
       ]
@@ -241,6 +287,10 @@
         {
           "type": "Data Zone",
           "pricing_1m_tokens": {
+            "input": 2.2,
+            "cached_input": 0.22,
+            "cache_writes": 2.75,
+            "output": 13.2,
             "priority_input": 4.4,
             "priority_cached_input": 0.44,
             "priority_cache_writes": 5.5,
@@ -952,6 +1002,36 @@
     {
       "name": "Sora 2",
       "deployments": []
+    },
+    {
+      "name": "Image-2.5-flare",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 5.0,
+            "cached_input": 1.25,
+            "image_input": 8.0,
+            "cached_input_image": 2.0,
+            "output_image": 30.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Image-2.5-sunburst",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "input": 5.0,
+            "cached_input": 1.25,
+            "image_input": 8.0,
+            "cached_input_image": 2.0,
+            "output_image": 30.0
+          }
+        }
+      ]
     },
     {
       "name": "GPT-Image-2",
