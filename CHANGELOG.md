@@ -1,5 +1,8 @@
 # Pricing Changelog
 
+### 2026-10-12
+- **AWS - Anthropic Claude Haiku 5.5**: New model added.
+
 ### 2026-10-05
 - **AWS - Anthropic Claude Sonnet 5.5**: New model added.
 

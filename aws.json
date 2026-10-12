@@ -1,9 +1,39 @@
 {
   "provider": "AWS",
-  "last_updated": "2026-10-05",
+  "last_updated": "2026-10-12",
   "region": "Europe (Ireland)",
   "currency": "USD",
   "models": [
+    {
+      "name": "Anthropic Claude Haiku 5.5",
+      "deployments": [
+        {
+          "type": "On-Demand",
+          "pricing_1m_tokens": {
+            "input": 0.1,
+            "output": 0.5
+          }
+        },
+        {
+          "type": "Global Cross-region",
+          "pricing_1m_tokens": {
+            "input": 0.1,
+            "output": 0.5,
+            "batch_input": 0.05,
+            "batch_output": 0.25
+          }
+        },
+        {
+          "type": "Geo and In-region Cross-region",
+          "pricing_1m_tokens": {
+            "input": 0.1,
+            "output": 0.5,
+            "batch_input": 0.05,
+            "batch_output": 0.25
+          }
+        }
+      ]
+    },
     {
       "name": "Anthropic Claude Sonnet 5.5",
       "deployments": [
