@@ -3,9 +3,8 @@
 # Navigate to the workspace directory
 cd /home/hermes/workspace/model-price-reference || exit 1
 
-# Make sure we are clean and sync with remote
-git reset --hard -q
-git pull --rebase origin main -q
+# Sync with remote, keeping any local uncommitted changes (never reset --hard)
+git pull --rebase --autostash origin main -q
 
 # Backup current files for comparison
 cp azure.json azure_old.json 2>/dev/null || true
