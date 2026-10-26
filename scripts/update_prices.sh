@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Navigate to the workspace directory
-cd /home/openclaw/.openclaw/workspace/model-price-reference || exit 1
+cd /home/hermes/workspace/model-price-reference || exit 1
 
 # Make sure we are clean and sync with remote
 git reset --hard -q

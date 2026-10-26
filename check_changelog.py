@@ -5,7 +5,10 @@ repo_path = "/home/hermes/workspace/model-price-reference"
 state_file = os.path.join(repo_path, ".last_commit")
 
 os.chdir(repo_path)
-subprocess.run(["git", "fetch"], check=True)
+subprocess.run(["git", "fetch", "origin"], check=True)
+# Fast-forward local main to origin so CHANGELOG.md on disk is current.
+# Without this, HEAD never moves and the checker always reports NO_NEW_CHANGES.
+subprocess.run(["git", "merge", "--ff-only", "origin/main"], check=True, capture_output=True)
 current_commit = subprocess.check_output(["git", "rev-parse", "HEAD"]).decode("utf-8").strip()
 
 last_commit = ""
