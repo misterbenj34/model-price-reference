@@ -1,5 +1,9 @@
 # Pricing Changelog
 
+### 2026-11-02
+- **Azure - GPT-6.1 Terra Short Context**: New model added.
+- **Azure - GPT-6.1 Terra Long Context**: New model added.
+
 ### 2026-10-19
 - **AWS - Anthropic Claude Haiku 5.5 - Long Context**: New model added.
 - **AWS - Anthropic Claude Fable 5.1 (On-Demand)** [input]: 11.0000 -> 10.0000
