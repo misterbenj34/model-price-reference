@@ -1,11 +1,11 @@
 {
   "provider": "Azure",
-  "last_updated": "2026-11-02",
+  "last_updated": "2026-11-09",
   "region": "Sweden Central",
   "currency": "USD",
   "models": [
     {
-      "name": "GPT-Chat Latest 08062026",
+      "name": "GPT-Chat Latest 10142026",
       "deployments": [
         {
           "type": "Global",
@@ -14,14 +14,9 @@
             "cached_input": 0.5,
             "output": 30.0
           }
-        }
-      ]
-    },
-    {
-      "name": "GPT-Chat Latest 07012026",
-      "deployments": [
+        },
         {
-          "type": "Data Zone",
+          "type": "Standard",
           "pricing_1m_tokens": {
             "input": 5.5,
             "cached_input": 0.55,
@@ -1370,6 +1365,23 @@
           "pricing_1m_tokens": {
             "input": 0.15,
             "output": 0.6
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPT-Live",
+      "deployments": [
+        {
+          "type": "Global",
+          "pricing_1m_tokens": {
+            "price": 3.0
+          }
+        },
+        {
+          "type": "Data Zone",
+          "pricing_1m_tokens": {
+            "price": 3.6
           }
         }
       ]

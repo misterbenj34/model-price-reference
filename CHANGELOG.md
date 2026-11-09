@@ -1,5 +1,9 @@
 # Pricing Changelog
 
+### 2026-11-09
+- **Azure - GPT-Chat Latest 10142026**: New model added.
+- **Azure - GPT-Live**: New model added.
+
 ### 2026-11-02
 - **Azure - GPT-6.1 Terra Short Context**: New model added.
 - **Azure - GPT-6.1 Terra Long Context**: New model added.
