@@ -1,5 +1,9 @@
 # Pricing Changelog
 
+### 2026-11-16
+- **AWS - Anthropic Claude Fable 5.2**: New model added.
+- **AWS - Anthropic Claude Mythos 5.2****: New model added.
+
 ### 2026-11-09
 - **Azure - GPT-Chat Latest 10142026**: New model added.
 - **Azure - GPT-Live**: New model added.

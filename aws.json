@@ -1,9 +1,69 @@
 {
   "provider": "AWS",
-  "last_updated": "2026-11-09",
+  "last_updated": "2026-11-16",
   "region": "Europe (Ireland)",
   "currency": "USD",
   "models": [
+    {
+      "name": "Anthropic Claude Fable 5.2",
+      "deployments": [
+        {
+          "type": "On-Demand",
+          "pricing_1m_tokens": {
+            "input": 8.0,
+            "output": 40.0
+          }
+        },
+        {
+          "type": "Global Cross-region",
+          "pricing_1m_tokens": {
+            "input": 8.0,
+            "output": 40.0,
+            "batch_input": 4.0,
+            "batch_output": 20.0
+          }
+        },
+        {
+          "type": "Geo and In-region Cross-region",
+          "pricing_1m_tokens": {
+            "input": 8.0,
+            "output": 40.0,
+            "batch_input": 4.0,
+            "batch_output": 20.0
+          }
+        }
+      ]
+    },
+    {
+      "name": "Anthropic Claude Mythos 5.2**",
+      "deployments": [
+        {
+          "type": "On-Demand",
+          "pricing_1m_tokens": {
+            "input": 8.0,
+            "output": 40.0
+          }
+        },
+        {
+          "type": "Global Cross-region",
+          "pricing_1m_tokens": {
+            "input": 8.0,
+            "output": 40.0,
+            "batch_input": 4.0,
+            "batch_output": 20.0
+          }
+        },
+        {
+          "type": "Geo and In-region Cross-region",
+          "pricing_1m_tokens": {
+            "input": 8.0,
+            "output": 40.0,
+            "batch_input": 4.0,
+            "batch_output": 20.0
+          }
+        }
+      ]
+    },
     {
       "name": "Anthropic Claude Haiku 5.5",
       "deployments": [
